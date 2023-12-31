@@ -2,9 +2,10 @@ import React from 'react';
 import Timer from './sub/Timer';
 
 const Hero: React.FC = () => {
+
   return (
-    <section className="relative w-full flex flex-col" >
-      <div className="left-[20%] right-[20%] flex-wrap absolute max-w-screen h-[500px] object-contain z-20 top-[-600px]">
+    <section className="relative w-full flex flex-col bg-contain " >
+      <div className="left-[20%] right-[20%] flex-wrap absolute max-w-screen h-[500px] object-contain z-20 top-[-600px]" >
         <img src="img.png" alt="" />
       </div>
       <Timer />

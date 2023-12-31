@@ -7,11 +7,11 @@ import Image from 'next/image';
 import Gallery from '@/components/Gallery';
 
 export default function Home() {
-  const backgroundImageUrl = '/images/img-background.png'; // Update the path accordingly
+  const backgroundImageUrl = '/images/img-background.png';
 
   return (
-    <main className="h-full w-full bg-contain" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
-      <div className='flex flex-col h-[800px] gap-20'>
+    <main className="h-full w-full" >
+      <div className='flex flex-col h-[800px] gap-20 bg-cover' style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
         {/* Add content or components inside this div if needed */}
       </div>
       <Suspense fallback={<Loading />}>
