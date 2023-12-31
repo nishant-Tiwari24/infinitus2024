@@ -2,7 +2,7 @@ import React from 'react';
 
 const Gallery = () => {
   return (
-    <section className="section gallery h-full w-full ml-[50px] mr-[25px] top-[-210px]" id="gallery">
+    <section className="section gallery h-full w-full ml-[50px] mr-[25px] bg-[#030014] top-[-40px]" id="gallery">
       <div className="container">
         <ul className="gallery-list">
           <li className="gallery-item" data-reveal>
@@ -207,7 +207,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/maffick-shows.png" 
+                  src="/images/img (6).jpg" 
                   width="450"
                   height="625"
                   loading="lazy"

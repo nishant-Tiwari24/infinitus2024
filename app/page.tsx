@@ -5,13 +5,14 @@ import StarsCanvas from '@/components/StarCanvas';
 import { Suspense } from 'react';
 import Image from 'next/image';
 import Gallery from '@/components/Gallery';
+import CategoryList from '@/components/Category';
 
 export default function Home() {
   const backgroundImageUrl = '/images/img-background.png';
 
   return (
     <main className="h-full w-full" >
-      <div className='flex flex-col h-[950px] gap-20 bg-cover' style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
+      <div className='flex flex-col h-[950px] gap-20 bg-cover bg-fixed' style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
         {/* Add content or components inside this div if needed */}
       </div>
       <Suspense fallback={<Loading />}>
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <StarsCanvas/>
         <Gallery />
+        <CategoryList/>
       </Suspense>
     </main>
   );

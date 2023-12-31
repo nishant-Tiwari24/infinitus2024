@@ -1,7 +1,7 @@
 'use client';
-
-import React, { useEffect } from 'react';
+import React from 'react';
 import { preLoaderAnim } from '@/utils';
+import { useEffect } from 'react';
 
 const Preloader: React.FC = () => {
   useEffect(() => {
@@ -13,8 +13,8 @@ const Preloader: React.FC = () => {
 
 const Loading: React.FC = () => {
   return (
-    <div className='preloader h-100vh w-100vw bg-black fixed bottom-0 left-0 z-[55] flex justify-center align-center overflow-hidden'>
-      <div className='texts-conatiner flex align-center justify-between h-[60px] w-[280px] text-sm sourcecode text-white '>
+    <div className='preloader h-screen w-screen bg-black fixed bottom-0 left-0 z-50 flex justify-center items-center overflow-hidden'>
+      <div className='texts-container flex items-center justify-between h-16 w-80 text-sm sourcecode text-white '>
         <span>Ideate</span>
         <span>Create</span>
         <span>Win</span>
