@@ -1,21 +1,18 @@
 import React from 'react';
 import Timer from './sub/Timer';
 
-function Hero() {
+const Hero: React.FC = () => {
   return (
-    <section>
-      <div className='relative w-full flex flex-col'>
-        <div className='left-[20%] right-[20%] flex-wrap absolute max-w-screen h-[500px] object-contain z-20 top-[-600px]'>
-          <img src="img.png" alt="" />
-        </div>
-        <Timer/>
-        <div className="calender absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-4">
-          <p className='text-white-200 text-[12px]'>22nd, February 2024</p>
-        </div>
+    <section className="relative w-full flex flex-col" >
+      <div className="left-[20%] right-[20%] flex-wrap absolute max-w-screen h-[500px] object-contain z-20 top-[-600px]">
+        <img src="img.png" alt="" />
       </div>
+      <Timer />
+      {/* <div className="text-center left-[40%] mt-4 absolute top-[-180px] text-yellow-100">
+        <p className="text-sm font-bold h3">22nd February 2024</p>
+      </div> */}
     </section>
   );
-}
+};
 
 export default Hero;
-

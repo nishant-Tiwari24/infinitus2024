@@ -14,7 +14,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-1.jpg" 
+                  src="/images/img (11).jpg" 
                   width="450"
                   height="625"
                   loading="lazy"
@@ -42,7 +42,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-2.jpg"
+                  src="/images/maffick-shows.jpg"
                   width="450"
                   height="625"
                   loading="lazy"
@@ -71,7 +71,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-3.jpg"
+                  src="/images/img (6).jpg"
                   width="450"
                   height="625"
                   loading="lazy"
@@ -97,7 +97,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-4.jpg"
+                  src="/images/img (1).jpg"
                   width="450"
                   height="625"
                   loading="lazy"
@@ -127,7 +127,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-5.jpg" 
+                  src="/images/img (14).jpg" 
                   width="450"
                   height="625"
                   loading="lazy"
@@ -153,7 +153,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-6.jpg" 
+                  src="/images/maffick-shows.jpeg" 
                   width="450"
                   height="625"
                   loading="lazy"
@@ -183,7 +183,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-7.jpg" 
+                  src="/images/img (3).jpg" 
                   width="450"
                   height="625"
                   loading="lazy"
@@ -209,7 +209,7 @@ const Gallery = () => {
                 style={{ width: '350px', height: '625px' }}
               >
                 <img
-                  src="/images/gallery-8.jpg" 
+                  src="/images/maffick-shows.png" 
                   width="450"
                   height="625"
                   loading="lazy"
@@ -233,7 +233,7 @@ const Gallery = () => {
           </li>
         </ul>
 
-        <a href="#service" className="scroll-down">
+        <a href="#about-me" className="scroll-down">
           <img src="/images/scroll-down.svg" width="40" height="66" loading="lazy" alt="mouse scroll" />
         </a>
         <img src="/images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" className="shape" />

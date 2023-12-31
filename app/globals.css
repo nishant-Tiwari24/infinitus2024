@@ -71,6 +71,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url("/Users/nishanttiwari/projects/infinitus-website/public/images/img-background.jpg");
   }
   
   li { list-style: none; }
@@ -252,6 +253,7 @@
     font-weight: var(--fw-400);
     max-width: max-content;
     margin-block-end: 2px;
+    color: plum;
   }
   
   .gallery-card .card-title:is(:hover, :focus-visible) { text-decoration: underline; }

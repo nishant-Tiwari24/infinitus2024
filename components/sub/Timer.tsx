@@ -17,7 +17,6 @@ const calculateTimeLeft = () => {
 
     return { days, hours, minutes, seconds };
   } else {
-    // Timer has reached zero
     return { days: 0, hours: 0, minutes: 0, seconds: 0 };
   }
 };
@@ -33,7 +32,7 @@ const Timer = () => {
     return () => {
       clearInterval(timerInterval);
     };
-  }, []); // Removed targetDate from the dependency array
+  }, []);
 
   return (
     <section className="timer-container ">

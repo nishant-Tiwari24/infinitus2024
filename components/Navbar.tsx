@@ -2,7 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className='w-full absolute items-center flex flex-row justify-center  text-green-200 p-4 top-5 '>
+    <section id='about-me'>
+    <div className='w-full absolute items-center flex flex-row justify-center  text-green-200 p-4 top-5 z-20 '>
       <div className='max-w-screen-md flex flex-row items-center justify-between border-[2px] rounded-lg border-[#8058f861] text-purple-200 gap-[100px] text-[20px]'>
         <div className='flex flex-row items-center gap-20 mb-2 mt-2 ml-3 mr-3'>
           <a href="#about-me" className='cursor-pointer font-serif'>About</a>
@@ -13,6 +14,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
