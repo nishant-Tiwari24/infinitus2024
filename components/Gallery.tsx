@@ -1,10 +1,8 @@
-// pages/Gallery.tsx
-
 import React from 'react';
 
 const Gallery = () => {
   return (
-    <section className="section gallery h-full w-full ml-[50px] mr-[25px] top-[-100px]" id="gallery">
+    <section className="section gallery h-full w-full ml-[50px] mr-[25px] top-[-210px]" id="gallery">
       <div className="container">
         <ul className="gallery-list">
           <li className="gallery-item" data-reveal>

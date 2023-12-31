@@ -36,7 +36,7 @@ const Timer = () => {
 
   return (
     <section className="timer-container ">
-      <section className="timer absolute left-[45%] -translate-x-[50%] -translate-y-[50%] grid gap-40 mt-24 top-[-300px]">
+      <section className="timer absolute left-[47%] -translate-x-[50%] -translate-y-[50%] grid gap-40 mt-24 top-[-300px]">
         <div className="flex text-purple-200 text-center align-middle translate-x-[12%] -translate-y-[50%] justify-center text-3xl border-sky-100 border-[2px] border-separate rounded-[20px] w-[25rem] py-[2rem] h-[10rem] gap-4 font-serif max-w-90">
           <section>
             <h2 className="text-5xl">{timeLeft.days}</h2>

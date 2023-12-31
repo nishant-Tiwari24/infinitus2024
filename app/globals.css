@@ -151,7 +151,8 @@
   .h6 { font-size: var(--fs-6); }
   
 
-  
+
+
   .has-before {
     position: relative;
     z-index: 1;
@@ -709,4 +710,15 @@
   
     .footer-top .container { max-width: 1200px; }
   
+  }
+
+  @media (max-width: 400px) {
+    .first-section {
+      top: 200px;
+    }
+
+    .nav {
+      
+      top:200px;
+    }
   }

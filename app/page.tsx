@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className="h-full w-full" >
-      <div className='flex flex-col h-[800px] gap-20 bg-cover' style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
+      <div className='flex flex-col h-[950px] gap-20 bg-cover' style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
         {/* Add content or components inside this div if needed */}
       </div>
       <Suspense fallback={<Loading />}>
