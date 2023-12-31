@@ -332,27 +332,13 @@
   }
   
   @media (min-width: 992px) {
-
-    /**
-     * CUSTOM PROPERTY
-     */
   
     :root {
-  
-      /**
-       * typography
-       */
   
       --fs-1: 8rem;
   
     }
-  
-  
-  
-    /**
-     * REUSED STYLE
-     */
-  
+
     .section { position: relative; }
   
     .container { max-width: 960px; }
@@ -361,13 +347,7 @@
       display: block;
       position: absolute;
     }
-  
-  
-  
-    /**
-     * HEADER
-     */
-  
+
     .header { padding-block: 30px; }
   
     .navbar {
@@ -383,13 +363,6 @@
       font-size: 1.9rem;
       margin-block-end: 30px;
     }
-  
-  
-  
-    /**
-     * HERO
-     */
-  
     .hero { padding-block-start: 150px; }
   
     .hero .container {
@@ -415,12 +388,6 @@
   
     .hero .shape { display: none; }
   
-  
-  
-    /**
-     * GALLERY
-     */
-  
     .gallery { padding-block-end: 140px; }
   
     .gallery-list { grid-template-columns: repeat(4, 1fr); }
@@ -439,12 +406,6 @@
       left: 5%;
       bottom: 15%;
     }
-  
-  
-  
-    /**
-     * CATEGORY
-     */
   
     .category { --section-padding: 60px; }
   
@@ -476,12 +437,6 @@
       justify-content: flex-start;
     }
   
-  
-  
-    /**
-     * ABOUT
-     */
-  
     .about .container {
       grid-template-columns: 0.9fr 1fr;
       align-items: flex-start;
@@ -509,12 +464,6 @@
       right: 0;
     }
   
-    
-  
-    /**
-     * SERVICE
-     */
-  
     .service-card { position: relative; }
   
     .service-card .img {
@@ -534,13 +483,7 @@
       opacity: 1;
       visibility: visible;
     }
-  
-  
-  
-    /**
-     * PORTFOLIO
-     */
-  
+
     .portfolio {
       padding-block-end: 150px;
       margin-block-end: 60px;
@@ -550,12 +493,6 @@
       bottom: 0;
       right: 0;
     }
-  
-  
-  
-    /**
-     * FOOTER
-     */
   
     .footer .shape {
       top: 25%;
@@ -592,13 +529,7 @@
       right: 15%;
       bottom: 10%;
     }
-  
-  
-  
-    /**
-     * CUSTOM CURSOR
-     */
-  
+
     .cursor {
       display: block;
       position: fixed;
@@ -620,26 +551,10 @@
     .cursor.disabled { transform: translate(-50%, -50%) scale(0); }
   
   }
-  
-  
-  
-  
-  
-  /**
-   * responsive for large than 1200px screen
-   */
-  
+
   @media (min-width: 1200px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
-  
     :root {
-  
-      /**
-       * typography
-       */
   
       --fs-1: 10rem;
       --fs-2: 9rem;
@@ -648,28 +563,9 @@
       --fs-6: 2.8rem;
   
     }
-  
-  
-  
-    /**
-     * REUSED STYLE
-     */
-  
     .container { max-width: 1140px; }
-  
-  
-  
-    /**
-     * HEADER
-     */
-  
+
     .header .container { padding-inline: 35px; }
-  
-  
-  
-    /**
-     * HERO
-     */
   
     .hero { padding-block: 170px 150px; }
   
@@ -695,12 +591,6 @@
       top: 60%;
       left: 0;
     }
-  
-  
-  
-    /**
-     * GALLERY
-     */
   
     .gallery-list { gap: 50px; }
   
