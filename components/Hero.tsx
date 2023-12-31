@@ -1,15 +1,11 @@
-// Update the Hero component
-
-'use client';
-
 import React from 'react';
 import Timer from './sub/Timer';
 
 function Hero() {
   return (
     <section>
-      <div className='relative h-full w-full flex flex-col'>
-        <div className='left-[20%] right-[20%] flex-wrap absolute max-w-screen h-[500px] object-contain z-20 top-[-750px]'>
+      <div className='relative w-full flex flex-col'>
+        <div className='left-[20%] right-[20%] flex-wrap absolute max-w-screen h-[500px] object-contain z-20 top-[-600px]'>
           <img src="img.png" alt="" />
         </div>
         <Timer/>
