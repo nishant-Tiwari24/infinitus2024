@@ -6,6 +6,7 @@ import { Suspense } from 'react';
 import Image from 'next/image';
 import Gallery from '@/components/main/Gallery';
 import CategoryList from '@/components/main/Category';
+import About from '@/components/main/About';
 
 export default function Home() {
   const backgroundImageUrl = '/images/img-background.png';
@@ -21,6 +22,7 @@ export default function Home() {
         <StarsCanvas/>
         <Gallery />
         <CategoryList/>
+        
       </Suspense>
     </main>
   );
