@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='w-full flex flex-col md:flex-row items-center justify-between text-purple-200 gap-[100px] text-[20px] ml-5'>
           <div className='flex items-center mb-2 md:mb-0'>
             <a href="#about-me" className='text-white font-serif'>
-              <Image src='/img.png' alt='Logo' className='h-8 object-contain w-40' />
+              <img src='/img.png'  alt='Logo' className='h-8 object-contain w-40' />
             </a>
           </div>
 
