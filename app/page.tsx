@@ -1,11 +1,11 @@
-import Hero from '@/components/Hero';
-import { Loading } from '@/components/Loading';
-import Navbar from '@/components/Navbar';
-import StarsCanvas from '@/components/StarCanvas';
+import Hero from '@/components/main/Hero';
+import { Loading } from '@/components/main/Loading';
+import Navbar from '@/components/main/Navbar';
+import StarsCanvas from '@/components/main/StarCanvas';
 import { Suspense } from 'react';
 import Image from 'next/image';
-import Gallery from '@/components/Gallery';
-import CategoryList from '@/components/Category';
+import Gallery from '@/components/main/Gallery';
+import CategoryList from '@/components/main/Category';
 
 export default function Home() {
   const backgroundImageUrl = '/images/img-background.png';

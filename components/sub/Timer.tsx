@@ -1,8 +1,15 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const calculateTimeLeft = () => {
+interface TimeLeft {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
+
+const calculateTimeLeft = (): TimeLeft => {
   // Provide a specific date directly here
   const targetDate = '2024-02-22';
   const targetTime = new Date(targetDate).getTime();
@@ -21,8 +28,8 @@ const calculateTimeLeft = () => {
   }
 };
 
-const Timer = () => {
-  const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft());
+const Timer: React.FC = () => {
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>(() => calculateTimeLeft());
 
   useEffect(() => {
     const timerInterval = setInterval(() => {
