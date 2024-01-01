@@ -1,12 +1,10 @@
 import Hero from '@/components/main/Hero';
-import { Loading } from '@/components/main/Loading';
 import Navbar from '@/components/main/Navbar';
 import StarsCanvas from '@/components/main/StarCanvas';
-import { Suspense } from 'react';
-import Image from 'next/image';
 import Gallery from '@/components/main/Gallery';
 import CategoryList from '@/components/main/Category';
 import About from '@/components/main/About';
+import PastPerformers from '@/components/main/PastPerformers'
 
 export default function Home() {
   const backgroundImageUrl = '/images/img-background.png';
@@ -21,6 +19,8 @@ export default function Home() {
         <StarsCanvas/>
         <Gallery />
         <CategoryList/>  
+        <About/>
+        <PastPerformers/>
     </main>
   );
 }

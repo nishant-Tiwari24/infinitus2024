@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <section id='about-me'>
+    <section>
       <div className=' nav w-full absolute items-center flex flex-col md:flex-row justify-between text-green-200 p-4 -top-1 z-20'>
         <div className='w-full flex flex-col md:flex-row items-center justify-between text-purple-200 gap-[100px] text-[20px] ml-5'>
           <div className='flex items-center mb-2 md:mb-0'>
