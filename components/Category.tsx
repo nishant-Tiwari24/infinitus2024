@@ -9,7 +9,7 @@ const CategoryList: React.FC = () => {
         <ul className="category-list">
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Landscape,</h3>
+              <h3 className="h4 card-title">Dance,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-1.jpg"
@@ -25,7 +25,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Model,</h3>
+              <h3 className="h4 card-title">Music,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-2.jpg"
@@ -41,7 +41,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Street,</h3>
+              <h3 className="h4 card-title">Instruental,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-3.jpg"
@@ -57,7 +57,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Product,</h3>
+              <h3 className="h4 card-title">Short Film,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-4.jpg"
@@ -73,7 +73,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Fashion,</h3>
+              <h3 className="h4 card-title">Fashion Walk,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-2.jpg"
@@ -89,7 +89,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Film,</h3>
+              <h3 className="h4 card-title">Drama,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-5.jpg"
@@ -105,7 +105,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Architecture,</h3>
+              <h3 className="h4 card-title">Indoor Games,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-6.jpg"
@@ -121,7 +121,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Event,</h3>
+              <h3 className="h4 card-title">Story Telling,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-7.jpg"
@@ -137,7 +137,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Wedding,</h3>
+              <h3 className="h4 card-title">Fashion,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-8.jpg"
@@ -169,7 +169,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Food,</h3>
+              <h3 className="h4 card-title">Quiz,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-10.jpg"
@@ -185,7 +185,7 @@ const CategoryList: React.FC = () => {
 
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
-              <h3 className="h4 card-title">Health & Wellness,</h3>
+              <h3 className="h4 card-title">Mr and Mrs Infinitus,</h3>
               <figure className="card-banner img-holder">
                 <img
                   src="images/category-11.jpg"

@@ -619,9 +619,6 @@ body.active { overflow: hidden; }
   
     .gallery-list { gap: 15px;}
 
-    .gallery {
-
-    }
   
     .gallery-card .card-title { font-weight: var(--fw-300); }
 
@@ -631,6 +628,11 @@ body.active { overflow: hidden; }
     }
   
     .category-card .card-title { --fs-4: 7rem; }
+
+    .category-card .card-banner {
+      width: 350px;
+      height: 350px;
+    }
 
     .about .container { gap: 120px; }
   
@@ -729,6 +731,11 @@ body.active { overflow: hidden; }
   
     .category-card .card-title { --fs-4: 8rem; }
 
+    .category-card .card-banner {
+      width: 350px;
+      height: 350px;
+    }
+
     .about { padding-block: 180px 120px; }
   
     .service { padding-inline: 70px; }
@@ -771,7 +778,7 @@ body.active { overflow: hidden; }
   
   
   .category-card .card-title {
-    color: var(--white); 
+    color: var(--white_a70); 
     text-align: center;
     transition: var(--transition-2);
     font-family: 'Montserrat', sans-serif;
