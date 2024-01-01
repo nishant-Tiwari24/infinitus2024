@@ -2,8 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const MyServices: React.FC = () => {
+  const backgroundImageUrl = '/images/img-background.png';
   return (
-    <section className="section service" id="service" aria-labelledby="service-lable">
+    <section className="section service bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${backgroundImageUrl})` }} id="service" aria-labelledby="service-lable">
       <p className="section-subtitle container" id="service-lable">Past Performers</p>
 
       <ul className="service-list">
