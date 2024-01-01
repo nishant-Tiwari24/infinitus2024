@@ -767,6 +767,9 @@ body.active { overflow: hidden; }
     align-items: center;
     flex-wrap: wrap;
     gap: 20px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
   }
   
   

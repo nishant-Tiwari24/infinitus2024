@@ -5,6 +5,7 @@ const CategoryList: React.FC = () => {
   return (
     <section className="section category bg-center bg-fixed bg-cover  -top-10" aria-label="photography category" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
       <div className="container">
+      <h3 className='h6 text-purple-200 category-list uppercase ml-20'>Competions</h3>
         <ul className="category-list">
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
