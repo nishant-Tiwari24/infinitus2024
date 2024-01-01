@@ -188,6 +188,7 @@ body.active { overflow: hidden; }
 .img-holder {
   background-color: var(--jet-1);
   overflow: hidden;
+  aspect-ratio: 390/625;
 }
 
 .has-before {
@@ -201,6 +202,7 @@ body.active { overflow: hidden; }
 }
 
 .img-holder.has-before::before {
+  
   bottom: 0;
   left: 0;
   width: 100%;
@@ -245,11 +247,6 @@ body.active { overflow: hidden; }
 }
 
 
-  .gallery-list {
-    display: grid;
-    gap: 30px;
-  }
-  
   .gallery-list {
     display: grid;
     gap: 30px;
@@ -620,10 +617,10 @@ body.active { overflow: hidden; }
       left: 0;
     }
   
-    .gallery-list { gap: 50px; }
+    .gallery-list { gap: 15px;}
 
-    .gallery {margin-left: 50px;
-    margin-right: 24px;
+    .gallery {
+
     }
   
     .gallery-card .card-title { font-weight: var(--fw-300); }
