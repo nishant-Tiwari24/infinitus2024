@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Gallery = () => {
   return (
@@ -11,10 +12,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
-                  src="/images/img (11).jpg" 
-                  width="450"
-                  height="625"
+                <Image
+                  src="/images/img (11).jpg"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="The Drunken"
                   className="img-cover"
@@ -39,10 +40,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
+                <Image
                   src="/images/maffick-shows.jpg"
-                  width="450"
-                  height="625"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="Lettuce Entertain"
                   className="img-cover"
@@ -68,10 +69,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
+                <Image
                   src="/images/img (6).jpg"
-                  width="450"
-                  height="625"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="The Drunken"
                   className="img-cover"
@@ -94,10 +95,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
+                <Image
                   src="/images/img (1).jpg"
-                  width="450"
-                  height="625"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="The Drunken"
                   className="img-cover"
@@ -124,10 +125,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
+                <Image
                   src="/images/img (14).jpg" 
-                  width="450"
-                  height="625"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="The Drunken"
                   className="img-cover"
@@ -150,10 +151,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
+                <Image
                   src="/images/maffick-shows.jpeg" 
-                  width="450"
-                  height="625"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="The Drunken"
                   className="img-cover"
@@ -180,10 +181,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
+                <Image
                   src="/images/img (3).jpg" 
-                  width="450"
-                  height="625"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="The Drunken"
                   className="img-cover"
@@ -206,10 +207,10 @@ const Gallery = () => {
                 className="card-banner img-holder has-before"
                 style={{ width: '350px', height: '486px' }}
               >
-                <img
+                <Image
                   src="/images/img (6).jpg" 
-                  width="450"
-                  height="625"
+                  width={450}
+                  height={625}
                   loading="lazy"
                   alt="The Drunken"
                   className="img-cover"

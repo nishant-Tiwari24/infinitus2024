@@ -1,8 +1,12 @@
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const MyServices: React.FC = () => {
+interface MyServicesProps {}
+
+const MyServices: React.FC<MyServicesProps> = () => {
   const backgroundImageUrl = '/images/img-background.png';
+
   return (
     <section className="section service bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${backgroundImageUrl})` }} id="service" aria-labelledby="service-lable">
       <p className="section-subtitle container" id="service-lable">Past Performers</p>
@@ -10,7 +14,7 @@ const MyServices: React.FC = () => {
       <ul className="service-list">
         <li data-reveal>
           <div className="service-card container">
-            <img src="/images/service-1.jpg" style={{width:"340px", height:"380px"}} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/service-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
 
             <div>
               <h3 className="h5 text-white card-title">Armaan Malik</h3>
@@ -30,7 +34,7 @@ const MyServices: React.FC = () => {
 
         <li data-reveal>
           <div className="service-card container">
-            <img src="/images/service-2.jpg" style={{width:"340px", height:"380px"}} loading="lazy" alt="Event Organiser" className="img" />
+            <Image src="/images/service-2.jpg" width={340} height={380} loading="lazy" alt="Event Organiser" className="img" />
 
             <div>
               <h3 className="h5 text-white card-title">Lost Stories</h3>
@@ -50,7 +54,7 @@ const MyServices: React.FC = () => {
 
         <li data-reveal>
           <div className="service-card container">
-            <img src="/images/service-3.jpg" style={{width:"340px", height:"380px"}} loading="lazy" alt="Product Marketing" className="img" />
+            <Image src="/images/service-3.jpg" width={340} height={380} loading="lazy" alt="Product Marketing" className="img" />
 
             <div>
               <h3 className="h5 text-white card-title">Aakshar</h3>
@@ -70,7 +74,7 @@ const MyServices: React.FC = () => {
 
         <li data-reveal>
           <div className="service-card container">
-            <img src="/images/service-4.jpg" style={{width:"340px", height:"380px"}} loading="lazy" alt="Videography" className="img" />
+            <Image src="/images/service-4.jpg" width={340} height={380} loading="lazy" alt="Videography" className="img" />
 
             <div>
               <h3 className="h5 text-white card-title">Project 91</h3>
