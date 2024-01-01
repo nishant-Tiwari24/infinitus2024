@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <section className="relative w-full flex flex-col bg-contain first-section">
       <div className="left-[20%] right-[20%] flex-wrap absolute max-w-screen h-[500px] object-contain z-20 top-[-600px]">
-        <img src="/Users/nishanttiwari/projects/infinitus-website/public/inifinitus.webp" className='h-[185px] visible category z-50' alt="" />
+        <img src="img.png" alt="" />
       </div>
       <Timer />
       {/* <div className="text-center left-[40%] mt-4 absolute top-[-180px] text-yellow-100">

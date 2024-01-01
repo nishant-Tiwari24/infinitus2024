@@ -10,7 +10,6 @@ interface TimeLeft {
 }
 
 const calculateTimeLeft = (): TimeLeft => {
-  // Provide a specific date directly here
   const targetDate = '2024-02-22';
   const targetTime = new Date(targetDate).getTime();
   const now = new Date().getTime();

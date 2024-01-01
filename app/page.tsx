@@ -16,14 +16,11 @@ export default function Home() {
       <div className='flex flex-col h-[950px] gap-20 bg-cover bg-fixed' style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
         {/* Add content or components inside this div if needed */}
       </div>
-      <Suspense fallback={<Loading />}>
         <Navbar />
         <Hero />
         <StarsCanvas/>
         <Gallery />
-        <CategoryList/>
-        
-      </Suspense>
+        <CategoryList/>  
     </main>
   );
 }
