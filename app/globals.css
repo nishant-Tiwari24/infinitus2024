@@ -1044,6 +1044,12 @@ body.active { overflow: hidden; }
     left: 20%;
     animation: moving 8s linear infinite;
   }
+
+  .about .section-subtitle {
+    padding-inline: 10px;
+    margin-block-end: 55px;
+    font-size: 1.5rem;
+  }
   
   .service { padding-inline: 15px; }
 
@@ -1052,7 +1058,7 @@ body.active { overflow: hidden; }
 .service .section-subtitle {
   padding-inline: 10px;
   margin-block-end: 55px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 

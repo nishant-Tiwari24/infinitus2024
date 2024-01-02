@@ -1,15 +1,18 @@
 import React from 'react'
 import Image from 'next/image';
+import { url } from 'inspector';
 
 
 const Proshows: React.FC = () => {
+    const urlbackground = '/images/img-background.jpg';
+
   return (
     <main>
-      <section className="section prowshows" id="proshows" aria-labelledby="proshows-label">
-        <div className="container">
+      <section className="section prowshows bg-cover bg-fixed -z-10" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
+        <div className="container ">
           <div className="proshows-list">
-            <div className="wrapper">
-              <h2 className="h2 section-title" id="proshows-label" data-reveal>
+            <div className="wrapper z-10">
+              <h2 className="h4 section-title" id="proshows-label" data-reveal>
                 Prowshows
               </h2>
 
@@ -21,11 +24,11 @@ const Proshows: React.FC = () => {
                 <div className="card-content">
                   <h3 className="h4">
                     <a href="#" className="card-title">
-                      Shoe Promo
+                      Proshow 1
                     </a>
                   </h3>
 
-                  <p className="card-tag">Product</p>
+                  <p className="card-tag">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">
@@ -44,11 +47,11 @@ const Proshows: React.FC = () => {
                 <div className="card-content">
                   <h3 className="h4">
                     <a href="#" className="card-title">
-                      Wedding Shot
+                      Proshow 2
                     </a>
                   </h3>
 
-                  <p className="card-tag">Wedding</p>
+                  <p className="card-tag">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">
@@ -71,11 +74,11 @@ const Proshows: React.FC = () => {
                 <div className="card-content">
                   <h3 className="h4">
                     <a href="#" className="card-title">
-                      Fashion Show
+                      Proshow 3
                     </a>
                   </h3>
 
-                  <p className="card-tag">Fashion, Model</p>
+                  <p className="card-tag">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">
@@ -87,18 +90,18 @@ const Proshows: React.FC = () => {
               </div>
 
               <div className="proshows-card" data-reveal>
-                <figure className="card-banner img-holder has-before" style={{  width:"700px", height:"850px" }}>
+                <figure className="card-banner img-holder has-before" style={{  width:"700px", height:"850" }}>
                   <Image src="/images/portfolio-4.jpg" width={700} height={850} loading="lazy" alt="Jumbo Barger" className="img-cover" />
                 </figure>
 
                 <div className="card-content">
                   <h3 className="h4">
                     <a href="#" className="card-title">
-                      Jumbo Barger
+                      Proshow 4
                     </a>
                   </h3>
 
-                  <p className="card-tag">Food</p>
+                  <p className="card-tag">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">

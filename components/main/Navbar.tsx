@@ -24,11 +24,11 @@ const Navbar = () => {
           </div>
 
           <div className={` md:flex flex-col md:flex-row items-center gap-8 mb-2 mt-2 md:ml-3 md:mr-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
-            <a href="#about-me" className='cursor-pointer font-serif uppercase  text-[15px]'>About</a>
-            <a href="#skills" className='cursor-pointer font-serif uppercase  text-[15px]'>Events</a>
-            <a href="#theme" className='cursor-pointer font-serif uppercase  text-[15px]'>Team</a>
-            <a href="#questions" className='cursor-pointer font-serif uppercase  text-[15px]'>Performers</a>
-            <a href="#contact" className='cursor-pointer font-serif uppercase  text-[15px]'>Register</a>
+            <a href="#about-me" className='cursor-pointer uppercase hover:underline text-[15px]'>About</a>
+            <a href="#skills" className='cursor-pointer uppercase hover:underline text-[15px]'>Events</a>
+            <a href="#theme" className='cursor-pointer uppercase hover:underline text-[15px]'>Team</a>
+            <a href="#questions" className='cursor-pointer uppercase hover:underline text-[15px]'>Performers</a>
+            <a href="#contact" className='cursor-pointer uppercase hover:underline text-[15px]'>Register</a>
           </div>
         </div>
       </div>

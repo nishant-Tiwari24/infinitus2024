@@ -6,7 +6,9 @@ interface AboutProps {}
 const About: React.FC<AboutProps> = () => {
   return (
     <section className="section about" id="about-me" aria-label="about me">
+      <p className="section-subtitle container" id="service-lable">About us</p>
       <div className="container">
+        
         <div className="about-content">
           <h2 className="h6 section-title text-white" data-reveal="right">
             Embark on the Extravaganza:
