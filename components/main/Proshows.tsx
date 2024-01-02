@@ -9,9 +9,9 @@ const Proshows: React.FC = () => {
   return (
     <main>
       <section className="section prowshows bg-cover bg-fixed -z-10" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
-        <div className="container ">
+        <div className="container z-0">
           <div className="proshows-list">
-            <div className="wrapper z-10">
+            <div className="wrapper">
               <h2 className="h4 section-title" id="proshows-label" data-reveal>
                 Prowshows
               </h2>
@@ -114,8 +114,8 @@ const Proshows: React.FC = () => {
 
             </div>
           </div>
-
-          <Image src="/images/portfolio-shape.svg" width={286} height={232} loading="lazy" alt="" className="shape" />
+{/* 
+          <Image src="/images/portfolio-shape.svg" width={286} height={232} loading="lazy" alt="" className="shape" /> */}
 
         </div>
       </section>
