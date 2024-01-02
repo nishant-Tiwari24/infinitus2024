@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState, useEffect } from 'react';
 
 interface TimeLeft {
@@ -43,7 +42,7 @@ const Timer: React.FC = () => {
   return (
     <section className="timer-container ">
       <section className="timer absolute left-[47%] -translate-x-[50%] -translate-y-[50%] grid gap-40 mt-24 top-[-300px]">
-        <div className="flex text-[#ffffff] text-center align-middle translate-x-[12%] -translate-y-[50%] justify-center text-3xl border-sky-100 border-[2px] border-separate rounded-[20px] w-[25rem] py-[2rem] h-[10rem] gap-4 font-serif max-w-90">
+        <div className="flex text-[#f7f7f7] text-center align-middle translate-x-[12%] -translate-y-[50%] justify-center text-3xl border-sky-100 border-[2px] border-separate rounded-[20px] w-[25rem] py-[2rem] h-[10rem] gap-4 font-serif max-w-90">
           <section>
             <h2 className="text-5xl">{timeLeft.days}</h2>
             <p><small className="text-[12px]">Days</small></p>

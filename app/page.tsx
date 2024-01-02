@@ -1,28 +1,55 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import Hero from '@/components/main/Hero';
 import Navbar from '@/components/main/Navbar';
-import StarsCanvas from '@/components/main/StarCanvas';
+const StarsCanvas = dynamic(() => import('@/components/main/StarCanvas'), { ssr: false });
 import Gallery from '@/components/main/Gallery';
 import CategoryList from '@/components/main/Category';
 import About from '@/components/main/About';
-import PastPerformers from '@/components/main/PastPerformers'
-import Proshows from '@/components/main/Proshows'
+import PastPerformers from '@/components/main/PastPerformers';
+import Proshows from '@/components/main/Proshows';
+import Image from 'next/image';
 
-export default function Home() {
+const Home: React.FC = () => {
+  const [loading, setLoading] = useState(true);
   const backgroundImageUrl = '/images/img-background.png';
 
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setLoading(false);
+    }, 2000); 
+    return () => clearTimeout(delay);
+  }, []);
+
   return (
-    <main className="h-full w-full" >
-      <div className='flex flex-col h-[950px] gap-20 bg-cover bg-fixed' style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
-        {/* Add content or components inside this div if needed */}
-      </div>
-        <Navbar />
-        <Hero />
-        <StarsCanvas/>
-        <Gallery />
-        <CategoryList/>  
-        <About/>
-        <PastPerformers/>
-        <Proshows/>
+    <main className="h-full w-full bg-[#030014] text-white">
+      {loading ? (
+        <div className="flex items-center justify-center h-screen">
+          <div className="ml-4 text-xl font-semibold text-blue-500">
+            <Image
+            width={40}
+            height={20}
+            src="/img.png" className='w-40 h-20 object-contain animate-pulse-glow' alt="" />
+          </div>
+        </div>
+      ) : (
+        <>
+          <div className="flex flex-col h-[950px] gap-20 bg-cover bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
+
+          <Navbar />
+          <Hero />
+          <StarsCanvas />
+          <Gallery />
+          <CategoryList />
+          <About />
+          <PastPerformers />
+          <Proshows />
+        </>
+      )}
     </main>
   );
-}
+};
+
+export default Home;
