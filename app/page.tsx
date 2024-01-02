@@ -19,7 +19,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 3000); 
+    }, 3000);
 
     return () => clearTimeout(delay);
   }, []);
@@ -30,14 +30,19 @@ const Home: React.FC = () => {
         <div className="flex items-center justify-center h-screen">
           <div className="ml-4 text-xl font-semibold text-blue-500">
             <Image
-            width={40}
-            height={20}
-            src="/img.png" className='w-40 h-20 object-contain' alt="" />
+              width={80}
+              height={40}
+              quality={100} // Set quality to 100 for the best possible image quality
+              src="/img.png"
+              className='w-60 h-20 object-contain'
+              alt=""
+            />
           </div>
         </div>
       ) : (
         <>
           <div className="flex flex-col h-[950px] gap-20 bg-cover bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
+            {/* Add content or components inside this div if needed */}
           </div>
           <Navbar />
           <Hero />
