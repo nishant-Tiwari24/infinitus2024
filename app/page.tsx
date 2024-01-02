@@ -19,7 +19,8 @@ const Home: React.FC = () => {
   useEffect(() => {
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 2000); 
+    }, 3000); 
+
     return () => clearTimeout(delay);
   }, []);
 
@@ -31,13 +32,13 @@ const Home: React.FC = () => {
             <Image
             width={40}
             height={20}
-            src="/img.png" className='w-40 h-20 object-contain animate-pulse-glow' alt="" />
+            src="/img.png" className='w-40 h-20 object-contain' alt="" />
           </div>
         </div>
       ) : (
         <>
-          <div className="flex flex-col h-[950px] gap-20 bg-cover bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
-
+          <div className="flex flex-col h-[950px] gap-20 bg-cover bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
+          </div>
           <Navbar />
           <Hero />
           <StarsCanvas />

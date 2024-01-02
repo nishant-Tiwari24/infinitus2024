@@ -4,12 +4,12 @@ import { url } from 'inspector';
 
 
 const Proshows: React.FC = () => {
-    const urlbackground = '/images/img-background.jpg';
+    const urlbackground = '/images/img-backgroun.jpg';
 
   return (
     <main>
-      <section className="section prowshows bg-cover bg-fixed -z-10" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
-        <div className="container z-0">
+      <section className="section prowshows bg-cover bg-fixed z-0" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
+        <div className="container">
           <div className="proshows-list">
             <div className="wrapper">
               <h2 className="h4 section-title" id="proshows-label" data-reveal>
