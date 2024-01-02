@@ -534,12 +534,12 @@ body.active { overflow: hidden; }
       visibility: visible;
     }
 
-    .portfolio {
+    .proshows {
       padding-block-end: 150px;
       margin-block-end: 60px;
     }
   
-    .portfolio .shape {
+    .proshows .shape {
       bottom: 0;
       right: 0;
     }
@@ -630,7 +630,7 @@ body.active { overflow: hidden; }
     margin-inline: auto;
   }
 
-  :is(.header, .gallery, .category, .portfolio) .container { max-width: unset; }
+  :is(.header, .gallery, .category, .proshows) .container { max-width: unset; }
 
 
 
@@ -683,10 +683,10 @@ body.active { overflow: hidden; }
 
 
   /**
-   * PORTFOLIO
+   * POROSHOWS
    */
 
-  .portfolio-list {
+  .proshows-list {
     display: flex;
     column-gap: 30px;
   }
@@ -869,13 +869,13 @@ body.active { overflow: hidden; }
   
     .service-card .btn-icon svg { width: 40px; }
 
-    .portfolio-list { column-gap: 90px; }
+    .proshows-list { column-gap: 90px; }
   
-    .portfolio-card { margin-block-end: 100px; }
+    .proshows-card { margin-block-end: 100px; }
   
-    .portfolio-card .card-content { padding-inline: 50px; }
+    .proshows-card .card-content { padding-inline: 50px; }
   
-    .portfolio-card .btn-icon {
+    .proshows-card .btn-icon {
       width: 60px;
       height: 60px;
       top: auto;
@@ -885,9 +885,9 @@ body.active { overflow: hidden; }
       transition: var(--transition-2);
     }
   
-    .portfolio-card .btn-icon svg { width: 25px; }
+    .proshows-card .btn-icon svg { width: 25px; }
   
-    .portfolio-card:is(:hover, :focus-within) .btn-icon { opacity: 1; }
+    .proshows-card:is(:hover, :focus-within) .btn-icon { opacity: 1; }
   
     .footer-top { padding-block: 300px; }
   
@@ -917,7 +917,7 @@ body.active { overflow: hidden; }
   
     .container { max-width: 1500px; }
   
-    :is(.header, .gallery, .category, .portfolio) .container { max-width: 1580px; }
+    :is(.header, .gallery, .category, .proshows) .container { max-width: 1580px; }
   
     .header .container { padding-inline: 60px; }
 
@@ -946,7 +946,7 @@ body.active { overflow: hidden; }
   
     .service-card { padding-block: 65px; }
 
-    .portfolio .container { padding-inline: 45px; }
+    .proshows .container { padding-inline: 45px; }
   
     .footer-top .container { max-width: 1200px; }
   
@@ -980,7 +980,6 @@ body.active { overflow: hidden; }
     align-items: center;
     flex-wrap: wrap;
     gap: 20px 10px;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Code Pro', monospace;
   }
@@ -991,13 +990,14 @@ body.active { overflow: hidden; }
     color: var(--white_a70); 
     text-align: center;
     transition: var(--transition-1);
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Code Pro', monospace;
     font-size: var(--fs-6);
   }
   
   .category-card:is(:hover, :focus-visible) .card-title { color: var(--white_a25); }
+
+/* About */
 
   .about .container {
     display: grid;
@@ -1047,6 +1047,8 @@ body.active { overflow: hidden; }
   
   .service { padding-inline: 15px; }
 
+/* Service */
+
 .service .section-subtitle {
   padding-inline: 10px;
   margin-block-end: 55px;
@@ -1083,4 +1085,70 @@ body.active { overflow: hidden; }
 
 .service-card .img {
   border-radius: 20px;
+}
+
+/* Proshows */
+
+.proshows {
+  padding-block-end: 100px;
+}
+
+.proshows .section-subtitle {
+  margin-block-end: 60px;
+  color: var(--white_a70);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: var(--fs-4);
+}
+
+.proshows-card {
+  position: relative;
+  margin-block-end: 50px;
+}
+
+.proshows :is(.card-content,.btn-icon) {
+  position: absolute;
+  z-index: 1;
+}
+
+.proshows-card .card-content {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 15px;
+}
+
+.proshows-card .card-tag {
+  color: var(--white_a70);
+  font-weight: var(--fw-300);
+}
+
+.proshows-card .btn-icon {
+  top: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+
+  --hover-bg-color:var(--radical-red);
+  --hover-text-color:var(--white);
+}
+
+.proshows-card svg {
+  width: 20px;
+}
+
+.proshows-card .card-title:is(:hover, :focus) {
+  text-decoration: underline;
+}
+
+.proshows-card .card-title {
+  color: var(--white);
+  font-size: var(--fs-6);
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  color: var(--white);
+  font-size: var(--fs-6);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }

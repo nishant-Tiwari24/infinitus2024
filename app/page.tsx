@@ -5,6 +5,7 @@ import Gallery from '@/components/main/Gallery';
 import CategoryList from '@/components/main/Category';
 import About from '@/components/main/About';
 import PastPerformers from '@/components/main/PastPerformers'
+import Proshows from '@/components/main/Proshows'
 
 export default function Home() {
   const backgroundImageUrl = '/images/img-background.png';
@@ -21,6 +22,7 @@ export default function Home() {
         <CategoryList/>  
         <About/>
         <PastPerformers/>
+        <Proshows/>
     </main>
   );
 }
