@@ -13,6 +13,10 @@ import Proshows from '@/components/main/Proshows';
 import Image from 'next/image';
 
 const cursorStyles = `
+  body {
+    cursor:none;
+  }
+
   .cursor {
     display: block;
     position: fixed;
