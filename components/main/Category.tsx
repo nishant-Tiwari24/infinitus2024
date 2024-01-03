@@ -9,7 +9,7 @@ const CategoryList: React.FC = () => {
     <section className="section category bg-fixed bg-center " aria-label="photography category " style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
       <div className="container">
       <h3 className='h6 text-purple-200 category-list uppercase'>Competions</h3>
-        <ul className="category-list">
+        <ul className="category-list flex justify-center">
           <li className="category-item" data-reveal>
             <a href="#" className="category-card">
               <h3 className="h4 card-title">Dance,</h3>

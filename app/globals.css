@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;600;800&family=Source+Code+Pro:wght@500;700;900&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 :root {
 
   /**
@@ -176,9 +175,7 @@ body.active { overflow: hidden; }
 .h4,
 .h5,
 .h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -396,6 +393,11 @@ body.active { overflow: hidden; }
     --section-padding: 40px;
     border-block: 1px solid var(--white_a9);
   }
+
+  .category .h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+  }
   
   .category-list {
     display: flex;
@@ -403,8 +405,6 @@ body.active { overflow: hidden; }
     align-items: center;
     flex-wrap: wrap;
     gap: 20px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Source Code Pro', monospace;
   }
   
   .category-item {max-width: calc(50% - 5px);}
@@ -413,9 +413,9 @@ body.active { overflow: hidden; }
     color: var(--white_a70); 
     text-align: center;
     transition: var(--transition-1);
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Source Code Pro', monospace;
-    font-size: var(--fs-6);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
   }
   
   .category-card:is(:hover, :focus-visible) .card-title { color: var(--white_a25); }
@@ -438,6 +438,8 @@ body.active { overflow: hidden; }
     color: var(--white_a70);
     font-weight: var(--fw-300);
     line-height: 1.7;
+    font-weight: 300;
+    font-family: 'Space Grotesk', sans-serif;
   }
   
   .about .wrapper::before {
@@ -453,6 +455,8 @@ body.active { overflow: hidden; }
     color: var(--white);
     font-weight: var(--fw-400);
     text-decoration: underline;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
   }
   
   .about-banner { position: relative; }
@@ -472,6 +476,8 @@ body.active { overflow: hidden; }
     padding-inline: 10px;
     margin-block-end: 55px;
     font-size: 1.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
   }
   
   .service { padding-inline: 15px; }
@@ -525,7 +531,7 @@ body.active { overflow: hidden; }
 .proshows .section-subtitle {
   margin-block-end: 60px;
   color: var(--white_a70);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: var(--fs-4);
 }
 
@@ -572,14 +578,25 @@ body.active { overflow: hidden; }
 .proshows-card .card-title {
   color: var(--white);
   font-size: var(--fs-6);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
 }
 
 .section-title {
-  color: var(--white);
+  color: #666464;
   font-size: var(--fs-6);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
+}
+
+.nav {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+}
+
+.timer-class {
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* custom cursor */
