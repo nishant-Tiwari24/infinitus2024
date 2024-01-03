@@ -604,3 +604,37 @@ body.active { overflow: hidden; }
 
 .cursor.disabled { transform: translate(-50%, -50%) scale(0); }
 
+
+
+.slider{
+  height: 380px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+}
+
+.slider-track{
+  display: flex;
+  width: calc(340px * 16);
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-380px * 8));
+  }
+}
+
+.slide{
+  height: 380px;
+  width: 340px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
