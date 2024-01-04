@@ -14,52 +14,94 @@ const MyServices: React.FC<MyServicesProps> = () => {
       <div className="slider">
           <div className="slider-track">
             <div className="slide">
-            <Image src="/images/service-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-3.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-3.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-4.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-4.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-5.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-6.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-3.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-7.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-4.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-8.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-9.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-10.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-3.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-11.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-4.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-3.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-3.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-4.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/service-4.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-5.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-6.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-7.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-8.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-9.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-10.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-11.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-3.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-4.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-5.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-6.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-7.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            </div>
+            <div className="slide">
+            <Image src="/images/category-8.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
           </div>
       </div>
