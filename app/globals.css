@@ -590,11 +590,6 @@ body.active { overflow: hidden; }
   text-transform: uppercase;
 }
 
-.nav {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-}
-
 .timer-class {
   font-family: 'Space Grotesk', sans-serif;
 }

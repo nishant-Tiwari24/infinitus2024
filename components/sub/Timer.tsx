@@ -41,28 +41,30 @@ const Timer: React.FC = () => {
 
   return (
     <section className="timer-container ">
-      <section className="timer absolute left-[47%] -translate-x-[50%] -translate-y-[50%] grid gap-40 mt-24 top-[-300px]">
-        <div className="timer-class flex text-white-200 text-center align-middle translate-x-[12%] -translate-y-[50%] justify-center text-3xl border-[#5b5956] border-[4px] border-separate rounded-[20px] w-[25rem] py-[2rem] h-[10rem] gap-4 font-serif max-w-90">
-          <section>
-            <h2 className="text-5xl">{timeLeft.days}</h2>
-            <p><small className="text-[12px]">Days</small></p>
-          </section>
-          <span>:</span>
-          <section>
-            <h2 className="text-5xl">{timeLeft.hours}</h2>
-            <p><small className="text-[12px]">Hours</small></p>
-          </section>
-          <span>: </span>
-          <section>
-            <h2 className="text-5xl">{timeLeft.minutes}</h2>
-            <p><small className="text-[12px]">Minutes</small></p>
-          </section>
-          <span>: </span>
-          <section>
-            <h2 className="text-5xl">{timeLeft.seconds}</h2>
-            <p><small className="text-[12px]">Seconds</small></p>
-          </section>
+      <section className="timer absolute left-[47%] -translate-x-[50%] -translate-y-[50%] mt-24 top-[-350px]">
+        <div className="timer-class border-[4px] rounded-xl p-4 border-gray-300">
+        <div className="flex flex-row font-light font-italic  justify-center gap-1 text-3xl sm:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+        <div className="flex flex-col gap-2 text-center">
+          <span>{timeLeft.days}</span>
+          <span className="text-sm lg:text-lg">Days</span>
         </div>
+        <span>:</span>
+        <div className="flex flex-col gap-2 text-center">
+          <span>{timeLeft.hours}</span>
+          <span className="text-sm lg:text-lg">Hours</span>
+        </div>
+        <span>:</span>
+        <div className="flex flex-col gap-2 text-center">
+          <span>{timeLeft.minutes}</span>
+          <span className="text-sm lg:text-lg">Minutes</span>
+        </div>
+        <span>:</span>
+        <div className="flex flex-col gap-2 text-center">
+          <span>{timeLeft.seconds}</span>
+          <span className="text-sm lg:text-lg">Minutes</span>
+        </div>
+      </div>
+      </div>
       </section>
       </section>
   );
