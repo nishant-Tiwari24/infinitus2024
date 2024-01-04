@@ -9,7 +9,7 @@ const MyServices: React.FC<MyServicesProps> = () => {
 
   return (
     <section className="section service bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${backgroundImageUrl})` }} id="service" aria-labelledby="service-lable">
-      <p className="section-subtitle container" id="service-lable">Past Performers</p>
+      <p className="section-subtitle container" id="service-lable">Competitions</p>
 
       <div className="slider">
           <div className="slider-track">
