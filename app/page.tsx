@@ -40,7 +40,7 @@ const cursorStyles = `
 
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
-  const backgroundImageUrl = '/images/img-background.png';
+  const backgroundImageUrl = '/images/img-backgrou.png';
 
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState(false);

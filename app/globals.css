@@ -13,10 +13,10 @@
   --eerie-black: hsl(0, 0%, 9%);
   --radical-red: hsl(292, 32%, 45%);
   --white_a9: hsla(0, 0%, 100%, 0.09);
-  --white_a15: hsla(0, 0%, 100%, 0.15);
-  --white_a25: hsla(0, 0%, 100%, 0.25);
+  --white_a15: linear-gradient(to bottom, white, #AAAAAA);
+  --white_a25: linear-gradient(to bottom, white, #AAAAAA);
   --white_a50: hsla(0, 0%, 100%, 0.5);
-  --white_a70: hsla(0, 0%, 100%, 0.7);
+  --white_a70: linear-gradient(to bottom, white, #AAAAAA);
   --white_a75: hsla(0, 0%, 100%, 0.75);
   --white_a80: hsla(0, 0%, 100%, 0.8);
   --jet-1: hsl(0, 0%, 20%);
@@ -583,7 +583,7 @@ body.active { overflow: hidden; }
 }
 
 .section-title {
-  color: #666464;
+  color: rgb(181, 177, 177);
   font-size: var(--fs-6);
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
