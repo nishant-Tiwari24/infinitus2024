@@ -89,7 +89,6 @@ const Home: React.FC = () => {
           <Hero />
           <StarsCanvas />
           <Gallery />
-          {/* <CategoryList /> */}
           <About />
           <PastPerformers />
           <Proshows />
