@@ -41,7 +41,7 @@ const Timer: React.FC = () => {
 
   return (
     <section className="timer-container ">
-      <section className="timer absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-24 top-[-350px]">
+      <section className="timer absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-[-300px]">
         <div className="timer-class ">
         <div className="flex flex-row font-light font-italic  justify-center gap-1 text-3xl sm:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
         <div className="flex flex-col gap-2 text-center">
