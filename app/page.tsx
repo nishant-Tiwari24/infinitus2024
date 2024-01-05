@@ -11,6 +11,7 @@ import About from '@/components/main/About';
 import PastPerformers from '@/components/main/PastPerformers';
 import Proshows from '@/components/main/Proshows';
 import Image from 'next/image';
+import Footer from '@/components/main/Footer';
 
 const cursorStyles = `
   body {
@@ -92,6 +93,7 @@ const Home: React.FC = () => {
           <About />
           <PastPerformers />
           <Proshows />
+          <Footer/>
         </>
       )}
     </main>
