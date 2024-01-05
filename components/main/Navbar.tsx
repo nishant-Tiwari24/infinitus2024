@@ -9,20 +9,31 @@ const Navbar = () => {
     setMenuOpen(!isMenuOpen);
   };
 
+  const isSmallScreen = window.innerWidth > 768; // Adjust the breakpoint as needed
+
+
   return (
     <section>
       <div className=' w-full absolute items-center flex flex-col md:flex-row justify-between p-4 -top-1 z-20'>
         <div className='nav w-full flex flex-col md:flex-row items-center justify-between text-gray-300 gap-[100px] text-[20px] ml-5'>
-          <div className='flex items-center mb-2 md:mb-0'>
-            <a href="#about-me">
+          <div className='flex justify-between gap-x-16'>
+          {isSmallScreen && (
+              <div className='flex items-center mb-2'>
+                <a href="#about-me">
+                  <img src='/img.png'  alt='Logo' className='h-8 object-contain w-40' />
+                </a>
+              </div>
+            )}
+
+            {
+              !isSmallScreen && (
+                <div className=' cursor-pointer flex text-white font-serif' onClick={toggleMenu}>
               <img src='/img.png'  alt='Logo' className='h-8 object-contain w-40' />
-            </a>
-          </div>
+            </div>
+              )
+            }
 
-          <div className='md:hidden cursor-pointer text-white font-serif' onClick={toggleMenu}>
-            Menu
           </div>
-
           <div className={` md:flex flex-col md:flex-row items-center gap-8 mb-2 mt-2 md:ml-3 md:mr-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
             <a href="#about-me" className='cursor-pointer uppercase hover:underline text-[15px]'>About</a>
             <a href="#events" className='cursor-pointer uppercase hover:underline text-[15px]'>Events</a>
