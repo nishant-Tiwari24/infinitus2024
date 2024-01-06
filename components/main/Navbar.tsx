@@ -9,7 +9,7 @@ const Navbar = () => {
     setMenuOpen(!isMenuOpen);
   };
 
-  const isSmallScreen = window.innerWidth > 768; // Adjust the breakpoint as needed
+  const isSmallScreen = window.innerWidth > 768;
 
 
   return (
@@ -27,14 +27,14 @@ const Navbar = () => {
 
             {
               !isSmallScreen && (
-                <div className=' cursor-pointer flex text-white font-serif' onClick={toggleMenu}>
+                <div className=' cursor-pointer' onClick={toggleMenu}>
               <img src='/img.png'  alt='Logo' className='h-8 object-contain w-40' />
             </div>
               )
             }
 
           </div>
-          <div className={` md:flex flex-col md:flex-row items-center gap-8 mb-2 mt-2 md:ml-3 md:mr-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
+          <div className={` md:flex flex-col md:flex-row items-center gap-8 mb-2 mt-2 md:ml-3 md:mr-3 navbar-li ${isMenuOpen ? 'block' : 'hidden'}`}>
             <a href="#about-me" className='cursor-pointer uppercase hover:underline text-[15px]'>About</a>
             <a href="#events" className='cursor-pointer uppercase hover:underline text-[15px]'>Events</a>
             <a href="#team" className='cursor-pointer uppercase hover:underline text-[15px]'>Team</a>

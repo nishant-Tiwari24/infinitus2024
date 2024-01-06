@@ -20,6 +20,8 @@
     .navbar {
       padding: 40px;
       padding-block-end: 10px;
+      font-family: 'Space Grotesk';
+      font-weight: 700;
     }
   
     .navbar-link { --fs-7: 2.4rem; }

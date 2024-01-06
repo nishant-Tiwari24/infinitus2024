@@ -615,3 +615,15 @@ body.active { overflow: hidden; }
   align-items: center;
   padding: 15px;
 }
+
+/* navbar */
+
+
+
+.navbar-li {
+  font-family: monospace;
+  font-weight: 600;
+  background: linear-gradient(360deg, rgb(255, 255, 255) 17%, rgb(121, 121, 121) 97%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
