@@ -38,7 +38,7 @@ const cursorStyles = `
 
   .cursor.disabled { transform: translate(-50%, -50%) scale(0); }
 
-  @media (min-width: 575px) {
+  @media (max-width: 575px) {
     .cursor {display:none;
     }
   }
