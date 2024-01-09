@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 const Gallery = () => {
   return (
-    <section className="section gallery h-full w-full top-[-40px] " id='gallery'>
+    <section className="section gallery top-[-200px]" id='gallery'>
       <div className="container">
         <ul className="gallery-list">
           <li className="gallery-item" data-reveal>
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/img (11).jpg"
@@ -37,8 +37,8 @@ const Gallery = () => {
           
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/maffick-shows.jpg"
@@ -66,8 +66,8 @@ const Gallery = () => {
           <li className="gallery-item" data-reveal>
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/img (6).jpg"
@@ -92,8 +92,8 @@ const Gallery = () => {
             </div>
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/img (1).jpg"
@@ -122,8 +122,8 @@ const Gallery = () => {
           <li className="gallery-item" data-reveal>
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/img (14).jpg" 
@@ -148,8 +148,8 @@ const Gallery = () => {
             </div>
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/maffick-shows.jpeg" 
@@ -178,8 +178,8 @@ const Gallery = () => {
           <li className="gallery-item" data-reveal>
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/img (3).jpg" 
@@ -204,8 +204,8 @@ const Gallery = () => {
             </div>
             <div className="gallery-card">
               <figure
-                className="card-banner img-holder has-before"
-                style={{ width: '350px', height: '486px' }}
+                className="card-banner img-holder1 has-before"
+                style={{ width: '450', height: '625' }}
               >
                 <Image
                   src="/images/img (6).jpg" 

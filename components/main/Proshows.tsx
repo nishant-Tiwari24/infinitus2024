@@ -4,20 +4,20 @@ import { url } from 'inspector';
 
 
 const Proshows: React.FC = () => {
-    const urlbackground = '/images/img-backgroun.jpg';
+    const urlbackground = '/images/img-background.jpg';
 
   return (
     <main>
-      <section className="section prowshows bg-cover bg-fixed z-0" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
+      <section className="section prowshows bg-cover bg-fixed -z-5" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
         <div className="container">
           <div className="proshows-list">
             <div className="wrapper">
-              <h2 className="h4 section-title" id="proshows-label" data-reveal>
-                Prowshows
+              <h2 className="h5 section-title container" id="proshows-label" data-reveal>
+                PROSHOWS
               </h2>
 
               <div className="proshows-card" data-reveal>
-                <figure className="card-banner img-holder has-before" style={{ width:"700px", height:"605px"}}>
+                <figure className="card-banner img-holder3 has-before" style={{ width:"700px", height:"605px"}}>
                   <Image src="/images/portfolio-1.jpg" width={700} height={605} loading="lazy" alt="Shoe Promo" className="img-cover" />
                 </figure>
 
@@ -40,7 +40,7 @@ const Proshows: React.FC = () => {
               </div>
 
               <div className="proshows-card" data-reveal>
-                <figure className="card-banner img-holder has-before" style={{  width:"700px", height:"1091px"}}>
+                <figure className="card-banner has-before" style={{  width:"700px", height:"1091px"}}>
                   <Image src="/images/portfolio-2.jpg" width={700} height={1091} loading="lazy" alt="Wedding Shot" className="img-cover" />
                 </figure>
 
@@ -67,7 +67,7 @@ const Proshows: React.FC = () => {
               <div className="wrapper">
 
               <div className="proshows-card" data-reveal>
-                <figure className="card-banner img-holder has-before" style={{ width:"700px", height:"1000px"}}>
+                <figure className="card-banner img-holder5 has-before" style={{ width:"700px", height:"1000px"}}>
                   <Image src="/images/portfolio-3.jpg" width={700} height={1000} loading="lazy" alt="Fashion Show" className="img-cover" />
                 </figure>
 
@@ -90,7 +90,7 @@ const Proshows: React.FC = () => {
               </div>
 
               <div className="proshows-card" data-reveal>
-                <figure className="card-banner img-holder has-before" style={{  width:"700px", height:"850" }}>
+                <figure className="card-banner img-holder6 has-before" style={{  width:"700px", height:"850" }}>
                   <Image src="/images/portfolio-4.jpg" width={700} height={850} loading="lazy" alt="Jumbo Barger" className="img-cover" />
                 </figure>
 
