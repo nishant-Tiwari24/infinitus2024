@@ -153,25 +153,26 @@
       bottom: 0;
       right: 0;
     }
-    .cursor {
-      display: block;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 75px;
-      height: 75px;
-      background-color: var(--white);
-      mix-blend-mode: exclusion;
-      border-radius: var(--radius-circle);
-      transform: translate(-50%, -50%) scale(0.35);
-      transition: transform 0.35s;
-      pointer-events: none;
-      z-index: 6;
+
+    .img-holder5 {
+      width: 300px;
+      height: 700px;
     }
-  
-    .cursor.hovered { transform: translate(-50%, -50%) scale(1.2); }
-  
-    .cursor.disabled { transform: translate(-50%, -50%) scale(0); }
+    
+    .img-holder6 {
+      width: 300px;
+      height: 700px;
+    }
+    
+    .img-holder4 {
+      width: 400px;
+      height: 791px;
+    }
+    
+    .img-holder3 {
+      width: 400px;
+      height: 405px;
+    }
   
   }
 
@@ -347,6 +348,27 @@
     .proshows-card .btn-icon svg { width: 25px; }
   
     .proshows-card:is(:hover, :focus-within) .btn-icon { opacity: 1; }
+
+    .img-holder5 {
+      width: 500px;
+      height: 900px;
+    }
+    
+    .img-holder6 {
+      width: 500px;
+      height: 750px;
+    }
+    
+    .img-holder4 {
+      width: 500px;
+      height: 991px;
+    }
+    
+    .img-holder3 {
+      width: 500px;
+      height: 505px;
+    }
+
   
   }
 
@@ -374,5 +396,25 @@
     }
 
     .proshows .container { padding-inline: 45px; }
+
+    .img-holder5 {
+      width: 700px;
+      height: 1000px;
+    }
+    
+    .img-holder6 {
+      width: 700px;
+      height: 850px;
+    }
+    
+    .img-holder4 {
+      width: 700px;
+      height: 1091px;
+    }
+    
+    .img-holder3 {
+      width: 700px;
+      height: 605px;
+    }
   
   }
