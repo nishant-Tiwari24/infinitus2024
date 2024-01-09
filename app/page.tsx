@@ -37,6 +37,11 @@ const cursorStyles = `
   .cursor.hovered { transform: translate(-50%, -50%) scale(1.2); }
 
   .cursor.disabled { transform: translate(-50%, -50%) scale(0); }
+
+  @media (min-width: 575px) {
+    .cursor {display:none;
+    }
+  }
 `;
 
 const Home: React.FC = () => {
