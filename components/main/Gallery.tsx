@@ -237,6 +237,7 @@ const Gallery = () => {
         </a>
         <img src="/images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" className="shape" />
       </div>
+      
     </section>
   );
 };
