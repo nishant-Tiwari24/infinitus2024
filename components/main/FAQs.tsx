@@ -64,7 +64,7 @@ function QuestionsAndAnswers({
 function Questions() {
   return (
     <section className='max-h-screen'>
-    <h1 className='m-20 text-center text-7xl font-semibold font-mono text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text'>
+    <h1 className='m-20 text-center text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text'>
       Frequently Asked Questions
     </h1>
     <div className='py-6 mx-auto px-3'>

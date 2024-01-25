@@ -550,3 +550,21 @@ body.active { overflow: hidden; }
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+
+.Welcome-text {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cffbf 100%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cursive {
+  font-family: "Cedarville Cursive", cursive;
+}
