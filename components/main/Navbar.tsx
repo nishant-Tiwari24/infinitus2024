@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             <Link href="/about" className='cursor-pointer uppercase hover:underline text-[15px]'>About</Link>
             <Link href="/events" className='cursor-pointer uppercase hover:underline text-[15px]'>Events</Link>
             <Link href="/team" className='cursor-pointer uppercase hover:underline text-[15px]'>Team</Link>
-            <Link href="/gallery" className='cursor-pointer uppercase hover:underline text-[15px]'>Gallery</Link>
+            <Link href="/faqs" className='cursor-pointer uppercase hover:underline text-[15px]'>FaQs</Link>
             <Link href="/register" className='cursor-pointer uppercase hover:underline text-[15px]'>Register</Link>
           </div>
         </div>
