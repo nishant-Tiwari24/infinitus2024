@@ -70,7 +70,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (6).jpg"
+                  src="/images/armanMalik01.jpg"
                   width={450}
                   height={625}
                   loading="lazy"
@@ -96,7 +96,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (1).jpg"
+                  src="/images/armanMalik02.jpg"
                   width={450}
                   height={625}
                   loading="lazy"
@@ -126,7 +126,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (14).jpg" 
+                  src="/images/lostStories01.jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
@@ -152,7 +152,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/maffick-shows.jpeg" 
+                  src="/images/lostStories02.jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
