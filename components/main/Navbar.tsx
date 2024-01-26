@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className={`md:flex flex-col md:flex-row items-center gap-8 mb-2 mt-2 md:ml-3 md:mr-3 navbar-li ${isMenuOpen ? 'block' : 'hidden'}`}>
-            <Link href="/about" className='cursor-pointer uppercase hover:underline text-[15px]'>About</Link>
+            {/* <Link href="/about" className='cursor-pointer uppercase hover:underline text-[15px]'>About</Link> */}
             <Link href="/events" className='cursor-pointer uppercase hover:underline text-[15px]'>Events</Link>
             <Link href="/team" className='cursor-pointer uppercase hover:underline text-[15px]'>Team</Link>
             <Link href="/faqs" className='cursor-pointer uppercase hover:underline text-[15px]'>FaQs</Link>

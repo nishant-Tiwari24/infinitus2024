@@ -12,7 +12,7 @@ const About = () => {
         className="w-full lg:w-1/2 h-auto lg:h-full mb-8 object-cover lg:mb-0 lg:mr-8 rounded-3xl"
       />
       <div className="lg:w-1/2 flex flex-col gap-10 ">
-        <h2 className="text-6xl lg:text-7xl font-semibold text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text mb-4 lg:mb-6 font-mono cursive">
+        <h2 className="text-6xl lg:text-7xl font-semibold text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text mb-4 lg:mb-6 font-mono">
           Embark on the Extravaganza:
           <br />
           SRM University&apos;s Annual Cultural Fest Unveiled!

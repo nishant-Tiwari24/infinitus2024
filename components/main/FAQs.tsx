@@ -19,6 +19,10 @@ const faqData = [
     {
     question: "What is the name of this project4?",
     answer:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae."
+    },
+    {
+      question: "What is the name of this project5?",
+      answer:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae."
     }
 ]
 
@@ -64,7 +68,7 @@ function QuestionsAndAnswers({
 function Questions() {
   return (
     <section className='max-h-screen'>
-    <h1 className='m-20 text-center text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text'>
+    <h1 className='m-20 text-center text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono'>
       Frequently Asked Questions
     </h1>
     <div className='py-6 mx-auto px-3'>
