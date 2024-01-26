@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
                   <img src='/img.png' alt='Logo' className='h-13 object-contain w-52' />
                 </Link>
               </div>
-            <div className="md:hidden">
+            <div className="md:hidden ">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
