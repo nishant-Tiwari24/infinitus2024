@@ -6,9 +6,9 @@ import Image from 'next/image';
 
 const Hero: React.FC = () => {
   return (
-    <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',paddingTop: 200}} className='flex-col'>
+    <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',paddingTop: 268}} className='flex-col'>
       <div>
-      <Image src="/images/inifinitus24-min.png" alt="" width={600} height={600} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto', }} />
+      <Image src="/images/inifinitus24-min.png" alt="" width={750} height={750} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto', }} />
       </div>
     </section>
     
