@@ -493,7 +493,7 @@ body.active { overflow: hidden; }
 /* Slider */
 
 .slider{
-  height: 280px;
+  height: 380px;
   margin: auto;
   position: relative;
   width: 100%;
@@ -504,14 +504,14 @@ body.active { overflow: hidden; }
 
 .slider-track{
   display: flex;
-  width: calc(240px * 30);
+  width: calc(340px * 30);
   -webkit-animation: scroll 25s linear infinite reverse;
   animation: scroll 20s linear infinite reverse;
 }
 
 .slider-track1{
   display: flex;
-  width: calc(240px * 30);
+  width: calc(340px * 30);
   -webkit-animation: scroll 25s linear infinite;
   animation: scroll 20s linear infinite;
 }
@@ -529,7 +529,7 @@ body.active { overflow: hidden; }
     transform: translateX(0);
   }
   100%{
-    transform: translateX(calc(-280px * 15));
+    transform: translateX(calc(-380px * 15));
   }
 }
 
@@ -543,8 +543,8 @@ body.active { overflow: hidden; }
 }
 
 .slide{
-  height: 280px;
-  width: 240px;
+  height: 380px;
+  width: 340px;
   display: flex;
   align-items: center;
   padding: 10px;
