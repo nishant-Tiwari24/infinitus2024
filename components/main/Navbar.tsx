@@ -38,13 +38,13 @@ const Navbar: React.FC = () => {
 
   return (
     <section className='w-3xl'>
-      <div className='w-full absolute flex flex-col md:flex-row justify-between p-4 -top-1 z-20'>
+      <div className='w-full absolute flex flex-col md:flex-row justify-between p-5 -top-1 z-20'>
       <div>
           <div className="flex items-center justify-between py-5 px-3 md:py-5 md:block">
               
               <div className='flex items-center mb-2'>
                 <Link href="/">
-                  <img src='/img.png' alt='Logo' className='h-8 object-contain w-40' />
+                  <img src='/img.png' alt='Logo' className='h-13 object-contain w-52' />
                 </Link>
               </div>
             <div className="md:hidden">
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {menu.map(({ name, url}, index) => (
-                <li key={index} className="text-white">
+                <li key={index} className="text-white" style={{ fontSize: '21px' }}>
                   <Link href={url}>{name}</Link>
                 </li>
               ))}
