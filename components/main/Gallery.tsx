@@ -126,7 +126,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/lostStories01.jpg" 
+                  src="/images/lostStories1.jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
