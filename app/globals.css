@@ -532,11 +532,11 @@ body.active { overflow: hidden; }
 }
 
 .slide{
-  height: 380px;
-  width: 340px;
+  height: 280px;
+  width: 240px;
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
 }
 
 /* navbar */

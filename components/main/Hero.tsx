@@ -6,12 +6,12 @@ import Image from 'next/image';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative w-full flex flex-col bg-contain first-section">
-      <div className="flex-wrap absolute max-w-screen object-contain z-20 top-[-600px] lg:left-[350px] lg:top-[-700px] lg:right-[-100px]">
-        <Image width={1005} priority height={198} src="/images/inifinitus24-min.png" alt="" />
+    <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',paddingTop: 200}} className='flex-col'>
+      <div>
+      <Image src="/images/inifinitus24-min.png" alt="" width={600} height={600} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto', }} />
       </div>
-      <Timer />
     </section>
+    
   );
 };
 

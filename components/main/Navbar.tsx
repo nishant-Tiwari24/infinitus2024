@@ -1,6 +1,8 @@
 'use client';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
+import { AiOutlineMenu } from 'react-icons/ai';
+import { RxCross1 } from 'react-icons/rx';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -26,33 +28,52 @@ const Navbar: React.FC = () => {
       window.removeEventListener('resize', checkScreenSize);
     };
   }, []);
+  const [navbar, setNavbar] = useState(false);
+  const menu = [
+    { name: "Events", url: "/events" },
+    {name: "Team",url: "/team"},
+    { name: "FAQs", url: "/faqs" },
+    { name: "Register", url: "/register" },
+  ];
 
   return (
-    <section>
-      <div className='w-full absolute items-center flex flex-col md:flex-row justify-between p-4 -top-1 z-20'>
-        <div className='nav w-full flex flex-col md:flex-row items-center justify-between text-gray-300 gap-[100px] text-[20px] ml-5'>
-          <div className='flex justify-between gap-x-16'>
-            {isSmallScreen && (
+    <section className='w-3xl'>
+      <div className='w-full absolute flex flex-col md:flex-row justify-between p-4 -top-1 z-20'>
+      <div>
+          <div className="flex items-center justify-between py-5 px-3 md:py-5 md:block">
+              
               <div className='flex items-center mb-2'>
                 <Link href="/">
                   <img src='/img.png' alt='Logo' className='h-8 object-contain w-40' />
                 </Link>
               </div>
-            )}
-
-            {!isSmallScreen && (
-              <div className='cursor-pointer' onClick={toggleMenu}>
-                <img src='/img.png' alt='Logo' className='h-8 object-contain w-40' />
-              </div>
-            )}
+            <div className="md:hidden">
+              <button
+                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                onClick={() => setNavbar(!navbar)}
+              >
+                {navbar ? (
+                  <RxCross1 className="text-white" />
+                ) : (
+                  <AiOutlineMenu className="text-white" />
+                )}
+              </button>
+            </div>
           </div>
-
-          <div className={`md:flex flex-col md:flex-row items-center gap-8 mb-2 mt-2 md:ml-3 md:mr-3 navbar-li ${isMenuOpen ? 'block' : 'hidden'}`}>
-            <Link href="/about" className='cursor-pointer uppercase hover:underline text-[15px]'>About</Link>
-            <Link href="/events" className='cursor-pointer uppercase hover:underline text-[15px]'>Events</Link>
-            <Link href="/team" className='cursor-pointer uppercase hover:underline text-[15px]'>Team</Link>
-            <Link href="/faqs" className='cursor-pointer uppercase hover:underline text-[15px]'>FaQs</Link>
-            <Link href="/register" className='cursor-pointer uppercase hover:underline text-[15px]'>Register</Link>
+        </div>
+        <div>
+          <div
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              navbar ? "block" : "hidden"
+            }`}
+          >
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              {menu.map(({ name, url}, index) => (
+                <li key={index} className="text-white">
+                  <Link href={url}>{name}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
