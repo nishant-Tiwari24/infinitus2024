@@ -63,12 +63,15 @@
       grid-template-columns: repeat(4, 1fr); 
     }
   
+    .event-item:nth-child(even) {
+      margin-block-end: 0px;
+    }
     .gallery-item:nth-child(even) { margin-block-start: 100px; }
+
   
     .gallery .scroll-down {
       width: 85px;
       height: 85px;
-      margin-block-start: 100px;
     }
   
     .gallery .scroll-down img { width: 26px; }

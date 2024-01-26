@@ -28,7 +28,7 @@ const About = () => {
             distinctio.
           </p>
         </div>
-      </div>
+   </div>
     </div>
   );
 };
