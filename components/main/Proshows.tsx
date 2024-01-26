@@ -8,7 +8,7 @@ const Proshows: React.FC = () => {
 
   return (
     <main>
-      <section className="section prowshows bg-cover bg-fixed -z-5" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
+      <section className="section prowshows bg-cover bg-fixed -z-5" id="proshows" aria-labelledby="proshows-label">
         <div className="container">
           <div className="proshows-list">
             <div className="wrapper">
