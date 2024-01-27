@@ -23,8 +23,8 @@ const Home: React.FC = () => {
       <Gallery />
       <About />
       <PastPerformers />
-      {/* <Proshows />
-      <Footer /> */}
+      {/* <Proshows />  */}
+      <Footer />
     </main>
   );
 };
