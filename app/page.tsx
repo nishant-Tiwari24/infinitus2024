@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       <Gallery />
       <About />
       <PastPerformers />
-      {/* <Proshows />  */}
+      <Proshows /> 
       <Footer />
     </main>
   );
