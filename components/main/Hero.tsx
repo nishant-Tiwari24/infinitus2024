@@ -11,9 +11,9 @@ const Hero: React.FC = () => {
       <div style={{ marginBottom: '20px' }}>
         <Image src="/images/inifinitus24-min.png" alt="" width={750} height={750} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto' }} />
       </div>
-      <div  style={{ margin: '10px 0' }}>
+{/*       <div  style={{ margin: '10px 0' }}>
         <Date />
-      </div>
+      </div> */}
       <div className='pt-14' style={{ margin: '10px 0' }}>
         <Timer />
       </div>
