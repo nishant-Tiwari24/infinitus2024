@@ -1,5 +1,4 @@
 import React from 'react'
-import  Image  from 'next/image'
 import EventsCard from '../sub/EventsCard'
 import Navbar from '@/components/main/Navbar';
 import FlareCursor from "@/components/main/Cursor";
