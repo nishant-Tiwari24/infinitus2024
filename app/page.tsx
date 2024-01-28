@@ -19,13 +19,13 @@ const Home: React.FC = () => {
   return (
     <main>
       <StarsCanvas />
-      <Navbar />
       <Hero />
       <Gallery />
       <About />
       <PastPerformers />
       <Proshows /> 
       <Footer />
+      <Navbar />
     </main>
   );
 };

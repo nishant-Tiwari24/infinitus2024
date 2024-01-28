@@ -1,83 +1,93 @@
 'use client';
-import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
-import { RxCross1 } from 'react-icons/rx';
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
-const Navbar: React.FC = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
+const Navbar = () => {
+  const [nav, setNav] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
-
-  useEffect(() => {
-    const checkScreenSize = () => {
-      setIsSmallScreen(window.innerWidth > 768);
-    };
-
-    // Initial check
-    checkScreenSize();
-
-    // Add event listener for window resize
-    window.addEventListener('resize', checkScreenSize);
-
-    // Remove event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', checkScreenSize);
-    };
-  }, []);
-  const [navbar, setNavbar] = useState(false);
-  const menu = [
-    { name: "Events", url: "/events" },
-    {name: "Team",url: "/team"},
-    { name: "FAQs", url: "/faqs" },
-    { name: "Register", url: "/register" },
+  const links = [
+    {
+      id: 1,
+      name: "Events",
+      link: "events",
+    },
+    {
+      id: 2,
+      name: "Team",
+      link: "team",
+    },
+    {
+      id: 3,
+      name: "FAQs",
+      link: "faqs",
+    },
+    {
+      id: 4,
+      name: "Register",
+      link: "register",
+    }
   ];
 
+  const handleResize = () => {
+    if (window.innerWidth >= 768) {
+      setNav(false);
+      document.body.classList.remove("nav-open"); // Remove class on resize
+    }
+  };
+
+  const toggleNav = () => {
+    setNav(!nav);
+    document.body.classList.toggle("nav-open");
+  };
+
+  // Set up event listener for window resize
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <section className='w-3xl'>
-      <div className='w-full absolute flex flex-col md:flex-row justify-between p-5 -top-1 z-20'>
-      <div>
-          <div className="flex items-center justify-between py-5 px-3 md:py-5 md:block">
-              
-              <div className='flex items-center mb-2'>
-                <Link href="/">
-                  <img src='/img.png' alt='Logo' className='h-13 object-contain w-52' />
-                </Link>
-              </div>
-            <div className="md:hidden ">
-              <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-                onClick={() => setNavbar(!navbar)}
-              >
-                {navbar ? (
-                  <RxCross1 className="text-white" />
-                ) : (
-                  <AiOutlineMenu className="text-white" />
-                )}
-              </button>
-            </div>
+    <div className={`flex justify-between items-center w-full h-20 p-5 text-white   fixed top-0 left-0 ${nav ? 'nav-open' : ''}`}>
+      <div className="py-5 px-3">
+        <div className='flex items-center mb-2'>
+            <Link href="/">
+              <img src='/img.png' alt='Logo' className='h-13 object-contain w-52' />
+            </Link>
           </div>
-        </div>
-        <div>
-          <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
-          >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              {menu.map(({ name, url}, index) => (
-                <li key={index} className="text-white" style={{ fontSize: '21px' }}>
-                  <Link href={url}>{name}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
       </div>
-    </section>
+
+      <ul className="hidden md:flex">
+        {links.map(({ id,name, link }) => (
+          <li
+            key={id}
+            className=" text-4xl nav-links px-4 cursor-pointer capitalize font-medium white hover:scale-105 hover:text-white duration-200 link-underline"
+          >
+            <Link href={link}>{name}</Link>
+          </li>
+        ))}
+      </ul>
+
+      <div onClick={toggleNav} className="cursor-pointer pr-4 z-10 text-white md:hidden">
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+      </div>
+
+      {nav && (
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white">
+          {links.map(({ id,name, link }) => (
+            <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
+              <Link onClick={toggleNav} href={link}>
+                {name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 };
 

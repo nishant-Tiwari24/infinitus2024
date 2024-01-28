@@ -1,6 +1,7 @@
 import React from 'react'
 import  Image  from 'next/image'
 import EventsCard from '../sub/EventsCard'
+import Navbar from '@/components/main/Navbar';
 
 function Events() {
   const eventData = [
@@ -15,6 +16,7 @@ function Events() {
         <EventsCard key={index} title={event.title} imageSrc={event.imageSrc} name={event.name} href={event.href}/>
       ))}
         </div>
+        <Navbar />
       </div>
   )
 }
