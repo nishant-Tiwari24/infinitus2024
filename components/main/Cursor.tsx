@@ -10,8 +10,6 @@ const FlareCursor = () => {
     setPosition({ x: e.clientX, y: e.clientY });
 
     const target = e.target;
-
-    // Check if the target or its ancestors have a clickable class
     const isClickable = target.classList.contains("clickable") || target.closest(".clickable");
 
     setIsPointer(!isClickable);
