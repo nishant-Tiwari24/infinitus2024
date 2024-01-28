@@ -491,7 +491,6 @@ body.active { overflow: hidden; }
 
 
 /* Slider */
-
 .slider{
   height: 380px;
   margin: auto;
@@ -501,7 +500,6 @@ body.active { overflow: hidden; }
   place-items: center;
   overflow: hidden;
 }
-
 
 .slider-track{
   display: flex;
@@ -514,6 +512,10 @@ body.active { overflow: hidden; }
   display: flex;
   width: calc(340px * 30);
   -webkit-animation: scroll 25s linear infinite;
+  animation: scroll 20s linear infinite;
+}
+
+.slider:hover .slider-track {
   animation-play-state: paused;
 }
 
