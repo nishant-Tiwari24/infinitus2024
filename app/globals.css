@@ -597,6 +597,7 @@ body.active { overflow: hidden; }
   z-index: -10;
   pointer-events: none;
   transition: all 1s cubic-bezier(0.18, 0.885, 0.32, 1.275);
+  position: absolute;
 }
 
 .card::after {
