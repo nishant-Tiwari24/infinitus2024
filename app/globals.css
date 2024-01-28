@@ -114,6 +114,7 @@ body {
   font-weight: var(--fw-400);
   line-height: 2.15;
   overflow-x: hidden;
+  cursor: none;
 }
 
 body.active { overflow: hidden; }
@@ -505,11 +506,22 @@ body.active { overflow: hidden; }
 .slider-track{
   display: flex;
   width: calc(340px * 30);
+  -webkit-animation: scroll 25s linear infinite reverse;
+  animation: scroll 20s linear infinite reverse;
+}
+
+.slider-track1{
+  display: flex;
+  width: calc(340px * 30);
   -webkit-animation: scroll 25s linear infinite;
   animation: scroll 20s linear infinite;
 }
 
 .slider:hover .slider-track {
+  animation-play-state: paused;
+}
+
+.slider:hover .slider-track1 {
   animation-play-state: paused;
 }
 
@@ -536,7 +548,7 @@ body.active { overflow: hidden; }
   width: 340px;
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
 }
 
 /* navbar */
@@ -568,67 +580,3 @@ body.active { overflow: hidden; }
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
-
-/* event card */
-.card {
-  position: relative;
-  width: 400px;
-  height: 490px;
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 12px;
-  gap: 12px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  left: -10px;
-  margin: auto;
-  width: 420px;
-  height: 510px;
-  border-radius: 20px;
-  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
-  z-index: -10;
-  pointer-events: none;
-  transition: all 1s cubic-bezier(0.18, 0.885, 0.32, 1.275);
-}
-
-.card::after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
-  transform: translate3d(0, 0, 0) scale(0.95);
-  filter: blur(20px);
-}
-
-.heading {
-  font-size: 20px;
-  text-transform: capitalize;
-  font-weight: 700;
-}
-
-.card p:not(.heading) {
-  font-size: 14px;
-}
-
-.card p:last-child {
-  color: #e81cff;
-  font-weight: 600;
-}
-
-.card:hover::after {
-  filter: blur(30px);
-}
-
-.card:hover::before {
-  transform: rotate(-90deg) scaleX(1.24) scaleY(0.84);
-}
-

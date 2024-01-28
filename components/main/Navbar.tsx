@@ -1,62 +1,93 @@
 'use client';
-import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
-const Navbar: React.FC = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
+const Navbar = () => {
+  const [nav, setNav] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
+  const links = [
+    {
+      id: 1,
+      name: "Events",
+      link: "events",
+    },
+    {
+      id: 2,
+      name: "Team",
+      link: "team",
+    },
+    {
+      id: 3,
+      name: "FAQs",
+      link: "faqs",
+    },
+    {
+      id: 4,
+      name: "Register",
+      link: "register",
+    }
+  ];
+
+  const handleResize = () => {
+    if (window.innerWidth >= 768) {
+      setNav(false);
+      document.body.classList.remove("nav-open"); // Remove class on resize
+    }
   };
 
+  const toggleNav = () => {
+    setNav(!nav);
+    document.body.classList.toggle("nav-open");
+  };
+
+  // Set up event listener for window resize
   useEffect(() => {
-    const checkScreenSize = () => {
-      setIsSmallScreen(window.innerWidth > 768);
-    };
+    window.addEventListener("resize", handleResize);
 
-    // Initial check
-    checkScreenSize();
-
-    // Add event listener for window resize
-    window.addEventListener('resize', checkScreenSize);
-
-    // Remove event listener on component unmount
+    // Clean up the event listener
     return () => {
-      window.removeEventListener('resize', checkScreenSize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   return (
-    <section>
-      <div className='w-full absolute items-center flex flex-col md:flex-row justify-between p-4 -top-1 z-20'>
-        <div className='nav w-full flex flex-col md:flex-row items-center justify-between text-gray-300 gap-[100px] text-[20px] ml-5'>
-          <div className='flex justify-between gap-x-16'>
-            {isSmallScreen && (
-              <div className='flex items-center mb-2'>
-                <Link href="/">
-                  <img src='/img.png' alt='Logo' className='h-8 object-contain w-40' />
-                </Link>
-              </div>
-            )}
-
-            {!isSmallScreen && (
-              <div className='cursor-pointer' onClick={toggleMenu}>
-                <img src='/img.png' alt='Logo' className='h-8 object-contain w-40' />
-              </div>
-            )}
+    <div className={`flex justify-between items-center w-full h-22 p-5 text-white   fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{ backgroundColor: '#030014' }}>
+      <div className="py-5 px-3">
+        <div className='flex items-center mb-2'>
+            <Link href="/">
+              <img src='/img.png' alt='Logo' className='h-13 object-contain w-52' />
+            </Link>
           </div>
-
-          <div className={`md:flex flex-col md:flex-row items-center gap-8 mb-2 mt-2 md:ml-3 md:mr-3 navbar-li ${isMenuOpen ? 'block' : 'hidden'}`}>
-            {/* <Link href="/about" className='cursor-pointer uppercase hover:underline text-[15px]'>About</Link> */}
-            <Link href="/events" className='cursor-pointer uppercase hover:underline text-[15px]'>Events</Link>
-            <Link href="/team" className='cursor-pointer uppercase hover:underline text-[15px]'>Team</Link>
-            <Link href="/faqs" className='cursor-pointer uppercase hover:underline text-[15px]'>FaQs</Link>
-            <Link href="/register" className='cursor-pointer uppercase hover:underline text-[15px]'>Register</Link>
-          </div>
-        </div>
       </div>
-    </section>
+
+      <ul className="hidden md:flex">
+        {links.map(({ id,name, link }) => (
+          <li
+            key={id}
+            className=" text-4xl nav-links px-4 cursor-pointer capitalize font-medium white hover:scale-105 hover:text-white duration-200 link-underline"
+          >
+            <Link href={link}>{name}</Link>
+          </li>
+        ))}
+      </ul>
+
+      <div onClick={toggleNav} className="cursor-pointer pr-4 z-10 text-white md:hidden">
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+      </div>
+
+      {nav && (
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white">
+          {links.map(({ id,name, link }) => (
+            <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
+              <Link onClick={toggleNav} href={link}>
+                {name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 };
 
