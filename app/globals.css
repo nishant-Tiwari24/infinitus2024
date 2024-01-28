@@ -114,6 +114,7 @@ body {
   font-weight: var(--fw-400);
   line-height: 2.15;
   overflow-x: hidden;
+  cursor: none;
 }
 
 body.active { overflow: hidden; }
@@ -578,4 +579,33 @@ body.active { overflow: hidden; }
 
 .cursive {
   font-family: "Cedarville Cursive", cursive;
+}
+
+.flare {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 2px solid #ffffff2b;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 999999 !important;
+  backdrop-filter: blur(1px);
+  background-color: white;
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .flare {
+    display: none;
+    width: 0;
+    height: 0;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
+  }
 }

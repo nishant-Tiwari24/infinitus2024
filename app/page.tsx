@@ -13,11 +13,13 @@ import Proshows from '@/components/main/Proshows';
 import Image from 'next/image';
 import Footer from '@/components/main/Footer';
 import Timer from '@/components/sub/Timer';
+import FlareCursor from "@/components/main/Cursor";
 
 const Home: React.FC = () => {
 
   return (
     <main>
+      <FlareCursor />
       <StarsCanvas />
       <Hero />
       <Gallery />

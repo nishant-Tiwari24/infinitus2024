@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 import Navbar from '@/components/main/Navbar';
+import FlareCursor from "@/components/main/Cursor";
 
 const faqData = [
   {
@@ -35,7 +36,8 @@ function Questions() {
   }
 
   return (
-    <section className='max-h-screen'>
+    <section className='max-h-screen pt-20'>
+      <FlareCursor />
       <h1 className='m-20 text-center text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono'>
         Frequently Asked Questions
       </h1>
