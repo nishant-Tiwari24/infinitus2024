@@ -1,6 +1,4 @@
 import Competition from '@/components/main/Competition'
-import Events from '@/components/main/Event'
-import Footer from '@/components/main/Footer'
 import Navbar from '@/components/main/Navbar'
 import StarsCanvas from '@/components/main/StarCanvas'
 import React from 'react'
@@ -11,7 +9,7 @@ function page() {
     <div className="flex flex-col h-[950px] gap-20 bg-contain bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
         <Navbar/>
       <StarsCanvas/>
-      <Competition types='Technical Fest'/>
+      <Competition types='Non Technical Fest'/>
     </div>
   )
 }

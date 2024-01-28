@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 interface EventsCardProps {
   title: string;
@@ -11,16 +12,20 @@ interface EventsCardProps {
 const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href }) => {
   return (
     <div>
-        <h1 className='text-center text-5xl font-semibold font-mono uppercase mt-10'>{name}</h1>
-        <Link href={href}>
-      <div className="flex py-10 items-center">
-        <div className="group relative rounded-3xl btn-icon">
-          <div className="w-[400px] cursor-pointer shadow-2xl shadow-[#22214f] transition-all duration-200 group-hover:scale-105 border-[#330a7a] border-xl">
-            <img src={imageSrc} alt="avatar" className="h-[600px] w-full object-cover rounded-3xl" />
-            <div className="absolute top-0 left-0 bottom-0 right-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:to-[#290a58] group-hover:opacity-70 rounded-3xl"></div>
-            <span className="absolute bottom-4 w-100 Welcome-text px-6 text-3xl text-white duration-200 group-hover:scale-110 group-hover:font-bold group-hover:text-[#9a43ec]">{title}</span>
-          </div>
+      <h1 className='text-center text-5xl font-semibold py-10'>{title}</h1>
+        <div className="card">
+          <Image className='h-full w-full object-cover'
+            src={imageSrc}
+            width={400}
+            height={500}
+            alt={`Image for ${name}`}
+          />
         </div>
+        <Link href={href}>
+        <div className='w-full h-40 flex justify-center items-center'>
+      <button className="py-2 bg-purple-500 text-white h-18 w-1/2 rounded relative -top-1 -left-1 px-5 font-medium uppercase  transition-all before:absolute before:top-2 before:left-2 before:-z-[1] before:h-full before:w-full before:border-2 before:border-white-700 before:rounded before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0" >
+        Continue
+      </button>
       </div>
       </Link>
     </div>

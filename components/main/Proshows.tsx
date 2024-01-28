@@ -4,7 +4,7 @@ import { url } from 'inspector';
 
 
 const Proshows: React.FC = () => {
-    const urlbackground = '/images/img-background.jpg';
+    const urlbackground = '/images/img-bacground.jpg';
 
   return (
     <main>
