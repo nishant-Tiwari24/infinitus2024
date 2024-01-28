@@ -502,14 +502,22 @@ body.active { overflow: hidden; }
   overflow: hidden;
 }
 
+
 .slider-track{
   display: flex;
   width: calc(340px * 30);
-  -webkit-animation: scroll 25s linear infinite;
-  animation: scroll 20s linear infinite;
+  -webkit-animation: scroll 25s linear infinite reverse;
+  animation: scroll 20s linear infinite reverse;
 }
 
-.slider:hover .slider-track {
+.slider-track1{
+  display: flex;
+  width: calc(340px * 30);
+  -webkit-animation: scroll 25s linear infinite;
+  animation-play-state: paused;
+}
+
+.slider:hover .slider-track1 {
   animation-play-state: paused;
 }
 
@@ -522,7 +530,7 @@ body.active { overflow: hidden; }
   }
 }
 
-@-webkit-keyframes scroll {
+@keyframes scroll {
 	0% {
 		transform: translateX(0);
 	}
@@ -531,13 +539,16 @@ body.active { overflow: hidden; }
 	}
 }
 
+
 .slide{
   height: 380px;
   width: 340px;
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
 }
+
+
 
 /* navbar */
 
@@ -599,7 +610,7 @@ body.active { overflow: hidden; }
   position: absolute;
 }
 
-.card::after {
+/* .card::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -607,7 +618,7 @@ body.active { overflow: hidden; }
   background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
-}
+} */
 
 .heading {
   font-size: 20px;
@@ -624,9 +635,6 @@ body.active { overflow: hidden; }
   font-weight: 600;
 }
 
-.card:hover::after {
-  filter: blur(30px);
-}
 
 .card:hover::before {
   transform: rotate(-90deg) scaleX(1.24) scaleY(0.84);
