@@ -9,7 +9,6 @@ function page() {
   const backgroundImageUrl = '/images/img-backgroun.png';
   return (
     <div className="flex flex-col h-[950px] gap-20 bg-contain bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
-        <Navbar/>
       <StarsCanvas/>
       <Competition types='Technical Fest'/>
     </div>
