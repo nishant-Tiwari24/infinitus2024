@@ -52,7 +52,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`flex justify-between items-center w-full h-22 p-5 text-white   fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{ backgroundColor: '#030014' }}>
+    <div className={`flex justify-between items-center w-full h-22 p-5 text-white  z-0 fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{}}>
       <div className="py-5 px-3">
         <div className='flex items-center mb-2'>
             <Link href="/">
@@ -77,7 +77,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-white">
           {links.map(({ id,name, link }) => (
             <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
               <Link onClick={toggleNav} href={link}>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Gallery = () => {
   return (
-    <section className="section gallery" id='gallery'>
+    <section className="section relative gallery" id='gallery'>
       <div className="container">
         <ul className="gallery-list">
           <li className="gallery-item" data-reveal>

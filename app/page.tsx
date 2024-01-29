@@ -19,6 +19,7 @@ const Home: React.FC = () => {
 
   return (
     <main>
+      <div className="container1">
       <FlareCursor />
       <StarsCanvas />
       <Hero />
@@ -28,6 +29,7 @@ const Home: React.FC = () => {
       <Proshows /> 
       <Footer />
       <Navbar />
+      </div>
     </main>
   );
 };

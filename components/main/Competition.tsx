@@ -17,10 +17,12 @@ const YourPage: React.FC<Types> = ({types}) => {
   };
   return (
     <div className='max-h-screen'>
-      <FlareCursor/>
-        <h1 className=' text-center text-7xl sm:text-5xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono m-10'>{types}</h1>
-        <div className='flex min-h-screen items-center justify-center '>
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+    <FlareCursor />
+    <h1 className='text-center text-7xl sm:text-5xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono m-10'>
+      {types}
+    </h1>
+    <div className='flex flex-col items-center justify-center md:flex-row md:justify-center'>
+      <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
         <div>
       < Card
         imageSrc="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
