@@ -12,15 +12,30 @@ import PastPerformers from '@/components/main/PastPerformers';
 import Proshows from '@/components/main/Proshows';
 import Image from 'next/image';
 import Footer from '@/components/main/Footer';
-import Timer from '@/components/sub/Timer';
-import FlareCursor from "@/components/main/Cursor";
+import FlareCursor from '@/components/main/Cursor';
+import Loading from '@/components/main/Loading'
 
 const Home: React.FC = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(delay);
+  }, []);
 
   return (
-    <main>
-      <div className="container1">
-      <FlareCursor />
+    <main
+      className="h-full w-full bg-[#030014] " >
+      {loading ? (
+        <div className="flex items-center justify-center h-screen">
+          <Loading/>
+        </div>
+      ) : (
+        <>
+      <FlareCursor/>
       <StarsCanvas />
       <Hero />
       <Gallery />
@@ -29,7 +44,8 @@ const Home: React.FC = () => {
       <Proshows /> 
       <Footer />
       <Navbar />
-      </div>
+        </>
+      )}
     </main>
   );
 };

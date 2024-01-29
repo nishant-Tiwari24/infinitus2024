@@ -615,15 +615,15 @@ body.active { overflow: hidden; }
   position: absolute;
 }
 
-/* .card1::after {
+.card1::after {
   content: '';
   z-index: -1;
   position: absolute;
   inset: 0;
   background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
   transform: translate3d(0, 0, 0) scale(0.95);
-  filter: blur(50px);
-} */
+  filter: blur(30px);
+}
 
 .heading {
   font-size: 20px;
@@ -674,14 +674,84 @@ body.active { overflow: hidden; }
   }
 }
 
-
-.container1{
+.container1 {
   width: 100%;
-  height: 50%;
-  z-index: 4000;
+  height: 100%;
+  z-index: 60;
   --color: rgba(114, 114, 114, 0.3);
   background-color: #191a1a;
   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
   background-size: 55px 55px;
 }
+
+/* loader */
+.svgbox {
+  --blue: rgb(243, 50, 43);
+  stroke: var(--blue);
+  stroke-width: 5;
+  fill: none;
+  stroke-dasharray: 50, 14;
+  stroke-dashoffset: 192;
+  animation: dash_682 1.4s linear infinite;
+}
+
+@keyframes dash_682 {
+  72.5% {
+    opacity: 1;
+  }
+
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+/* strip */
+
+.error {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(to right, #f45c43, #eb3349);
+  background: linear-gradient(to right, #f45c43, #eb3349);
+  box-shadow: 0 0px 10px #de1c3280;
+}
+
+.error__icon {
+  width: 20px;
+  height: 20px;
+  transform: translateY(-2px);
+  margin-right: 8px;
+  filter: drop-shadow(2px 1px 2px rgb(0 0 0 / 0.4));
+}
+
+.error__icon path {
+  fill: #fff;
+}
+
+.error__title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+
+.error__close {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: auto;
+  filter: drop-shadow(2px 1px 2px rgb(0 0 0 / 0.4));
+}
+
+.error__close path {
+  fill: #fff;
+}
+
+
+

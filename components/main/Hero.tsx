@@ -4,10 +4,10 @@ import React from 'react';
 import Timer from '../sub/Timer';
 import Date from '../sub/Date';
 import Image from 'next/image';
+import Strip from '../sub/Strip';
 
 const Hero: React.FC = () => {
   return (
-    <div className="container1">
     <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 250}} className='flex-col'>
       <div style={{ marginBottom: '20px' }}>
         <Image src="/images/inifinitus24-min.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} />
@@ -26,7 +26,6 @@ const Hero: React.FC = () => {
 </button>
       </div>
     </section>
-    </div>
   );
 };
 

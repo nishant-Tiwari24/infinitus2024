@@ -126,7 +126,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/lostStories1.jpg" 
+                  src="/images/img (3).jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
@@ -152,7 +152,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/lostStories02.jpg" 
+                  src="/images/img (11).jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
