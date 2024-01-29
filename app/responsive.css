@@ -421,3 +421,11 @@
     }
   
   }
+
+
+  @media (max-width: 1000px) {
+    .video {
+      display: none;
+    }
+  }
+  
