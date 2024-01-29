@@ -597,6 +597,7 @@ body.active { overflow: hidden; }
   gap: 12px;
   border-radius: 8px;
   cursor: pointer;
+  
 }
 
 .card::before {
@@ -614,7 +615,7 @@ body.active { overflow: hidden; }
   position: absolute;
 }
 
-.card::after {
+.card1::after {
   content: '';
   z-index: -1;
   position: absolute;

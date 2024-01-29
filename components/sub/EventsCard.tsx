@@ -14,7 +14,7 @@ const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href }) 
     <div>
       <h1 className='text-center text-5xl font-semibold py-10'>{title}</h1>
       
-        <div className="card">
+        <div className="card card1">
           <Image className='h-full w-full object-cover'
             src={imageSrc}
             width={400}
