@@ -3,6 +3,8 @@ import React from 'react';
 import Card from '../sub/CompetitionCard';
 import EventDetails from '../sub/EventDetails';
 import FlareCursor from './Cursor';
+import Navbar from '@/components/main/Navbar';
+
 
 interface Types {
   types:string
@@ -109,6 +111,7 @@ const YourPage: React.FC<Types> = ({types}) => {
 
       </div>
       </div>
+      <Navbar />
       </div>
   );
 };

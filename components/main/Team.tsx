@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from '@/components/main/Navbar';
+
 const TeamMemberSection = () => {
   return (
     <section className="py-10sm:py-16 lg:py-24">
@@ -34,6 +36,7 @@ const TeamMemberSection = () => {
           </div>
         </div>
       </div>
+      <Navbar />
     </section>
   );
 };

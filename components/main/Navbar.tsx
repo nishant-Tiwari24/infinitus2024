@@ -10,22 +10,22 @@ const Navbar = () => {
     {
       id: 1,
       name: "Events",
-      link: "events",
+      link: "/events",
     },
     {
       id: 2,
       name: "Team",
-      link: "team",
+      link: "/team",
     },
     {
       id: 3,
       name: "FAQs",
-      link: "faqs",
+      link: "/faqs",
     },
     {
       id: 4,
       name: "Register",
-      link: "register",
+      link: "/register",
     }
   ];
 
