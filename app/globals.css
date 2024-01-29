@@ -755,11 +755,34 @@ body.active { overflow: hidden; }
   fill: #fff;
 }
 
-/* glassmorphism
-.glass {
-  background: rgba( 255, 255, 255, 0.15 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 2.5px );
--webkit-backdrop-filter: blur( 2.5px );
-} */
+/* components/Marquee.module.css */
+
+/* components/Marquee.module.css */
+
+.marquee {
+  white-space: nowrap;
+  display: flex;
+  overflow: hidden;
+  background-color: #9710ff;
+  padding: 10px;
+  transform: rotate(-3deg);
+  margin-top: 6rem;
+  animation: marquee-scroll 120s linear infinite;
+}
+
+.content {
+  display: flex;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%) rotate(-3deg);
+  }
+  100% {
+    transform: translateX(0%) rotate(-3deg);
+  }
+}
+
+
+
 

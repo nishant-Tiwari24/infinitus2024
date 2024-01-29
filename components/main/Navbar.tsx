@@ -52,7 +52,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`flex justify-between items-center w-full h-22 p-5 text-white glass z-0 fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{}}>
+    <div className={`flex justify-between items-center w-full h-22 p-5 text-white  z-0 fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{}}>
       <div className="py-5 px-3">
         <div className='flex items-center mb-2'>
             <Link href="/">
