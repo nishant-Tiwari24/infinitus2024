@@ -10,7 +10,15 @@ const Hero: React.FC = () => {
   return (
     <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 250}} className='flex-col'>
       <div style={{ marginBottom: '20px' }}>
-        <Image src="/images/inifinitus24-min.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} />
+      <video
+        autoPlay
+        muted
+        loop
+        className="rotate-180 absolute top-[-480px] h-full w-full left-0 object-cover "
+      >
+        <source src="videos/blackhole.webm" type="video/webm" />
+      </video>
+        <Image src="/images/inifinitus24-min.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} className='z-4 relative'/>
       </div>
 {/*       <div  style={{ margin: '10px 0' }}>
         <Date />

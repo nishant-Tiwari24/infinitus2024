@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Gallery = () => {
   return (
     <section className="section relative gallery" id='gallery'>
-      <div className="container">
+      <div className="container z-[25]">
         <ul className="gallery-list">
           <li className="gallery-item" data-reveal>
             <div className="gallery-card">
