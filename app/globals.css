@@ -615,7 +615,7 @@ body.active { overflow: hidden; }
   position: absolute;
 }
 
-.card1::after {
+/* .card1::after {
   content: '';
   z-index: -1;
   position: absolute;
@@ -623,7 +623,7 @@ body.active { overflow: hidden; }
   background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(30px);
-}
+} */
 
 .heading {
   font-size: 20px;
@@ -674,11 +674,13 @@ body.active { overflow: hidden; }
   }
 }
 
+/* bg */
+
 .container1 {
   width: 100%;
   height: 100%;
   z-index: 60;
-  --color: rgba(114, 114, 114, 0.3);
+  --color: rgba(64, 63, 63, 0.3);
   background-color: #191a1a;
   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
@@ -753,5 +755,11 @@ body.active { overflow: hidden; }
   fill: #fff;
 }
 
-
+/* glassmorphism
+.glass {
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+} */
 
