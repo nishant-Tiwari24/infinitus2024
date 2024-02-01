@@ -74,7 +74,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div onClick={toggleNav} className="cursor-pointer pr-4 z-10 bg-black text-white md:hidden">
+      <div onClick={toggleNav} className="cursor-pointer pr-4 z-10 text-white md:hidden">
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
