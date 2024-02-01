@@ -18,7 +18,7 @@ export default function Index() {
 
     const pictures = [
         {
-            src: '/images/img (3).jpg',
+            src: '/images/armanMalik01.jpg',
             scale: scale4
         },
         {
@@ -44,12 +44,13 @@ export default function Index() {
         {
             src: '/images/armanMalik01.jpg',
             scale: scale9
-        }
+        },
+        
     ]
 
     return (
         <div ref={container} className='container2'>
-            <h1 className='text-center text-7xl sm:text-5xl font-semibold Welcome-text text-transparent  m-10'>Infinitus 2023</h1>
+            <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text text-transparent  m-10'>Infinitus 2023</h1>
             <div className='sticky'>
                 {
                     pictures.map( ({src, scale}, index) => {

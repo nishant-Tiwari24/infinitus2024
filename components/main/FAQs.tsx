@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 import Navbar from '@/components/main/Navbar';
 import FlareCursor from "@/components/main/Cursor";
+import Index from './ZoomParallax';
 
 const faqData = [
   {
@@ -29,10 +30,12 @@ const faqData = [
 ];
 
 function Questions() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [openStates, setOpenStates] = useState(Array(faqData.length).fill(false));
 
-  function handleClick() {
-    setIsOpen(!isOpen);
+  function handleClick(index: number) {
+    const newOpenStates = [...openStates];
+    newOpenStates[index] = !newOpenStates[index];
+    setOpenStates(newOpenStates);
   }
 
   return (
@@ -42,24 +45,24 @@ function Questions() {
         Frequently Asked Questions
       </h1>
       <div className='py-6 mx-auto px-3'>
-        <div className='mx-auto mx max-w-7xl flex flex-col  '>
-          {faqData.map((faq) => (
+        <div className='mx-auto mx max-w-7xl flex flex-col'>
+          {faqData.map((faq, index) => (
             <div key={faq.question} className="z-10">
               <Navbar />
               <div
-                onClick={handleClick}
+                onClick={() => handleClick(index)}
                 className="flex cursor-pointer justify-between gap-2 text-[#bdbdbe] active:text-purple-200 font-extralight font-mono border-[#76767661] border m-5 px-5 py-8 rounded-xl"
               >
                 <span className="text-4xl font-thin">{faq.question}</span>
                 <span>
-                  {isOpen ? (
+                  {openStates[index] ? (
                     <IconChevronUp stroke={1.5} size={24} />
                   ) : (
                     <IconChevronDown size={24} stroke={1.5} />
                   )}
                 </span>
               </div>
-              {isOpen ? (
+              {openStates[index] ? (
                 <div className='flex justify-center py-5'>
                   <p className='text-3xl text-gray-200 font-mono text-wrap'>{faq.answer}</p>
                 </div>
