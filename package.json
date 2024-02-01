@@ -16,6 +16,7 @@
     "@studio-freight/lenis": "^1.0.34",
     "@tabler/icons-react": "^2.46.0",
     "date-fns": "^3.3.1",
+    "framer-motion": "^11.0.3",
     "gsap": "^3.12.4",
     "lodash.pick": "^4.4.0",
     "next": "14.0.4",

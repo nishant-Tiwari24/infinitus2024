@@ -2,9 +2,7 @@
 
 import React from 'react';
 import Timer from '../sub/Timer';
-import Date from '../sub/Date';
 import Image from 'next/image';
-import Strip from '../sub/Strip';
 import { motion } from 'framer-motion';
 import { slideInFromRight, slideInFromLeft } from '@/public/utils/motion';
 const Hero: React.FC = () => {
