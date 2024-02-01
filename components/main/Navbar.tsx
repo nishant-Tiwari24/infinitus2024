@@ -1,4 +1,6 @@
 'use client';
+import { slideInFromRight } from "@/public/utils/motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -53,13 +55,13 @@ const Navbar = () => {
 
   return (
     <div className={`flex justify-between items-center w-full h-22 p-5 text-white  z-0 fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{}}>
-      <div className="py-5 px-3">
+      <motion.div variants={slideInFromRight(40)} className="py-5 px-3">
         <div className='flex items-center mb-2'>
             <Link href="/">
               <img src='/img.png' alt='Logo' className='h-13 object-contain w-52' />
             </Link>
           </div>
-      </div>
+      </motion.div>
 
       <ul className="hidden md:flex">
         {links.map(({ id,name, link }) => (

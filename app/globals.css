@@ -767,7 +767,9 @@ body.active { overflow: hidden; }
   padding: 10px;
   transform: rotate(-3deg);
   margin-top: 6rem;
-  animation: marquee-scroll 120s linear infinite;
+  animation: marquee-scroll 240s linear infinite;
+  border: #020202 dotted 5px;
+  z-index: -2;
 }
 
 .content {
@@ -783,8 +785,110 @@ body.active { overflow: hidden; }
   }
 }
 
+.main-marquee{
+  position: relative;
+}
 
+.marquee2 {
+  white-space: nowrap;
+  display: flex;
+  overflow: hidden;
+  background-color: #686669;
+  padding: 10px;
+  transform: rotate(-3deg);
+  margin-top: 6rem;
+  animation: marquee-scroll1 240s linear infinite;
+  top: 50px;
+  position: absolute;
+  border: #020202 dotted 5px;
+  
+}
 
+.content2 {
+  display: flex;
+}
 
+@keyframes marquee-scroll1 {
+  0% {
+    transform: translateX(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0%) rotate(0deg);
+  }
+}
 
+/* prallax zoom */
+
+.container2 {
+    height: 300vh;
+    position: relative;
+}
+
+.container2 .sticky {
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    height: 100vh;
+}
+
+.container2 .sticky .el {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .sticky .el:nth-of-type(2) .imageContainer2 {
+    top: -30vh;
+    left: 5vw;
+    width: 35vw;
+    height: 30vh;
+}
+
+.container2 .sticky .el:nth-of-type(3) .imageContainer2 {
+    top: -10vh;
+    left: -25vw;
+    width: 20vw;
+    height: 45vh;
+}
+
+.container2 .sticky .el:nth-of-type(4) .imageContainer2 {
+    left: 27.5vw;
+    width: 25vw;
+    height: 25vh;
+}
+
+.container2 .sticky .el:nth-of-type(5) .imageContainer2 {
+    top: 27.5vh;
+    left: 5vw;
+    width: 20vw;
+    height: 25vh;
+}
+
+.container2 .sticky .el:nth-of-type(6) .imageContainer2 {
+    top: 27.5vh;
+    left: -22.5vw;
+    width: 30vw;
+    height: 25vh;
+}
+
+.container2 .sticky .el:nth-of-type(7) .imageContainer2 {
+    top: 22.5vh;
+    left: 25vw;
+    width: 15vw;
+    height: 15vh;
+}
+
+.container2 .sticky .el .imageContainer2 {
+    position: relative;
+    width: 25vw;
+    height: 25vh;
+}
+
+.container2 .sticky .el .imageContainer2 img {
+    object-fit: cover;
+}
 

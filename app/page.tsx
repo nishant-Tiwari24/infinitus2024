@@ -14,6 +14,7 @@ import Image from 'next/image';
 import Footer from '@/components/main/Footer';
 import FlareCursor from '@/components/main/Cursor';
 import Loading from '@/components/main/Loading'
+import ZoomParallax from '@/components/main/ZoomParallax'
 
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ const Home: React.FC = () => {
 
     return () => clearTimeout(delay);
   }, []);
+
 
   return (
     <main
@@ -42,6 +44,7 @@ const Home: React.FC = () => {
       <About />
       <PastPerformers />
       <Proshows /> 
+      <ZoomParallax/>
       <Footer />
       <Navbar />
         </>

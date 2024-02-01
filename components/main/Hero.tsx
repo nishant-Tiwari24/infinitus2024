@@ -5,21 +5,24 @@ import Timer from '../sub/Timer';
 import Date from '../sub/Date';
 import Image from 'next/image';
 import Strip from '../sub/Strip';
+import { motion } from 'framer-motion';
+import { slideInFromRight } from '@/public/utils/motion';
 
 const Hero: React.FC = () => {
   return (
     <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 250}} className='flex-col'>
-      <div style={{ marginBottom: '20px' }}>
-      <video
+      {/* <video
       autoPlay
       muted
       loop
-      className="video rotate-180 absolute top-[-390px] lg:top-[-480px] h-full w-full left-0 object-cover "
+      className="video rotate-180 z-[0] absolute top-[-390px] lg:top-[-480px] h-full w-full left-0 object-cover "
       >
   <source src="videos/blackhole.webm" type="video/webm" />
-</video>
-
+</video> */}
+      <div style={{ marginBottom: '20px' }}>
+      <motion.div variants={slideInFromRight(4)}>
         <Image src="/images/inifinitus24-min.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} className='z-4 relative'/>
+        </motion.div>
       </div>
 {/*       <div  style={{ margin: '10px 0' }}>
         <Date />
@@ -34,6 +37,7 @@ const Hero: React.FC = () => {
   Register Now
 </button>
       </div>
+      <Strip/>
     </section>
   );
 };
