@@ -20,7 +20,7 @@ const YourPage: React.FC<Types> = ({types}) => {
   return (
     <div className='max-h-screen'>
     <FlareCursor />
-    <h1 className='text-center text-7xl sm:text-5xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono m-10'>
+    <h1 className='pt-28 text-center text-7xl sm:text-5xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono m-10'>
       {types}
     </h1>
     <div className='flex flex-col items-center justify-center md:flex-row md:justify-center'>
