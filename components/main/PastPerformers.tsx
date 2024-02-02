@@ -1,17 +1,32 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
-interface MyServicesProps {}
-
-const MyServices: React.FC<MyServicesProps> = () => {
+const MyServices: React.FC = () => {
   const backgroundImageUrl = '/images/img-background.png';
+  const controls = useAnimation();
+    const [ref, inView] = useInView({
+      triggerOnce: true
+    });
+
+    React.useEffect(() => {
+      if (inView) {
+        controls.start('visible');
+      }
+    }, [controls, inView]);
+  
+    const fadeInVariants = {
+      hidden: { opacity: 0 },
+      visible: { opacity: 1, transition: { duration: 1.4 } },
+    };
 
   return (
     <section className="section servic items-centere bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${backgroundImageUrl})` }} id="service" aria-labelledby="service-lable">
 
         <div className="slider">
-          <div className="slider-track">
+          <motion.div  initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track">
             <div className="slide">
             <Image src="/images/category-1.jpg" width={300} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
@@ -102,10 +117,10 @@ const MyServices: React.FC<MyServicesProps> = () => {
             <div className="slide">
             <Image src="/images/category-8.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
-          </div>
+          </motion.div>
       </div>
       <div className="slider">
-          <div className="slider-track1">
+          <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track1">
             <div className="slide">
             <Image src="/images/category-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
@@ -196,7 +211,7 @@ const MyServices: React.FC<MyServicesProps> = () => {
             <div className="slide">
             <Image src="/images/category-8.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
-          </div>
+          </motion.div>
       </div>
     </section>
   );

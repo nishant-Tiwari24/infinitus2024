@@ -19,7 +19,7 @@ const Proshows: React.FC = () => {
   
     const fadeInVariants = {
       hidden: { opacity: 0 },
-      visible: { opacity: 1, transition: { duration: 1 } },
+      visible: { opacity: 1, transition: { duration: 1.6 } },
     };
 
   return (

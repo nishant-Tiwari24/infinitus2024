@@ -16,7 +16,7 @@ const About = () => {
 
   const fadeInVariants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 1 } },
+    visible: { opacity: 1, transition: { duration: 1.4 } },
   };
 
   return (
