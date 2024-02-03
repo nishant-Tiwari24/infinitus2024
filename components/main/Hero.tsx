@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
     <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 250}} className='flex-col'>
       <div style={{ marginBottom: '20px', zIndex: 0 }}> {/* Ensure zIndex is set */}
         <motion.div variants={slideInFromRight(0.8)} initial="initial" animate="animate">
-          <Image src="/images/infinitus_2024_Logo_White.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} className='z-4 relative'/>
+          <Image src="/images/Infinitus_2024_Logo_White.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} className='z-4 relative'/>
         </motion.div>
       </div>
       <div className='flex flex-col justify-center gap-28'>
