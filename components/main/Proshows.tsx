@@ -28,9 +28,7 @@ const Proshows: React.FC = () => {
         <motion.div className="container" initial="hidden" animate={controls} variants={fadeInVariants} ref={ref}>
           <div className="proshows-list">
             <div className="wrapper">
-              <h2 className="h5 section-title container" id="proshows-label" data-reveal>
-                PROSHOWS
-              </h2>
+            <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space -mt-4 text-transparent '>Proshows</h1>
 
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner img-holder3 has-before" style={{ width:"700", height:"605"}}>

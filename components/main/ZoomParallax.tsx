@@ -50,7 +50,7 @@ export default function Index() {
 
     return (
         <div ref={container} className='container2'>
-            <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text text-transparent  m-10'>Infinitus 2023</h1>
+            <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space text-transparent  m-10'>Glimpses of Infinitus 2023</h1>
             <div className='sticky'>
                 {
                     pictures.map( ({src, scale}, index) => {

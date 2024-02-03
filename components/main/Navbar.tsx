@@ -9,6 +9,10 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
+    { id: 0,
+      name: "About", 
+      link: "/about" 
+    },
     {
       id: 1,
       name: "Events",
@@ -54,7 +58,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`flex justify-between items-center w-full h-28 p-5 border-purple-400 border-b-2 text-white  z-0 fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{backgroundColor:'#030014'}}>
+    <div className={`flex justify-between items-center w-full h-28 p-5 border-purple-400 border-b-1 text-white  z- fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{backgroundColor:'#030014'}}>
       <motion.div variants={slideInFromRight(40)} className="py-5 px-3">
         <div className='flex items-center mb-2'>
             <Link href="/">
@@ -67,7 +71,7 @@ const Navbar = () => {
         {links.map(({ id,name, link }) => (
           <li
             key={id}
-            className=" text-4xl nav-links px-4 cursor-pointer capitalize font-medium white hover:scale-105 hover:text-white duration-200 link-underline"
+            className=" text-4xl nav-links px-4 cursor-pointer capitalize font-space font-700 white hover:scale-105 hover:text-white duration-200 link-underline bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-bold"
           >
             <Link href={link}>{name}</Link>
           </li>
@@ -79,9 +83,9 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-white bg-gradient-to-b from-black to-gray-800 ">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 ">
           {links.map(({ id,name, link }) => (
-            <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
+            <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl ">
               <Link onClick={toggleNav} href={link}>
                 {name}
               </Link>

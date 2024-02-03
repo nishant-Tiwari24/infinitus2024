@@ -1,5 +1,4 @@
 'use client';
-
 import React from 'react';
 import Timer from '../sub/Timer';
 import Image from 'next/image';
@@ -10,7 +9,7 @@ const Hero: React.FC = () => {
     <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 250}} className='flex-col'>
       <div style={{ marginBottom: '20px', zIndex: 0 }}> {/* Ensure zIndex is set */}
         <motion.div variants={slideInFromRight(0.8)} initial="initial" animate="animate">
-          <Image src="/images/inifinitus24-min.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} className='z-4 relative'/>
+          <Image src="/images/infinitus 2024 Logo - White.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} className='z-4 relative'/>
         </motion.div>
       </div>
       <div className='flex flex-col justify-center gap-28'>

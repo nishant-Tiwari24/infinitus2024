@@ -5,7 +5,7 @@ import Footer from '@/components/main/Footer'
 
 function page() {
   return (
-    <div>
+    <div className="flex flex-col h-[950px] gap-20 bg-cover bg-fixed">
         <Navbar/>
       <StarsCanvas />
     </div>

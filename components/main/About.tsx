@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 const About = () => {
   const controls = useAnimation();
@@ -27,7 +28,7 @@ const About = () => {
       variants={fadeInVariants}
       ref={ref}
     >
-      <h1 className="text-5xl lg:text-5xl font-bold mb-8 text-center">About Us</h1>
+      <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space text-transparent  m-10'>About Infinitus</h1>
       <motion.div
         className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16"
         variants={fadeInVariants}
@@ -36,10 +37,12 @@ const About = () => {
           className="mx-auto"
           variants={fadeInVariants}
         >
-          <img
+          <Image
             src="/img (1).jpg"
             alt="About Us"
-            style={{ width: '450px', height: '500px' }}
+            width={450}
+            height={500}
+            style={{ width: '550px', height: '600px' }}
             className="w-full h-auto mb-8 object-cover rounded-3xl"
           />
         </motion.div>
@@ -47,12 +50,12 @@ const About = () => {
           className="lg:w-1/2"
           variants={fadeInVariants}
         >
-          <h2 className="text-3xl lg:text-4xl font-semibold mb-4 lg:mb-6 text-left lg:text-left ">
+          <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
             Embark on the Extravaganza: SRM University&apos;s Annual Cultural Fest Unveiled!
           </h2>
           <motion.p
-            className="text-2xl lg:text-3xl text-justify"
-            variants={fadeInVariants}
+            className="text-3xl lg:text-4xl font-space text-justify"
+            variants={fadeInVariants} 
           >
             Welcome to the grand celebration of SRM University&apos;s annual cultural fest! Get
             ready for an extraordinary experience filled with vibrant performances, creative

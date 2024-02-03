@@ -24,7 +24,7 @@ const MyServices: React.FC = () => {
 
   return (
     <section className="section servic items-centere bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${backgroundImageUrl})` }} id="service" aria-labelledby="service-lable">
-
+      <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space text-transparent  m-10'>National level Competitions</h1>
         <div className="slider">
           <motion.div  initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track">
             <div className="slide">
