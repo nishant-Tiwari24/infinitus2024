@@ -58,7 +58,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`flex justify-between items-center w-full h-28 p-5 border-purple-400 border-b-1 text-white  z- fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{backgroundColor:'#030014'}}>
+    <div className={`flex justify-between items-center w-full h-28 p-5 border-purple-400 border-b-1 text-white  z-40 fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{backgroundColor:'#030014'}}>
       <motion.div variants={slideInFromRight(40)} className="py-5 px-3">
         <div className='flex items-center mb-2'>
             <Link href="/">
