@@ -43,8 +43,8 @@ const Home: React.FC = () => {
       <Hero />
       <Gallery />
       <About />
-      <PastPerformers />
       <Proshows /> 
+      <PastPerformers />
       <ZoomParallax/>
       <Footer />
       <Navbar />

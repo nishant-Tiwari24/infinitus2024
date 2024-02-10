@@ -28,7 +28,7 @@ const MyServices: React.FC = () => {
         <div className="slider">
           <motion.div  initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track">
             <div className="slide">
-            <Image src="/images/category-1.jpg" width={300} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/category-1.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
             <Image src="/images/category-2.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />

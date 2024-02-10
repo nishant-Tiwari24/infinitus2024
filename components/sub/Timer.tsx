@@ -9,7 +9,7 @@ interface TimeLeft {
 }
 
 const calculateTimeLeft = (): TimeLeft => {
-  const targetDate = '2024-03-14';
+  const targetDate = '2024-03-21';
   const targetTime = new Date(targetDate).getTime();
   const now = new Date().getTime();
   const timeDifference = targetTime - now;
@@ -47,7 +47,7 @@ const Timer: React.FC = () => {
   }, []); 
 
   return (
-    <section className="timer-container ">
+    <section className="timer-container">
       <section className="timer absolute left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="timer-class ">
           <div className="flex  font-normal gap-1 text-4xl sm:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
