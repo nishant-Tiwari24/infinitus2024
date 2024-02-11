@@ -22,7 +22,7 @@ const About = () => {
 
   return (
     <motion.div
-      className="container items-center mx-auto my-10 z-[25]"
+      className="container items-center z-50 mx-auto my-10"
       initial="hidden"
       animate={controls}
       variants={fadeInVariants}
@@ -38,12 +38,12 @@ const About = () => {
           variants={fadeInVariants}
         >
           <Image
-            src="/img (1).jpg"
+            src="/images/About Infinitus.JPG"
             alt="About Us"
             width={450}
             height={500}
             style={{ width: '550px', height: '600px' }}
-            className="w-full h-auto mb-8 object-cover rounded-3xl"
+            className="w-full h-auto mb-8 object-cover z-50 rounded-3xl"
           />
         </motion.div>
         <motion.div

@@ -1,5 +1,6 @@
-import Competition from '@/components/main/Competition'
+import Competition from '@/components/main/CulturalCompetition'
 import Navbar from '@/components/main/Navbar'
+import NonTechnical from '@/components/main/NonTechnicalCompetition';
 import StarsCanvas from '@/components/main/StarCanvas'
 import React from 'react'
 
@@ -8,7 +9,7 @@ function page() {
   return (
     <div className="flex flex-col h-[950px] gap-20 bg-contain bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
       <StarsCanvas/>
-      <Competition types='Non Technical Fest'/>
+      <NonTechnical types='Non Technical Fest'/>
     </div>
   )
 }

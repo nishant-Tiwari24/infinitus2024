@@ -1,4 +1,4 @@
-import Competition from '@/components/main/Competition'
+import Competition from '@/components/main/CulturalCompetition'
 import Navbar from '@/components/main/Navbar'
 import StarsCanvas from '@/components/main/StarCanvas'
 import React from 'react'
