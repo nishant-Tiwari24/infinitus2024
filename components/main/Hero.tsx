@@ -7,13 +7,13 @@ import { slideInFromRight, slideInFromLeft } from '@/public/utils/motion';
 const Hero: React.FC = () => {
   return (
     <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 250}} className='flex-col'>
-        <video 
+        {/* <video 
         muted 
         loop 
         autoPlay 
         className='w-full h-full object-cover absolute top-[-470px] rotate-180'>
             <source src="/videos/blackhole.webm" type='video/webm'/>
-        </video>
+        </video> */}
       <div style={{ marginBottom: '20px', zIndex: 0 }}>
         <motion.div variants={slideInFromRight(0.8)} initial="initial" animate="animate">
           <Image src="/images/Infinitus_2024_Logo_White.png" alt="" width={1000} height={1000} sizes="100vw" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }} className='z-4 relative'/>

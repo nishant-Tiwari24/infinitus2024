@@ -25,6 +25,7 @@ const MyServices: React.FC = () => {
     <section className="section servic items-centere bg-fixed bg-center bg-cover"  id="service" aria-labelledby="service-lable">
       <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space text-transparent  m-10'>National level Competitions</h1>
         <div className="slider">
+          <Link href={'/events'}>
           <motion.div  initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track">
             <div className="slide">
             <Image src="/images/walk.png" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
@@ -108,6 +109,7 @@ const MyServices: React.FC = () => {
             <Image src="/images/1.png" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
           </motion.div>
+          </Link>
       </div>
       <div className="slider">
           <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track1">

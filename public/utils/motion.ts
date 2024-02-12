@@ -1,8 +1,8 @@
 export function slideInFromLeft(delay: number) {
     return {
-      initial: { x: -100, opacity: 0 },
+      initial: { y: 100, opacity: 0 },
       animate: {
-        x: 0,
+        y: 0,
         opacity: 1,
         transition: {
           delay: delay,
@@ -14,9 +14,9 @@ export function slideInFromLeft(delay: number) {
   
   export function slideInFromRight(delay: number) {
     return {
-      initial: { x: 100, opacity: 0 },
+      initial: { y: 100, opacity: 0 },
       animate: {
-        x: 0,
+        y: 0,
         opacity: 1,
         transition: {
           delay: delay,
