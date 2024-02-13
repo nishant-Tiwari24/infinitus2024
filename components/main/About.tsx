@@ -22,7 +22,7 @@ const About = () => {
 
   return (
     <motion.div
-      className="container items-center z-50 mx-auto my-10"
+      className="container items-center mx-auto my-10"
       initial="hidden"
       animate={controls}
       variants={fadeInVariants}
