@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Gallery = () => {
   return (
@@ -13,7 +14,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (11).jpg"
+                  src="/images/akshar2.jpg"
                   width={450}
                   height={625}
                   loading="lazy"
@@ -23,9 +24,9 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="#" className="card-title">
                     Akshar Band
-                  </a>
+                  </Link>
                 </h3>
 
                 <span className="card-tag">Telugu & Hindi Rock Band</span>
@@ -41,12 +42,12 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/maffick-shows.jpg"
+                  src="/images/akshar.jpg"
                   width={450}
                   height={625}
                   loading="lazy"
-                  alt="Lettuce Entertain"
-                  className="img-cover"
+                  alt=""
+                  className="img-cover items-center"
                 />
               </figure>
               <div className="card-content">
@@ -57,9 +58,9 @@ const Gallery = () => {
                 </h3>
                 <span className="card-tag">Telugu & Hindi Rock Band</span>
               </div>
-              <a href="#" className="btn-icon">
+              <Link href="" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
           </li>
 
@@ -80,9 +81,9 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="#" className="card-title">
                     Armaan Malik
-                  </a>
+                  </Link>
                 </h3>
                 <span className="card-tag">Actor, Singer & Songwriter</span>
               </div>
@@ -96,7 +97,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/armanMalik02.jpg"
+                  src="/images/arman.png"
                   width={450}
                   height={625}
                   loading="lazy"
@@ -106,9 +107,9 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="#" className="card-title">
                     Armaan Malik
-                  </a>
+                  </Link>
                 </h3>
                 <span className="card-tag">Actor, Singer & Songwriter</span>
               </div>
@@ -126,7 +127,7 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (3).jpg" 
+                  src="/images/lost.jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
@@ -142,9 +143,9 @@ const Gallery = () => {
                 </h3>
                 <span className="card-tag">Music Producers & DJ</span>
               </div>
-              <a href="#" className="btn-icon">
+              <Link href="#" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
             <div className="gallery-card">
               <figure
@@ -152,26 +153,26 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (11).jpg" 
+                  src="/images/lostStories02.jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
                   alt="The Drunken"
-                  className="img-cover"
+                  className="img-cover items-center"
                 />
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="#" className="card-title">
                     Lost Stories
-                  </a>
+                  </Link>
                 </h3>
                 <span className="card-tag">Music Producers & DJ</span>
               </div>
 
-              <a href="#" className="btn-icon top-28">
+              <Link href="#" className="btn-icon top-28">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
           </li>
 
@@ -182,24 +183,24 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (3).jpg" 
+                  src="/images/dj-kim.jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
                   alt="The Drunken"
-                  className="img-cover"
+                  className="img-cover items-center"
                 />
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="#" className="card-title">
                     DJ Kim Thomas
-                  </a>
+                  </Link>
                 </h3>
                 <span className="card-tag">Dynamic DJ Maestro</span>
               </div>
               <a href="#" className="btn-icon">
-                <img src="/images/arrow-forward.svgDynamic DJ Maestro" height="20" loading="lazy" alt="arrow-forward icon" />
+                <img src="/images/arrow-forward.svg" height="20" loading="lazy" alt="arrow-forward icon" />
               </a>
             </div>
             <div className="gallery-card">
@@ -208,32 +209,29 @@ const Gallery = () => {
                 style={{ width: '450', height: '625' }}
               >
                 <Image
-                  src="/images/img (6).jpg" 
+                  src="/images/dj-kim2.jpg" 
                   width={450}
                   height={625}
                   loading="lazy"
                   alt="The Drunken"
-                  className="img-cover"
+                  className="img-cover items-center"
                 />
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="#" className="card-title">
                     DJ Kim Thomas
-                  </a>
+                  </Link>
                 </h3>
                 <span className="card-tag">Dynamic DJ Maestro</span>
               </div>
 
-              <a href="#" className="btn-icon top-28">
+              <Link href="#" className="btn-icon top-28">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
           </li>
         </ul>
-
-        
-        <img src="/images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" className="shape" />
       </div>
       
     </section>

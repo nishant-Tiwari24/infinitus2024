@@ -527,6 +527,10 @@ body.active { overflow: hidden; }
   animation-play-state: paused;
 }
 
+.slider > img{
+  object-fit: contain;
+}
+
 @keyframes scroll {
   0%{
     transform: translateX(0);
