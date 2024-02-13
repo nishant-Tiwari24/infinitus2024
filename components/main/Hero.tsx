@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { slideInFromRight, slideInFromLeft } from '@/public/utils/motion';
 const Hero: React.FC = () => {
   return (
-    <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:'10%'}} className='flex-col'>
+    <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:'230px'}} className='flex-col'>
         {/* <video 
         muted 
         loop 
