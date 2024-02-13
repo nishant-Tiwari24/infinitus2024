@@ -24,16 +24,16 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="#" className="card-title">
+                  <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="card-title">
                     Akshar Band
                   </Link>
                 </h3>
 
                 <span className="card-tag">Telugu & Hindi Rock Band</span>
               </div>
-              <a href="#" className="btn-icon">
+              <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
           
             <div className="gallery-card">
@@ -52,13 +52,13 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="card-title">
                     Akshar Band
-                  </a>
+                  </Link>
                 </h3>
                 <span className="card-tag">Telugu & Hindi Rock Band</span>
               </div>
-              <Link href="" className="btn-icon">
+              <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
               </Link>
             </div>
@@ -87,9 +87,9 @@ const Gallery = () => {
                 </h3>
                 <span className="card-tag">Actor, Singer & Songwriter</span>
               </div>
-              <a href="#" className="btn-icon">
+              <Link href="https://www.instagram.com/armaanmalik?igsh=MWdjMG9waW14bXN0dg==" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
             <div className="gallery-card">
               <figure
@@ -107,16 +107,16 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="#" className="card-title">
+                  <Link href="https://www.instagram.com/armaanmalik?igsh=MWdjMG9waW14bXN0dg==" className="card-title">
                     Armaan Malik
                   </Link>
                 </h3>
                 <span className="card-tag">Actor, Singer & Songwriter</span>
               </div>
 
-              <a href="#" className="btn-icon top-28">
+              <Link href="https://www.instagram.com/armaanmalik?igsh=MWdjMG9waW14bXN0dg==" className="btn-icon top-28">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
           </li>
 
@@ -137,13 +137,13 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <a href="#" className="card-title">
+                  <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="card-title">
                     Lost Stories
-                  </a>
+                  </Link>
                 </h3>
                 <span className="card-tag">Music Producers & DJ</span>
               </div>
-              <Link href="#" className="btn-icon">
+              <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
               </Link>
             </div>
@@ -163,14 +163,14 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="#" className="card-title">
+                  <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="card-title">
                     Lost Stories
                   </Link>
                 </h3>
                 <span className="card-tag">Music Producers & DJ</span>
               </div>
 
-              <Link href="#" className="btn-icon top-28">
+              <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="btn-icon top-28">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
               </Link>
             </div>
@@ -193,15 +193,15 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="#" className="card-title">
+                  <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="card-title">
                     DJ Kim Thomas
                   </Link>
                 </h3>
                 <span className="card-tag">Dynamic DJ Maestro</span>
               </div>
-              <a href="#" className="btn-icon">
+              <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="btn-icon">
                 <img src="/images/arrow-forward.svg" height="20" loading="lazy" alt="arrow-forward icon" />
-              </a>
+              </Link>
             </div>
             <div className="gallery-card">
               <figure
@@ -219,14 +219,14 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="#" className="card-title">
+                  <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="card-title">
                     DJ Kim Thomas
                   </Link>
                 </h3>
                 <span className="card-tag">Dynamic DJ Maestro</span>
               </div>
 
-              <Link href="#" className="btn-icon top-28">
+              <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="btn-icon top-28">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
               </Link>
             </div>

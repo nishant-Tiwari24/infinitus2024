@@ -51,20 +51,19 @@ const About = () => {
           variants={fadeInVariants}
         >
           <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
-          SRM University's Annual Cultural Fest Unveiled!
+            SRM University&apos;s Annual Cultural Fest Unveiled!
           </h2>
           <motion.p
             className="text-2xl lg:text-3xl font-space text-justify"
             variants={fadeInVariants} 
           >
-            Infinitus' 24, SRM University, Andhra Pradesh's highly anticipated techno cultural fest, is set to unfold, promising a thrilling four-day extravaganza. Organized entirely by the Student Council and Directorate of Student Affairs, this edition aims to surpass the success of its predecessor, offering a dynamic platform for emerging talents to shine.
+            Infinitus&apos; 24, SRM University, Andhra Pradesh&apos;s highly anticipated techno cultural fest, is set to unfold, promising a thrilling four-day extravaganza. Organized entirely by the Student Council and Directorate of Student Affairs, this edition aims to surpass the success of its predecessor, offering a dynamic platform for emerging talents to shine.
             <br />
             Enthusiastic preparations are underway to ensure a diverse and engaging showcase of performances, ranging from music and dance to theater and sports. The organizing committee is reaching out to participants within and beyond the university, with expectations of a significant turnout from across the state. Infinitus 2024 is poised to become a hub of cultural exchange, aiming to welcome footfalls from other universities as well.
             <br />
             The anticipation surrounding Infinitus 2024 is palpable, as the campus gears up for a cultural spectacle that promises not only unforgettable performances but also the creation of lasting memories and connections.
             <br />
-            The name "Infinitus" for the techno cultural fest holds profound significance, reflecting the limitless and boundless spirit of creativity and expression. Derived from the Latin word "infinitus," meaning infinite, the name embodies the idea that the potential for artistic exploration and cultural celebration knows no bounds. Choosing "Infinitus" as the name for the cultural fest conveys the belief that there is an infinite well of talent and diversity within the student community. It symbolizes a commitment to providing an expansive platform where creativity can flourish without constraints.
-
+            The name &quot;Infinitus&quot; for the techno cultural fest holds profound significance, reflecting the limitless and boundless spirit of creativity and expression. Derived from the Latin word &quot;infinitus,&quot; meaning infinite, the name embodies the idea that the potential for artistic exploration and cultural celebration knows no bounds. Choosing &quot;Infinitus&quot; as the name for the cultural fest conveys the belief that there is an infinite well of talent and diversity within the student community. It symbolizes a commitment to providing an expansive platform where creativity can flourish without constraints.
           </motion.p>
         </motion.div>
       </motion.div>
