@@ -528,7 +528,7 @@ body.active { overflow: hidden; }
 }
 
 .slider > img{
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @keyframes scroll {
