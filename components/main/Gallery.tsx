@@ -6,6 +6,7 @@ const Gallery = () => {
   return (
     <section className="section relative gallery" id='gallery'>
       <div className="container z-[25]">
+      <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space text-transparent  m-10'>Past Performers</h1>
         <ul className="gallery-list">
           <li className="gallery-item" data-reveal>
             <div className="gallery-card">
