@@ -7,9 +7,8 @@ import Technical from '@/components/main/TechnicalCompetition'
 import React from 'react'
 
 function page() {
-  const backgroundImageUrl = '/images/img-backgroun.png';
   return (
-    <div className="flex flex-col h-[950px] gap-20 bg-contain bg-fixed" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
+    <div className="flex flex-col h-[950px] gap-20 bg-contain bg-fixed">
       <StarsCanvas/>
       <Technical types='Technical Fest'/>
     </div>

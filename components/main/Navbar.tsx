@@ -38,7 +38,7 @@ const Navbar = () => {
   const handleResize = () => {
     if (window.innerWidth >= 768) {
       setNav(false);
-      document.body.classList.remove("nav-open"); // Remove class on resize
+      document.body.classList.remove("nav-open");
     }
   };
 
@@ -46,12 +46,9 @@ const Navbar = () => {
     setNav(!nav);
     document.body.classList.toggle("nav-open");
   };
-
-  // Set up event listener for window resize
   useEffect(() => {
     window.addEventListener("resize", handleResize);
 
-    // Clean up the event listener
     return () => {
       window.removeEventListener("resize", handleResize);
     };

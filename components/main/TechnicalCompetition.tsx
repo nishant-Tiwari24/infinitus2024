@@ -135,7 +135,6 @@ const Technical: React.FC<Types> = ({types}) => {
         onRegisterClick={handleRegisterClick}
       />
       </div>
-
       </div>
       </div>
       <Navbar />
