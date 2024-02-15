@@ -4,7 +4,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='flex flex-col h-[950px] gap-20'>
+    <div className='flex flex-col max-h-screen gap-20'>
       <Questions/>
       <StarsCanvas/>
     </div>

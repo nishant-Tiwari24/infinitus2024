@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 import Navbar from '@/components/main/Navbar';
 import FlareCursor from "@/components/main/Cursor";
-import Index from './ZoomParallax';
 
 const faqData = [
   {
@@ -25,6 +24,14 @@ const faqData = [
   },
   {
     question: "What is the name of this project5?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae."
+  },
+  {
+    question: "What is the name of this project6?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae."
+  },
+  {
+    question: "What is the name of this project7?",
     answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem nesciunt nobis eos animi quaerat ut odio doloremque laboriosam ea. Pariatur esse eaque vel non reiciendis dolorum sint eos quae."
   }
 ];

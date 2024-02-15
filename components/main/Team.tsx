@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import Navbar from '@/components/main/Navbar';
+import Footer from "./Footer";
 
 const teamMembers = [
   { id: 1, name: "V. Preetam",designation:"President", imageSrc: "/images/preetam.jpeg" },
@@ -46,6 +47,7 @@ const TeamMemberSection = () => {
           </div>
         </div>
       <Navbar />
+      <Footer/>
     </section>
   );
 };

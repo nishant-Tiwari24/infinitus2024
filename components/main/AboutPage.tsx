@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { slideInFromLeft } from '@/public/utils/motion';
+import Footer from './Footer';
 
 const AboutPage = () => {
   return (
@@ -85,6 +86,7 @@ const AboutPage = () => {
           </p>
         </div>
         </div>
+        <Footer/>
     </div>
   );
 };

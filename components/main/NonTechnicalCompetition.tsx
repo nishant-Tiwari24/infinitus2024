@@ -4,6 +4,7 @@ import Card from '../sub/CompetitionCard';
 import EventDetails from '../sub/EventDetails';
 import FlareCursor from './Cursor';
 import Navbar from '@/components/main/Navbar';
+import Footer from './Footer';
 
 
 interface Types {
@@ -110,6 +111,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       </div>
       </div>
       <Navbar />
+      <Footer />
       </div>
   );
 };
