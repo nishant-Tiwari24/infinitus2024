@@ -46,6 +46,14 @@ const TeamMemberSection = () => {
           ))}
           </div>
         </div>
+        <h1 className='text-center text-4xl sm:text-7xl pt-24 font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space m-6 sm:m-10'>
+            Meet Our Amazing Team
+      </h1>
+      <div className="flex justify-center pb-20 items-center">
+      <Image
+        width={1200}
+        height={800} src={"/images/arman.png"} alt={"team"} className="z-50"/>
+        </div>
       <Navbar />
       <Footer/>
     </section>
