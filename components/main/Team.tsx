@@ -11,8 +11,8 @@ const teamMembers = [
   { id: 5, name: "D. Chandra Sai",designation:"Events", imageSrc: "/images/chandu1.jpeg" },
   { id: 6, name: "Achyut Katiyar",designation:"Technical", imageSrc: "/images/achyut.jpeg" },
   { id: 7, name: "Gnanesh",designation:"Discipline", imageSrc: "/images/gnanesh.jpeg" },
-  { id: 8, name: "Ayush Singh Rathore",designation:"Academics", imageSrc: "/images/yushh.jpeg" },
-  { id: 9, name: "Nivedha Sriram",designation:"Clubs and Society", imageSrc: "/images/nivedha.jpeg" },
+  { id: 8, name: "Ayush Singh",designation:"Academics", imageSrc: "/images/yushh.jpeg" },
+  { id: 9, name: "Nivedha Sriram",designation:"Clubs", imageSrc: "/images/nivedha.jpeg" },
   { id: 10, name: "Prachi Dash",designation:"Writers Co", imageSrc: "/images/prachi.jpeg" },
   { id: 11, name: "Rohan Midella",designation:"Public Relations", imageSrc: "/images/rohan.jpeg" },
 ];
@@ -39,8 +39,8 @@ const TeamMemberSection = () => {
                 />
               </div>
               <div className="flex justify-between align-middle px-10">
-                <p className="mt-2 text-4xl text-center text-gray-200 font-space ">{member.name}</p>
-                <p className="mt-2 text-4xl text-center text-green-200 italic ">{member.designation}</p>
+                <p className="mt-2 text-3xl text-center text-gray-200 font-space ">{member.name}</p>
+                <p className="mt-2 text-3xl text-center text-green-200 italic ">{member.designation}</p>
               </div>
             </div>
           ))}
