@@ -34,8 +34,8 @@ const TeamMemberSection = () => {
                   className="object-cover object-center px-10 h-[500px] w-[500px]"
                   src={member.imageSrc}
                   alt=""
-                  width={450}
-                  height={600}
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="flex justify-between align-middle px-10">
