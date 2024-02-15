@@ -12,10 +12,10 @@ const Hero: React.FC = () => {
       <div className='mb-20'>
         <motion.div variants={fromTop(0.8)} initial="initial" animate="animate">
           <Image
-            src="/images/Infinitus_2024_Logo_White.png"
+            src="/images/infinitus_2024_Logo_White.png"
             alt=""
             width={1000}
-            height={1000}
+            height={300}
             sizes="100vw"
             style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }}
             className='z-4 relative'
