@@ -20,9 +20,9 @@ const Card: React.FC<CardProps> = ({ imageSrc, title, initialDescription, altern
   };
 
   return (
-    <div className='px-[20px] lg:p-0'>
+    <div className='px-[10px] lg:p-0'>
       <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-        <div className="h-[600px] w-[450px]">
+        <div className="h-[600px] w-[400px] flex justify-center items-center">
           <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={imageSrc} alt="" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
