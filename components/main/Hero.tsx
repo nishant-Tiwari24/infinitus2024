@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
             src="/images/infinitus_2024_Logo_White.png"
             alt="infinitus logo"
             width={1000}
-            height={1000}
+            height={300}
             sizes="100vw"
             style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }}
             className='z-4 relative'
