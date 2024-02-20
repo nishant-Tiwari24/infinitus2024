@@ -29,7 +29,7 @@ const Gallery = () => {
                     Akshar Band
                   </Link>
                 </h3>
-
+                
                 <span className="card-tag">Telugu & Hindi Rock Band</span>
               </div>
               <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="btn-icon">

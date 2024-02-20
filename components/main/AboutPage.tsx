@@ -35,17 +35,13 @@ const AboutPage = () => {
       <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space py-20'>About Infinitus</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
       <div className="lg:w-1/2">
-          <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
-            SRM University&apos;s Annual Cultural Fest Unveiled!
+      <h2 className="text-4xl lg:text-5xl flex justify-around font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+           <p> SRM University&apos;s </p><p className='Welcome-text font-space'>Annual Cultural Fest</p> <p>Unveiled!</p>
           </h2>
-          <p className="text-2xl lg:text-3xl font-space text-justify">
-          Infinitus&apos; 24, SRM University, Andhra Pradesh&apos;s highly anticipated techno cultural fest, is set to unfold, promising a thrilling four-day extravaganza. Organized entirely by the Student Council and Directorate of Student Affairs, this edition aims to surpass the success of its predecessor, offering a dynamic platform for emerging talents to shine.
-            <br />
-            Enthusiastic preparations are underway to ensure a diverse and engaging showcase of performances, ranging from music and dance to theater and sports. The organizing committee is reaching out to participants within and beyond the university, with expectations of a significant turnout from across the state. Infinitus 2024 is poised to become a hub of cultural exchange, aiming to welcome footfalls from other universities as well.
-            <br />
-            The anticipation surrounding Infinitus 2024 is palpable, as the campus gears up for a cultural spectacle that promises not only unforgettable performances but also the creation of lasting memories and connections.
-            <br />
-            The name &quot;Infinitus&quot; for the techno cultural fest holds profound significance, reflecting the limitless and boundless spirit of creativity and expression. Derived from the Latin word &quot;infinitus,&quot; meaning infinite, the name embodies the idea that the potential for artistic exploration and cultural celebration knows no bounds. Choosing &quot;Infinitus&quot; as the name for the cultural fest conveys the belief that there is an infinite well of talent and diversity within the student community. It symbolizes a commitment to providing an expansive platform where creativity can flourish without constraints.
+          <p
+          className="text-2xl lg:text-3xl font-space text-justify" 
+          >
+          The story of Infinitus is one of unity, creativity, and unforgettable moments, poised to be told by the echoes of its success. The student council of SRM University AP never seizes the opportunity to bring the best to the students. Their preparations and plans for this year&apos;s INFINITUS started long back and after making a lot of changes and hard work, they finally approached the Directorate of Student Affairs, and guess what IT GOT APPROVED!! Bringing to you guys, INFINITUS 2024 the four-day techno-cultural fest, where memories and made and stars are born!! Behind the scenes, a flurry of enthusiasm sets the stage for a diverse showcase of performances. From the soulful rhythms of music and dance to the dramatics of theater and the competitive edge of sports, Infinitus 2024 is a crucible for emerging talents. With open arms, the organizing committee reaches out far and wide, inviting participants from within and beyond the university, fueling dreams of a turnout that spans across the state. The name &quot;Infinitus&quot; for the techno-cultural fest holds profound significance, derived from the Latin word &quot;Infinitus&quot; meaning infinite, Symbolizing artistic exploration and cultural celebration which has no bounds. Choosing &quot;Infinitus&quot; as the fest&apos;s name conveys the belief that there is infinite talent within the student community providing an expansive platform where creativity flourishes without constraint. As the days inch closer, a wave of anticipation sweeps through SRM University AP, a gathering point for students from various universities, ready to exchange cultures, forge connections, and create memories that will last a lifetime.
           </p>
         </div>
         <div className="mx-auto z-50">
