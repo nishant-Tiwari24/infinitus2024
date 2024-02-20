@@ -22,7 +22,7 @@ const TeamMemberSection = () => {
     <section className="py-10 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto sm:px-8 md:px-12 lg:px-20 max-w-screen">
         <div className="max-w-full mx-auto text-center">
-          <h1 className='text-center text-4xl sm:text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space m-6 sm:m-10'>
+          <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space m-20 sm:m-10'>
             Infinitus Executive Committee
           </h1>
         </div>
