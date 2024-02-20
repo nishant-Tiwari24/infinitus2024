@@ -5,7 +5,7 @@ import React from 'react';
 const PyramidLoader: React.FC = () => {
   return (
     <div className="loading">
- <svg viewBox="0 0 187.3 93.7" height="200px" width="300px" className="svgbox">
+ <svg viewBox="0 0 187.3 93.7" height="100px" width="200px" className="svgbox">
   <defs>
     <linearGradient y2="0%" x2="100%" y1="0%" x1="0%" id="gradient">
       <stop stopColor="pink" offset="0%"></stop>
