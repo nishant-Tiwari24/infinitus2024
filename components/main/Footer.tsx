@@ -28,16 +28,17 @@ const Footer: React.FC = () => {
 
           <div>
             <h3 className="text-3xl lg:text-4xl font-bold font-space mb-4">Follow Us</h3>
-            <div className="social-links flex justify-center items-center">
-              <a href="https://www.facebook.com/SRMUAP/" target="_blank" rel="noopener noreferrer">
-                <FaFacebook className="text-4xl lg:text-5xl mr-3" />
-              </a>
-              <a href="https://twitter.com/SRMUAP" target="_blank" rel="noopener noreferrer">
+            <div className="social-links flex justify-center items-center ">
+              
+              <Link href="https://www.facebook.com/SRMUAP/" rel="noopener noreferrer" aria-label="Facebook" className="z-50 font-space text-2xl hover:scale-110">
+                <FaFacebook className="text-4xl lg:text-5xl mr-3"  />
+              </Link>
+              <Link href="https://twitter.com/SRMUAP" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="z-50 font-space text-2xl hover:scale-110">
                 <FaTwitter className="text-4xl lg:text-5xl mr-3" />
-              </a>
-              <a href="https://www.instagram.com/srmuap.infinitus/" target="_blank" rel="noopener noreferrer">
+              </Link>
+              <Link href="https://www.instagram.com/srmuap.infinitus/" rel="noopener noreferrer" aria-label="Instagram" className="z-50 font-space text-2xl hover:scale-110">
                 <FaInstagram className="text-4xl lg:text-5xl" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
