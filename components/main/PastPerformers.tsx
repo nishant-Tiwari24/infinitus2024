@@ -85,7 +85,7 @@ const MyServices: React.FC = () => {
             <Image src="/images/4.png" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
             </div>
             <div className="slide">
-            <Image src="/images/1.png" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />
+            <Image src="/images/1.png" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img object-cover" />
             </div>
             <div className="slide">
             <Image src="/images/walk.png" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img" />

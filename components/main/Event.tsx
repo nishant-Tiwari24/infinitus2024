@@ -5,7 +5,7 @@ import FlareCursor from "@/components/main/Cursor";
 
 function Events() {
   const eventData = [
-    { title: "Cultural Fest Events", imageSrc: "/images/cultural.jpeg" , name:"Cultural Events", href:"/events/cultural"},
+    { title: "Cultural Fest Events", imageSrc: "/images/cultural.png" , name:"Cultural Events", href:"/events/cultural"},
     { title: "Technical Fest Events", imageSrc: "/images/tech.jpeg", name:"Technical Event" , href:"/events/technical"},
     { title: "Non Technical Events", imageSrc: "/images/non.jpeg", name:"Technical Event" , href:"/events/nontechnical"}
   ];

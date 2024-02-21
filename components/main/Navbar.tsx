@@ -68,14 +68,14 @@ const Navbar = () => {
         {links.map(({ id,name, link }) => (
           <li
             key={id}
-            className=" text-4xl nav-links px-4 cursor-pointer capitalize font-space font-700 white hover:scale-105 hover:text-white duration-200 link-underline bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-bold"
+            className=" text-4xl nav-links px-4 cursor-pointer capitalize font-700 white hover:scale-105 hover:text-white duration-200 link-underline bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"
           >
             <Link href={link}>{name}</Link>
           </li>
         ))}
       </ul>
 
-      <div onClick={toggleNav} className="cursor-pointer pr-4 z-10 text-white md:hidden">
+      <div onClick={toggleNav} className="cursor-pointer font-space pr-4 z-10 text-white text-2xl md:hidden">
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
