@@ -42,9 +42,9 @@ const Home: React.FC = () => {
       <FlareCursor/>
       <StarsCanvas />
       <Hero />
-      <Gallery />
       <About />
-      <Proshows /> 
+      <Proshows />
+      <Gallery /> 
       <PastPerformers />
       <Sponsor />
       <ZoomParallax/>
