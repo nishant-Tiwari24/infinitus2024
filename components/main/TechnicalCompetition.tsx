@@ -27,12 +27,12 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/photofusion.jpeg"
               title="Code Chase Competition"
-              initialDescription="Get ready for the ultimate coding showdown! From memory mastery to bug-busting brilliance, this competition is a whirlwind of adrenaline and excitement where you will race against the clock. " linkTo={''}        
+              initialDescription="Flip the script and crack the code in Code Inverse Conquest, where coders can twist and turn their way through reverse engineering challenges, decoding their way to victory in this topsy-turvy coding showdown." linkTo={''}        
       />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="1500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -43,32 +43,8 @@ const Technical: React.FC<Types> = ({types}) => {
               initialDescription="Get ready to spark your curiosity and amp up your knowledge in this electrifying competition! From BEE to Microelectronics, dazzle in the quiz round and negotiate your way to victory in the thrilling final showdown to win" linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/blankcode1.jpeg"
-              title="Your Event Title"
-              initialDescription="Get ready for the ultimate coding showdown! From memory mastery to bug-busting brilliance, this competition is a whirlwind of adrenaline and excitement where you will race against the clock. " linkTo={''}      />
-      <EventDetails
-        venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/bugathon1.jpeg"
-              title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
-      <EventDetails
-        venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="2000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -79,8 +55,8 @@ const Technical: React.FC<Types> = ({types}) => {
               initialDescription="Get ready for the ultimate adrenaline rush in the most thrilling drone challenge yet! With twists and loops it's a high-flying adventure like no other. Strap in, rev up, and prepare to soar to new heights in this electrifying competition!" linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="15,000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -91,8 +67,8 @@ const Technical: React.FC<Types> = ({types}) => {
               initialDescription="Uncover the mysteries of circuits and components in a thrilling adventure through the world of technology, delving into topics primarily from Basic Electrical and Electronics (BEE) and Network Theory. " linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="5000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -103,8 +79,8 @@ const Technical: React.FC<Types> = ({types}) => {
               initialDescription="Dive into our ad competition for a chance to sparkle and shine with your creative brilliance! Unleash your imagination and win big with ads that dazzle and delight! " linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="7500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div> 
@@ -112,11 +88,12 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/byte.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
+              initialDescription="Get ready to pass the programming baton in Byte Baton, where coders team up to sprint through coding challenges racing against the clock and each other in a high-energy relay that tests both speed as well as skills!!
+              " linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="2500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -124,11 +101,11 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/codecrusade.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
+              initialDescription="Get ready for the ultimate coding showdown! From memory mastery to bug-busting brilliance, this competition is a whirlwind of adrenaline and excitement where you will race against the clock." linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="7500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -136,11 +113,11 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/pixeleon.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
+              initialDescription="Step into the colorful realm of Pixeleon, where you become digital detectives cracking codes to unveil the vibrant hues hidden within a  pixel puzzle! It's a thrilling race against time and logic." linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="3000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -148,11 +125,11 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/art.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
+              initialDescription="Illuminate your creativity in pixels and Get ready to light up the digital stage, as Art Luminous invites you to unleash your inner digital artist and shine in a captivating competition where imagination meets technology." linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="1500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -160,11 +137,11 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/codechase.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
+              initialDescription="Flip the script and crack the code in Code Inverse Conquest, where coders can twist and turn their way through reverse engineering challenges, decoding their way to victory in this topsy-turvy coding showdown." linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
+        date="21st March 2024"
+        time="1500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
