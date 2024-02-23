@@ -32,6 +32,11 @@ const Navbar = () => {
       id: 4,
       name: "Register",
       link: "/register",
+    },
+    {
+      id:5,
+      name: "HackSRM",
+      link: "https://hacksrm.tech"
     }
   ];
 

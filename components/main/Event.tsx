@@ -10,7 +10,7 @@ function Events() {
     { title: "Non Technical Events", imageSrc: "/images/nontechevents.jpeg", name:"Technical Event" , href:"/events/nontechnical"}
   ];
   return (
-    <div className='max-h-screen pt-20'>
+    <div className='pt-20'>
       <FlareCursor />
         <h1 className=' text-center text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono py-20'>Events</h1>
         <div className='flex max-w-full justify-around align-middle flex-wrap ml-10 mr-10 '>

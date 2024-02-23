@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <hr />
-      <footer className="text-gray-200 py-8 mt-10 z-50">
+      <footer className="text-gray-200 py-8 z-50">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between">
           <div className="mb-8 lg:mb-0 lg:mr-4">
             <h4 className="text-3xl lg:text-4xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>
@@ -29,13 +29,13 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-3xl lg:text-4xl font-bold font-space mb-4">Follow Us</h3>
             <div className="social-links flex justify-center items-center ">
-              
+{/*               
               <Link href="https://www.facebook.com/SRMUAP/" rel="noopener noreferrer" aria-label="Facebook" className="z-50 font-space text-2xl hover:scale-110">
                 <FaFacebook className="text-4xl lg:text-5xl mr-3"  />
               </Link>
               <Link href="https://twitter.com/SRMUAP" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="z-50 font-space text-2xl hover:scale-110">
                 <FaTwitter className="text-4xl lg:text-5xl mr-3" />
-              </Link>
+              </Link> */}
               <Link href="https://www.instagram.com/srmuap.infinitus/" rel="noopener noreferrer" aria-label="Instagram" className="z-50 font-space text-2xl hover:scale-110">
                 <FaInstagram className="text-4xl lg:text-5xl" />
               </Link>

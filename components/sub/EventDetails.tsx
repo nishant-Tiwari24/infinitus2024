@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faCalendar, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
+import { FaPhone } from "react-icons/fa6";
 
 interface EventDetailsProps {
   venue: string;
@@ -13,17 +14,17 @@ const EventDetails: React.FC<EventDetailsProps> = ({ venue, date, time, onRegist
   return (
     <div className="rounded-md px-[20px] lg:p-0">
       <div>
-        <p className='bg-[#4f4c4c] py-2 text-center flex items-center justify-center'>
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-4 w-6 h-6 object-cover text-blue-500" />
-          Venue: {venue}
-        </p>
-        <p className='bg-[#242323] py-2 text-center flex items-center justify-center'>
+        <p className=' bg-[#4f4c4c] py-2 text-center flex items-center justify-center'>
           <FontAwesomeIcon icon={faCalendar} className="mr-4 w-6 h-6 object-cover text-red-500" />
           Date: {date}
         </p>
+        <p className='bg-[#242323] py-2 text-center flex items-center justify-center'>
+          <FaPhone className="mr-4 w-6 h-6 object-cover text-blue-500" />
+          Phone: {venue}
+        </p>
         <p className='bg-[#4f4c4c] py-2 text-center flex items-center justify-center'>
           <FontAwesomeIcon icon={faMoneyBill} className="mr-4 w-6 h-6 object-cover text-green-500" />
-          Prize money: {time}
+          Total Prize money: {time}
         </p>
       </div>
       <div className='w-full h-40 flex justify-around items-center '>

@@ -7,7 +7,7 @@ import { slideInFromRight, slideInFromLeft, fromTop } from '@/public/utils/motio
 import { url } from 'inspector';
 
 const Hero: React.FC = () => {
-  const background1 = '/images/pro2023.webp';
+  const background1 = '';
   return (
     <section className='flex flex-col items-center justify-center min-h-screen bg-contain bg-center bg-fixed' style={{ backgroundImage: `url(${background1})` }}>
       <div className='mb-20'>
