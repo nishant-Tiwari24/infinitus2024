@@ -19,10 +19,10 @@ const Footer: React.FC = () => {
           <div className="mb-8 lg:mb-0 lg:mr-8">
             <h4 className="text-3xl lg:text-4xl font-bold font-space mb-4">Contact Us</h4>
             <p className='text-xl lg:text-2xl font-light'>
-              Name 1: <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a>
+              Rohan Midella: <a href="tel:+919441134542">+91 9441134542</a>
             </p>
             <p className='text-xl lg:text-2xl font-light flex-col'>
-              Name 2: <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a>
+              Gnanesh: <a href="tel:+919959243673">+91 9959243673</a>
             </p>
           </div>
 
