@@ -32,7 +32,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="Event Time"
+        time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -44,7 +44,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="Event Time"
+        time="1500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -56,7 +56,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="Event Time"
+        time="5000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -68,7 +68,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="Event Time"
+        time="0 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -80,7 +80,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="Event Time"
+        time="1500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -92,7 +92,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="Event Time"
+        time="1500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -104,7 +104,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="Event Time"
+        time="3000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>

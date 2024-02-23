@@ -35,7 +35,7 @@ const YourPage: React.FC<Types> = ({types}) => {
       />
       <EventDetails
         venue="+91 8886266647"
-        date="22 March 2024"
+        date="23rd March 2024"
         time="75,000 /-"
         onRegisterClick={handleRegisterClick}
       />
@@ -51,7 +51,7 @@ const YourPage: React.FC<Types> = ({types}) => {
       />
       <EventDetails
         venue="+91 9606185754"
-        date="22 March 2024"
+        date="22nd March 2024"
         time="15,000 /-"
         onRegisterClick={handleRegisterClick}
       />
@@ -67,7 +67,7 @@ const YourPage: React.FC<Types> = ({types}) => {
       />
       <EventDetails
         venue="+91 9606185754"
-        date="22 March 2024"
+        date="23rd March 2024"
         time="80,000 /-"
         onRegisterClick={handleRegisterClick}
       />
@@ -83,7 +83,7 @@ const YourPage: React.FC<Types> = ({types}) => {
       />
       <EventDetails
         venue="+91 9606185754"
-        date="22 March 2024"
+        date="23rd March 2024"
         time="45,000 /-"
         onRegisterClick={handleRegisterClick}
       />
@@ -100,7 +100,7 @@ const YourPage: React.FC<Types> = ({types}) => {
       />
       <EventDetails
         venue="+91 9606185754"
-        date="22 March 2024"
+        date="22nd March 2024"
         time="10,000 /-"
         onRegisterClick={handleRegisterClick}
       />
@@ -116,7 +116,7 @@ const YourPage: React.FC<Types> = ({types}) => {
       />
       <EventDetails
         venue="+91 9606185754"
-        date="22 March 2024"
+        date="22nd March 2024"
         time="10,000 /-"
         onRegisterClick={handleRegisterClick}
       />
