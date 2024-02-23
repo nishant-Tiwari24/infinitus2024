@@ -29,14 +29,14 @@ const Navbar = () => {
       link: "/faqs",
     },
     {
-      id: 4,
-      name: "Register",
-      link: "/register",
-    },
-    {
-      id:5,
+      id:4,
       name: "HackSRM",
       link: "https://hacksrm.tech"
+    },
+    {
+      id: 5,
+      name: "Register",
+      link: "/register",
     }
   ];
 

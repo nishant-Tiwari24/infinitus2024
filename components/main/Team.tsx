@@ -52,7 +52,7 @@ const TeamMemberSection = () => {
       <div className="flex justify-center pb-20 items-center">
       <Image
         width={1200}
-        height={800} src={"/images/arman.png"} alt={"team"} className="z-50"/>
+        height={800} src={"/images/groupteam.jpeg"} alt={"team"} className="z-50"/>
         </div>
       <Navbar />
       <Footer/>
