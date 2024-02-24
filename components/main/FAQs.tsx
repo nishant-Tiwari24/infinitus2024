@@ -87,7 +87,7 @@ function Questions() {
               <Navbar />
               <div
                 onClick={() => handleClick(index)}
-                className="flex cursor-pointer justify-between gap-2 text-[#bdbdbe] active:text-purple-200 font-extralight font-space border-[#76767661] border m-5 px-5 py-8 rounded-xl"
+                className="flex cursor-pointer justify-between gap-2 text-[#bdbdbe] hover:text-green-400 font-extralight font-space border-[#76767661] border m-5 px-5 py-8 rounded-xl"
               >
                 <span className="text-3xl font-thin">{faq.question}</span>
                 <span>

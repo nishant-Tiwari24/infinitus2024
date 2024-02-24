@@ -72,9 +72,10 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         {links.map(({ id,name, link }) => (
           <li
-            key={id}
-            className=" text-4xl nav-links px-4 cursor-pointer capitalize font-700 white hover:scale-105 hover:text-white duration-200 link-underline bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"
-          >
+          key={id}
+          className={`text-4xl nav-links px-4 cursor-pointer capitalize font-700 hover:scale-105 hover:text-white duration-200 
+            ${link === "/register" || link === "https://hacksrm.tech" ? "text-purple-200 font-space font-bold" : "bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"}`}
+        >
             <Link href={link}>{name}</Link>
           </li>
         ))}
@@ -87,7 +88,7 @@ const Navbar = () => {
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 ">
           {links.map(({ id,name, link }) => (
-            <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl ">
+            <li key={id} className={`px-4 cursor-pointer capitalize py-6 text-4xl ${link === '/register' || link === 'https://hacksrm.tech' ? 'text-purple-300 font-space font-bold' : 'bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold'}`}>
               <Link onClick={toggleNav} href={link}>
                 {name}
               </Link>
