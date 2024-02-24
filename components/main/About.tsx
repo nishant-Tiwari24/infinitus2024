@@ -42,7 +42,7 @@ const About = () => {
             alt="About Us"
             width={450}
             height={500}
-            style={{ width: '550px', height: '600px' }}
+            style={{ width: '450px', height: '550px' }}
             className="w-full h-auto mb-8 object-cover  rounded-3xl"
           />
         </motion.div>

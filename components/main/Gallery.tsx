@@ -25,12 +25,12 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="card-title">
+                  <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="card-title font-space font-semibold text-purple-200">
                     Akshar Band
                   </Link>
                 </h3>
                 
-                <span className="card-tag">Telugu & Hindi Rock Band</span>
+                <span className="card-tag italic">Telugu & Hindi Rock Band</span>
               </div>
               <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
@@ -53,11 +53,11 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="card-title">
+                  <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="card-title font-space font-semibold text-purple-200">
                     Akshar Band
                   </Link>
                 </h3>
-                <span className="card-tag">Telugu & Hindi Rock Band</span>
+                <span className="card-tag italic">Telugu & Hindi Rock Band</span>
               </div>
               <Link href="https://www.instagram.com/aksharband?igsh=MXRtNTlvcGJzZGx5ZA==" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
@@ -82,11 +82,11 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="#" className="card-title">
+                  <Link href="#" className="card-title font-space font-semibold text-purple-200">
                     Armaan Malik
                   </Link>
                 </h3>
-                <span className="card-tag">Actor, Singer & Songwriter</span>
+                <span className="card-tag italic">Actor, Singer & Songwriter</span>
               </div>
               <Link href="https://www.instagram.com/armaanmalik?igsh=MWdjMG9waW14bXN0dg==" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
@@ -108,11 +108,11 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="https://www.instagram.com/armaanmalik?igsh=MWdjMG9waW14bXN0dg==" className="card-title">
+                  <Link href="https://www.instagram.com/armaanmalik?igsh=MWdjMG9waW14bXN0dg==" className="card-title font-space font-semibold text-purple-200">
                     Armaan Malik
                   </Link>
                 </h3>
-                <span className="card-tag">Actor, Singer & Songwriter</span>
+                <span className="card-tag italic">Actor, Singer & Songwriter</span>
               </div>
 
               <Link href="https://www.instagram.com/armaanmalik?igsh=MWdjMG9waW14bXN0dg==" className="btn-icon top-28">
@@ -138,11 +138,11 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="card-title">
+                  <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="card-title font-space font-semibold text-purple-200">
                     Lost Stories
                   </Link>
                 </h3>
-                <span className="card-tag">Music Producers & DJ</span>
+                <span className="card-tag italic">Music Producers & DJ</span>
               </div>
               <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="btn-icon">
                 <img src="/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" />
@@ -164,11 +164,11 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="card-title">
+                  <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="card-title font-space font-semibold text-purple-200">
                     Lost Stories
                   </Link>
                 </h3>
-                <span className="card-tag">Music Producers & DJ</span>
+                <span className="card-tag italic">Music Producers & DJ</span>
               </div>
 
               <Link href="https://www.instagram.com/loststories?igsh=d3ZxNjk3YmtrdGth" className="btn-icon top-28">
@@ -194,7 +194,7 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="card-title">
+                  <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="card-title font-space font-semibold text-purple-200">
                     DJ Kim Thomas
                   </Link>
                 </h3>
@@ -220,11 +220,11 @@ const Gallery = () => {
               </figure>
               <div className="card-content">
                 <h3 className="h6">
-                  <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="card-title">
+                  <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="card-title font-space font-semibold text-purple-200">
                     DJ Kim Thomas
                   </Link>
                 </h3>
-                <span className="card-tag">Dynamic DJ Maestro</span>
+                <span className="card-tag italic">Dynamic DJ Maestro</span>
               </div>
 
               <Link href="https://www.instagram.com/djkimthomas?igsh=MXN4NGUwam1qdnU2NQ==" className="btn-icon top-28">

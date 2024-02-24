@@ -26,10 +26,9 @@ const Proshows: React.FC = () => {
     <main>
       <section className="section prowshows bg-cover bg-fixed -z-5" id="proshows" style={{backgroundImage:`url(${urlbackground})`}} aria-labelledby="proshows-label">
         <motion.div className="container" initial="hidden" animate={controls} variants={fadeInVariants} ref={ref}>
+        <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space -mt-4 text-transparent '>Proshows</h1>
           <div className="proshows-list">
             <div className="wrapper">
-            <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space -mt-4 text-transparent '>Proshows</h1>
-
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner img-holder3 has-before" style={{ width:"700", height:"605"}}>
                   <Image src="/images/akshar.jpg" width={700} height={605} loading="lazy" alt="Shoe Promo" className="img-cover" />
@@ -37,12 +36,12 @@ const Proshows: React.FC = () => {
 
                 <div className="card-content">
                   <h3 className="h4">
-                    <a href="#" className="card-title">
+                    <a href="#" className="card-title font-space font-semibold  text-purple-200">
                       Proshow 1
                     </a>
                   </h3>
 
-                  <p className="card-tag">Date</p>
+                  <p className="card-tag italic">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">
@@ -60,12 +59,12 @@ const Proshows: React.FC = () => {
 
                 <div className="card-content">
                   <h3 className="h4">
-                    <a href="#" className="card-title">
+                    <a href="#" className="card-title font-space font-semibold text-purple-200">
                       Proshow 2
                     </a>
                   </h3>
 
-                  <p className="card-tag">Date</p>
+                  <p className="card-tag italic">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">
@@ -87,12 +86,12 @@ const Proshows: React.FC = () => {
 
                 <div className="card-content">
                   <h3 className="h4">
-                    <a href="#" className="card-title">
+                    <a href="#" className="card-title font-space font-semibold text-purple-200">
                       Proshow 3
                     </a>
                   </h3>
 
-                  <p className="card-tag">Date</p>
+                  <p className="card-tag italic">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">
@@ -110,12 +109,12 @@ const Proshows: React.FC = () => {
 
                 <div className="card-content">
                   <h3 className="h4">
-                    <a href="#" className="card-title">
+                    <a href="#" className="card-title font-space font-semibold text-purple-200">
                       Proshow 4
                     </a>
                   </h3>
 
-                  <p className="card-tag">Date</p>
+                  <p className="card-tag italic">Date</p>
                 </div>
 
                 <a href="#" className="btn-icon" aria-label="See more">
