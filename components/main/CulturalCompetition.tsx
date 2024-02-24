@@ -36,7 +36,7 @@ const YourPage: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 8886266647"
         date="23rd March 2024"
-        time="75,000 /-"
+        time="40,000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
