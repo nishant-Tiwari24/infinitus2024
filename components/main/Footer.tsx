@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             </p>
           </div>
 
-          <div className="mb-8 lg:mb-0 lg:mr-8">
+          <div className="mb-8 lg:mb-0 lg:mr-8 ">
             <h4 className="text-3xl lg:text-4xl font-bold font-space mb-4">Contact Us</h4>
             <p className='text-xl lg:text-2xl font-light'>
               Rohan Midella: <a href="tel:+919441134542">+91 9441134542</a>
@@ -27,8 +27,8 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-3xl lg:text-4xl font-bold font-space mb-4">Follow Us</h3>
-            <div className="social-links flex justify-center items-center ">
+            <h3 className="text-3xl lg:text-4xl font-bold font-space mb-4">Follow us on Instagram</h3>
+            <div className="social-links flex">
 {/*               
               <Link href="https://www.facebook.com/SRMUAP/" rel="noopener noreferrer" aria-label="Facebook" className="z-50 font-space text-2xl hover:scale-110">
                 <FaFacebook className="text-4xl lg:text-5xl mr-3"  />
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
 
         <div className="text-center mt-8 flex justify-center align-middle cursor-pointer hover:scale-110">
           <p className="text-2xl font-space">Crafted by </p>
-          <Link href="https://github.com/nishant-Tiwari24" target="_blank" rel="noopener noreferrer" className="text-green-400 z-50 font-space text-2xl">: Nishant Tiwari and Omkar Ghongade</Link>
+          <Link href="https://github.com/nishant-Tiwari24" target="_blank" rel="noopener noreferrer" className="text-purple-400 z-50 font-space text-2xl">: Nishant Tiwari and Omkar Ghongade</Link>
         </div>
       </footer>
     </>
