@@ -25,7 +25,7 @@ const TeamMemberSection = () => {
   useEffect(() => {
     const loaderTimeout = setTimeout(() => {
       setImageLoading(false);
-    }, 2000);
+    }, 3000);
 
     return () => {
       clearTimeout(loaderTimeout);
