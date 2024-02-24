@@ -6,16 +6,13 @@ import Hero from '@/components/main/Hero';
 import Navbar from '@/components/main/Navbar';
 const StarsCanvas = dynamic(() => import('@/components/main/StarCanvas'), { ssr: false });
 import Gallery from '@/components/main/Gallery';
-import CategoryList from '@/components/main/Category';
 import About from '@/components/main/About';
 import PastPerformers from '@/components/main/PastPerformers';
 import Proshows from '@/components/main/Proshows';
-import Image from 'next/image';
 import Footer from '@/components/main/Footer';
 import FlareCursor from '@/components/main/Cursor';
 import Loading from '@/components/main/Loading'
 import ZoomParallax from '@/components/main/ZoomParallax'
-import Sponsers from '@/components/sub/Sponsers'
 import Sponsor from '@/components/main/Sponsor';
 
 const Home: React.FC = () => {

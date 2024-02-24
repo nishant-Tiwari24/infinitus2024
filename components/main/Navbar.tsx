@@ -73,11 +73,11 @@ const Navbar = () => {
         {links.map(({ id,name, link }) => (
           <li
           key={id}
-          className={`text-4xl nav-links px-4 cursor-pointer capitalize font-700 hover:scale-105 hover:text-white duration-200 
-            ${link === "/register" || link === "https://hacksrm.tech" ? "text-purple-200 font-space font-bold" : "bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"}`}
+          className={`text-4xl nav-links px-4 cursor-pointer capitalize font-700 hover:scale-105 hover:text-white duration-200 hover:underline
+          ${link === "/register" || link === "https://hacksrm.tech" ? "text-purple-300 font-space font-bold" : "bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"}`}
         >
-            <Link href={link}>{name}</Link>
-          </li>
+          <Link href={link}>{name}</Link>
+        </li>
         ))}
       </ul>
 

@@ -125,12 +125,8 @@ const Proshows: React.FC = () => {
                   </svg>
                 </a>
               </motion.div>
-
             </div>
           </div>
-{/* 
-          <Image src="/images/portfolio-shape.svg" width={286} height={232} loading="lazy" alt="" className="shape" /> */}
-
         </motion.div>
       </section>
     </main>

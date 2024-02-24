@@ -3,8 +3,7 @@ import React from 'react';
 import Timer from '../sub/Timer';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { slideInFromRight, slideInFromLeft, fromTop } from '@/public/utils/motion';
-import { url } from 'inspector';
+import {fromTop } from '@/public/utils/motion';
 
 const Hero: React.FC = () => {
   const background1 = '';
