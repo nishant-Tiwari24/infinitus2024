@@ -1,5 +1,7 @@
-import React from "react";
+'use client';
+import React, { useState, useEffect } from "react";
 import Image from 'next/image';
+import { BeatLoader } from 'react-spinners';
 import Navbar from '@/components/main/Navbar';
 import Footer from "./Footer";
 
@@ -18,6 +20,18 @@ const teamMembers = [
 ];
 
 const TeamMemberSection = () => {
+  const [imageLoading, setImageLoading] = useState(true);
+
+  useEffect(() => {
+    const loaderTimeout = setTimeout(() => {
+      setImageLoading(false);
+    }, 2000);
+
+    return () => {
+      clearTimeout(loaderTimeout);
+    };
+  }, []);
+
   return (
     <section className="py-10 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto sm:px-8 md:px-12 lg:px-20 max-w-screen">
@@ -30,30 +44,36 @@ const TeamMemberSection = () => {
           {teamMembers.map(member => (
             <div key={member.id} className="w-full mb-8">
               <div className="relative rounded-md flex items-center ">
+                {imageLoading && (
+                  <div className="h-[500px] w-[500px] flex justify-center items-center">
+                    <BeatLoader color="#ffffff" loading={imageLoading} size={15} />
+                  </div>
+                )}
                 <Image
-                  className="object-cover object-center px-10 h-[500px] w-[500px]"
+                  className={`object-cover object-center px-10 h-[500px] w-[500px] ${imageLoading ? 'hidden' : ''}`}
                   src={member.imageSrc}
                   alt=""
                   width={500}
                   height={500}
+                  onLoad={() => setImageLoading(false)}
                 />
               </div>
               <div className="flex justify-between align-middle px-10">
-                <p className="mt-2 text-3xl text-center text-gray-200 font-space ">{member.name}</p>
-                <p className="mt-2 text-3xl text-center text-green-200 italic ">{member.designation}</p>
+                <p className="mt-2 text-3xl text-center text-gray-200 font-space">{member.name}</p>
+                <p className="mt-2 text-3xl text-center text-green-200 italic">{member.designation}</p>
               </div>
             </div>
           ))}
-          </div>
         </div>
         <h1 className='text-center text-4xl sm:text-7xl pt-24 font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space m-6 sm:m-10'>
-            Meet Our Amazing Team
-      </h1>
-      <div className="flex justify-center pb-20 items-center">
-      <Image
-        width={1200}
-        height={800} src={"/images/groupteam.jpeg"} alt={"team"} className="z-50"/>
+          Meet Our Amazing Team
+        </h1>
+        <div className="flex justify-center pb-20 items-center">
+          <Image
+            width={1200}
+            height={800} src={"/images/groupteam.jpeg"} alt={"team"} className="z-50"/>
         </div>
+      </div>
       <Navbar />
       <Footer/>
     </section>
