@@ -18,7 +18,7 @@ const Technical: React.FC<Types> = ({types}) => {
   return (
     <div className='max-h-screen'>
     <FlareCursor />
-    <h1 className='pt-28 text-center text-7xl sm:text-5xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono m-10'>
+    <h1 className='pt-28 text-center text-3xl sm:text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space m-10'>
       {types}
     </h1>
     <div className='flex flex-col items-center justify-center md:flex-row md:justify-center'>
@@ -135,13 +135,25 @@ const Technical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/codechase.jpeg"
+              imageSrc="/images/codeinverse.jpeg"
               title="Your Event Title"
               initialDescription="Flip the script and crack the code in Code Inverse Conquest, where coders can twist and turn their way through reverse engineering challenges, decoding their way to victory in this topsy-turvy coding showdown." linkTo={''}      />
       <EventDetails
         venue="+91 8008413459"
         date="21st March 2024"
         time="1500 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
+      <div>
+      < Card
+              imageSrc="/images/crypthunt.jpeg"
+              title="Your Event Title"
+              initialDescription="Unravel the secrets of encryption to unlock hidden treasures in a thrilling cryptographic quest! Crack codes, dodge ciphers, and follow the trail to unearth riches beyond imagination!" linkTo={''}      />
+      <EventDetails
+        venue="+91 8008413459"
+        date="21st March 2024"
+        time="3000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -156,37 +168,34 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/arduino1.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
-      <EventDetails
-        venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
-        onRegisterClick={handleRegisterClick}
-      />
+              initialDescription="Dive into the realm of creativity and innovation with Arduino, where imagination meets technology, empowering you to craft interactive gadgets, automate tasks, and bring your ideas to life." linkTo={''}      />
+              <div className='w-full h-40 flex justify-around items-center '>
+              <button className="py-2 bg-purple-500 text-white h-18 w-1/2 rounded relative -top-1 -left-1 px-5 font-medium uppercase  transition-all before:absolute before:top-2 before:left-2 before:-z-[1] before:h-full before:w-full before:border-2 before:border-white-700 before:rounded before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0">
+               Register
+              </button>
+      </div>
       </div>
       <div>
       < Card
               imageSrc="/images/iotworkshop1.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
-      <EventDetails
-        venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
-        onRegisterClick={handleRegisterClick}
-      />
+              initialDescription="Embark on a journey into the interconnected world of IoT, where you'll learn to blend physical devices with digital intelligence, unleashing endless possibilities to transform everyday objects into smart, data-driven marvels." linkTo={''}      />
+              <div className='w-full h-40 flex justify-around items-center '>
+              <button className="py-2 bg-purple-500 text-white h-18 w-1/2 rounded relative -top-1 -left-1 px-5 font-medium uppercase  transition-all before:absolute before:top-2 before:left-2 before:-z-[1] before:h-full before:w-full before:border-2 before:border-white-700 before:rounded before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0">
+              Register
+              </button>
+      </div>
       </div>
       <div>
       < Card
               imageSrc="/images/web3block.jpeg"
               title="Your Event Title"
-              initialDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquam! Soluta, in fuga minima placeat maxime nisi animi nemo ducimus molestiae eos, dignissimos impedit nihil assumenda eius quis magnam provident hic nostrum facilis perspiciatis. Illum quia tenetur eos eum ab fugiat nostrum sed asperiores. Perspiciatis vero laborum eaque, porro pariatur praesentium reiciendis quam, libero minus cumque labore ratione, iste itaque aut dolorum quibusdam. Velit, nisi eum dolorem, praesentium asperiores sunt amet libero saepe quo similique nostrum ratione reiciendis, mollitia placeat?" linkTo={''}      />
-      <EventDetails
-        venue="+91 8008413459"
-        date="Event Date"
-        time="Event Time"
-        onRegisterClick={handleRegisterClick}
-      />
+              initialDescription=" Delve into the revolutionary world of blockchain, where cryptography and distributed networks converge to redefine trust and decentralize systems, empowering you to explore the future of secure transactions, digital assets, and decentralized applications." linkTo={''}/>
+              <div className='w-full h-40 flex justify-around items-center '>
+              <button className="py-2 bg-purple-500 text-white h-18 w-1/2 rounded relative -top-1 -left-1 px-5 font-medium uppercase  transition-all before:absolute before:top-2 before:left-2 before:-z-[1] before:h-full before:w-full before:border-2 before:border-white-700 before:rounded before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0">
+              Register
+              </button>
+      </div>
       </div>
       </div>
       </div>

@@ -98,7 +98,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/rc car (2).png"
+              imageSrc="/images/tedstyle.jpeg"
               title="Your Event Title"
               initialDescription="Calling all passionate speakers! Embrace the spotlight and share your ideas in our TED-style talk competition. Inspire, educate, and captivate the audience with your unique perspective. Dare to make a difference with your words! Are you ready to ignite conversations and leave a lasting impact? Join the TED-style talk competition now! " linkTo={''}      />
       <EventDetails
