@@ -169,36 +169,33 @@ const Technical: React.FC<Types> = ({types}) => {
               imageSrc="/images/arduino1.jpeg"
               title="Your Event Title"
               initialDescription="Dive into the realm of creativity and innovation with Arduino, where imagination meets technology, empowering you to craft interactive gadgets, automate tasks, and bring your ideas to life." linkTo={''}      />
-              <EventDetails
-              venue="Tierd Classroom"
-              date="21st March 2024"
-               time="02:00PM - 03:00PM"
-        onRegisterClick={handleRegisterClick}
-      />
+              <div className='w-full h-40 flex justify-around items-center '>
+              <button className="py-2 bg-purple-500 text-white h-18 w-1/2 rounded relative -top-1 -left-1 px-5 font-medium uppercase  transition-all before:absolute before:top-2 before:left-2 before:-z-[1] before:h-full before:w-full before:border-2 before:border-white-700 before:rounded before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0">
+               Register
+              </button>
+      </div>
       </div>
       <div>
       < Card
               imageSrc="/images/iotworkshop1.jpeg"
               title="Your Event Title"
               initialDescription="Embark on a journey into the interconnected world of IoT, where you'll learn to blend physical devices with digital intelligence, unleashing endless possibilities to transform everyday objects into smart, data-driven marvels." linkTo={''}      />
-              <EventDetails
-              venue="Tierd Classroom"
-              date="21st March 2024"
-               time="03:00PM - 04:00PM"
-        onRegisterClick={handleRegisterClick}
-      />
+              <div className='w-full h-40 flex justify-around items-center '>
+              <button className="py-2 bg-purple-500 text-white h-18 w-1/2 rounded relative -top-1 -left-1 px-5 font-medium uppercase  transition-all before:absolute before:top-2 before:left-2 before:-z-[1] before:h-full before:w-full before:border-2 before:border-white-700 before:rounded before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0">
+              Register
+              </button>
+      </div>
       </div>
       <div>
       < Card
               imageSrc="/images/web3block.jpeg"
               title="Your Event Title"
               initialDescription=" Delve into the revolutionary world of blockchain, where cryptography and distributed networks converge to redefine trust and decentralize systems, empowering you to explore the future of secure transactions, digital assets, and decentralized applications." linkTo={''}/>
-             <EventDetails
-              venue="Tierd Classroom"
-              date="21st March 2024"
-               time="04:00PM - 05:00PM"
-        onRegisterClick={handleRegisterClick}
-      />
+              <div className='w-full h-40 flex justify-around items-center '>
+              <button className="py-2 bg-purple-500 text-white h-18 w-1/2 rounded relative -top-1 -left-1 px-5 font-medium uppercase  transition-all before:absolute before:top-2 before:left-2 before:-z-[1] before:h-full before:w-full before:border-2 before:border-white-700 before:rounded before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0">
+              Register
+              </button>
+      </div>
       </div>
       </div>
       </div>
