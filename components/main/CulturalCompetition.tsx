@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Card from '../sub/CompetitionCard';
 import EventDetails from '../sub/EventDetails';
@@ -10,7 +9,6 @@ import Footer from './Footer';
 interface Types {
   types:string
 }
-
 
 const Cultural: React.FC<Types> = ({types}) => {
 
