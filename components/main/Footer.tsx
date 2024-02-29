@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <hr />
-      <footer className="text-gray-200 py-8 z-50">
+      <footer className="text-gray-200 pt-8 z-50">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between">
           <div className="mb-8 lg:mb-0 lg:mr-4">
             <h4 className="text-3xl lg:text-4xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>

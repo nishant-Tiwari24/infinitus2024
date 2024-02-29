@@ -6,17 +6,17 @@ import Navbar from '@/components/main/Navbar';
 import Footer from "./Footer";
 
 const teamMembers = [
-  { id: 1, name: "V. Preetam",designation:"President", imageSrc: "/images/preetam.jpeg" },
-  { id: 2, name: "Niruktha V",designation:"Vice President", imageSrc: "/images/nirukhta.jpeg" },
-  { id: 3, name: "Sanjana Maini",designation:"Gen Secretary", imageSrc: "/images/gallery-6.jpg" },
-  { id: 4, name: "BVS Laxman",designation:"Treasure", imageSrc: "/images/laxman.jpeg" },
-  { id: 5, name: "D. Chandra Sai",designation:"Events", imageSrc: "/images/chandu1.jpeg" },
-  { id: 6, name: "Achyut Katiyar",designation:"Technical", imageSrc: "/images/achyut.jpeg" },
-  { id: 7, name: "Gnanesh",designation:"Discipline", imageSrc: "/images/gnanesh.jpeg" },
-  { id: 8, name: "Ayush Singh",designation:"Academics", imageSrc: "/images/yushh.jpeg" },
-  { id: 9, name: "Nivedha Sriram",designation:"Clubs", imageSrc: "/images/nivedha.jpeg" },
-  { id: 10, name: "Prachi Dash",designation:"Writers Co", imageSrc: "/images/prachi.jpeg" },
-  { id: 11, name: "Rohan Midella",designation:"Public Relations", imageSrc: "/images/rohan.jpeg" },
+  { id: 1, name: "V. Preetam",designation:"President", imageSrc: "/images/team/preetam.jpeg" },
+  { id: 2, name: "Niruktha V",designation:"Vice President", imageSrc: "/images/team/niruktha.png" },
+  { id: 3, name: "Sanjana Maini",designation:"General Secretary", imageSrc: "/images/team/sanjana.png" },
+  { id: 4, name: "BVS Laxman",designation:"Treasure", imageSrc: "/images/team/laxman.jpeg" },
+  { id: 5, name: "D. Chandra Sai",designation:"Events", imageSrc: "/images/team/chandu.png" },
+  { id: 6, name: "Achyut Katiyar",designation:"Technical", imageSrc: "/images/team/achyut.png" },
+  { id: 7, name: "Ayush Singh",designation:"Academics", imageSrc: "/images/team/ayush.png" },
+  { id: 8, name: "Nivedha Sriram",designation:"Clubs and Societies", imageSrc: "/images/team/nivedha.png" },
+  { id: 9, name: "Gnanesh",designation:"Discipline", imageSrc: "/images/team/gnanesh.png" },
+  { id: 10, name: "Prachi Dash",designation:"Writers Co", imageSrc: "/images/team/prachi.png" },
+  { id: 11, name: "Rohan Midella",designation:"Public Relations", imageSrc: "/images/team/rohan.png" },
 ];
 
 const TeamMemberSection = () => {
@@ -71,7 +71,7 @@ const TeamMemberSection = () => {
         <div className="flex justify-center pb-20 items-center">
           <Image
             width={1200}
-            height={800} src={"/images/groupteam.jpeg"} alt={"team"} className="z-50"/>
+            height={800} src={"/images/team/team.png"} alt={"team"} className="z-50"/>
         </div>
       </div>
       <Navbar />
