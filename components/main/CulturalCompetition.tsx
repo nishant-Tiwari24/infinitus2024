@@ -22,11 +22,43 @@ const Cultural: React.FC<Types> = ({types}) => {
     </h1>
     <div className='flex flex-col items-center justify-center md:flex-row md:justify-center'>
       <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
+      <div>
+      < Card
+        imageSrc="/images/cosmicbeats.jpeg"
+        title="Your Event Title"
+        initialDescription="Experience electrifying rhythms and mesmerizing moves at Cosmic Beats with multiple
+        sub-categories. Talented dancers across Universities showcase their skills, igniting the stage
+        with passion and creativity. Don't miss this thrilling spectacle of talent and entertainment!"
+        linkTo={''}
+      />
+      <EventDetails
+        venue="+91 9963123747"
+        date="23rd March 2024"
+        time="75,000 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
+      <div>
+      < Card
+        imageSrc="/images/fashionwalk.jpeg"
+        title="Your Event Title"
+        initialDescription="Step onto the runway and embrace the glamor at our Fashion walk. Models strut their stuff,
+        showcasing the latest trends and styles with confidence and flair. Join us for a dazzling display
+        of creativity and elegance that sets the stage on fire!"
+        linkTo={''}
+      />
+      <EventDetails
+        venue="+91 6303853941"
+        date="22nd March 2024"
+        time="15,000 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
         <div>
       < Card
-        imageSrc="/images/music.jpg"
-        title="Dance Competition"
-        initialDescription="Feel the rhythm and witness musical brilliance at comp_name . From soulful melodies to
+        imageSrc="/images/zenith.jpeg"
+        title="Zenith"
+        initialDescription="Feel the rhythm and witness musical brilliance at Zenith. From soulful melodies to
         energetic beats, talented musicians captivate audiences with their extraordinary performances.
         Join us for an unforgettable celebration of music and talent!"
         linkTo={''}
@@ -40,38 +72,6 @@ const Cultural: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-        imageSrc="/images/walk.jpg"
-        title="Your Event Title"
-        initialDescription="Step onto the runway and embrace the glamor at our Fashion walk. Models strut their stuff,
-        showcasing the latest trends and styles with confidence and flair. Join us for a dazzling display
-        of creativity and elegance that sets the stage on fire!"
-        linkTo={''}
-      />
-      <EventDetails
-        venue="+91 9606185754"
-        date="22nd March 2024"
-        time="15,000 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-        imageSrc="/images/dance.jpg"
-        title="Your Event Title"
-        initialDescription="Experience electrifying rhythms and mesmerizing moves at comp_name with multiple
-        sub-categories. Talented dancers across Universities showcase their skills, igniting the stage
-        with passion and creativity. Don't miss this thrilling spectacle of talent and entertainment!"
-        linkTo={''}
-      />
-      <EventDetails
-        venue="+91 9606185754"
-        date="23rd March 2024"
-        time="80,000 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
         imageSrc="/images/esport.jpg"
         title="Your Event Title"
         initialDescription="Dive into the world of virtual excitement at Esports Competition . Gamers compete head-to-head in
@@ -80,7 +80,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         linkTo={''}
       />
       <EventDetails
-        venue="+91 9606185754"
+        venue="+91 7032749777"
         date="23rd March 2024"
         time="45,000 /-"
         onRegisterClick={handleRegisterClick}
@@ -97,7 +97,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         linkTo={''}
       />
       <EventDetails
-        venue="+91 9606185754"
+        venue="+91 8247426373"
         date="22nd March 2024"
         time="10,000 /-"
         onRegisterClick={handleRegisterClick}
@@ -113,7 +113,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         linkTo={''}
       />
       <EventDetails
-        venue="+91 9606185754"
+        venue="+91 9182012021"
         date="22nd March 2024"
         time="10,000 /-"
         onRegisterClick={handleRegisterClick}

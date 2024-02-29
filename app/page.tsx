@@ -13,6 +13,7 @@ import Footer from '@/components/main/Footer';
 import FlareCursor from '@/components/main/Cursor';
 import Loading from '@/components/main/Loading'
 import ZoomParallax from '@/components/main/ZoomParallax'
+import { SponsorSection } from '@/components/main/Sponser';
 
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -40,7 +41,8 @@ const Home: React.FC = () => {
       <Hero />
       <About />
       <Proshows />
-      <Gallery /> 
+      <Gallery />
+      <SponsorSection/>
       <PastPerformers />
       <ZoomParallax/>
       <Footer />

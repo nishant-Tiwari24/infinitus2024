@@ -38,13 +38,13 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/graffiti (1).png"
+              imageSrc="/images/grafittiwall.jpeg"
               title="Your Event Title"
               initialDescription="Calling all urban artists! Dive into the vibrant world of expression – join our Graffiti Competition and transform blank walls into dynamic masterpieces. Unleash your creativity, showcase your unique style, and let the colors tell your story. Ready to leave your mark? Grab your spray cans and participate in the ultimate Graffiti Competition! " linkTo={''}      />
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="1500 /-"
+        time="trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -55,8 +55,8 @@ const NonTechnical: React.FC<Types> = ({types}) => {
               initialDescription="Got a groundbreaking business idea? Ready to pitch to industry experts? Join us and showcase your entrepreneurial spirit. Win funding, mentorship, and turn your vision into reality. Don't miss this chance to make waves in the business world!" linkTo={''}      />
       <EventDetails
         venue="+91 7382928564"
-        date="22nd March 2024"
-        time="5000 /-"
+        date="21nd March 2024"
+        time="4500 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -68,7 +68,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="0 /-"
+        time="trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -80,7 +80,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="1500 /-"
+        time="trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -92,7 +92,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 7382928564"
         date="22nd March 2024"
-        time="1500 /-"
+        time="trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -103,7 +103,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
               initialDescription="Calling all passionate speakers! Embrace the spotlight and share your ideas in our TED-style talk competition. Inspire, educate, and captivate the audience with your unique perspective. Dare to make a difference with your words! Are you ready to ignite conversations and leave a lasting impact? Join the TED-style talk competition now! " linkTo={''}      />
       <EventDetails
         venue="+91 7382928564"
-        date="22nd March 2024"
+        date="21st March 2024"
         time="3000 /-"
         onRegisterClick={handleRegisterClick}
       />

@@ -1,4 +1,5 @@
 import Navbar from '@/components/main/Navbar'
+import Registration from '@/components/main/Registration'
 import StarsCanvas from '@/components/main/StarCanvas'
 import React from 'react'
 
@@ -7,6 +8,7 @@ function page() {
     <div>
       <Navbar/>
       <StarsCanvas/>
+      <Registration/>
     </div>
   )
 }
