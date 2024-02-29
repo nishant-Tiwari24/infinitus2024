@@ -14,7 +14,7 @@ const teamMembers = [
   { id: 6, name: "Achyut Katiyar",designation:"Technical", imageSrc: "/images/team/achyut.png" },
   { id: 7, name: "Ayush Singh",designation:"Academics", imageSrc: "/images/team/ayush.png" },
   { id: 8, name: "Nivedha Sriram",designation:"Clubs and Societies", imageSrc: "/images/team/nivedha.png" },
-  { id: 9, name: "Gnanesh",designation:"Discipline", imageSrc: "/images/team/gnanesh.png" },
+  { id: 9, name: "Gnanesh Chowdary",designation:"Discipline", imageSrc: "/images/team/gnanesh.png" },
   { id: 10, name: "Prachi Dash",designation:"Writers Co", imageSrc: "/images/team/prachi.png" },
   { id: 11, name: "Rohan Midella",designation:"Public Relations", imageSrc: "/images/team/rohan.png" },
 ];
