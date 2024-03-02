@@ -9,10 +9,21 @@ const Footer: React.FC = () => {
       <footer className="text-gray-200 pt-8 z-50">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between">
           <div className="mb-8 lg:mb-0 lg:mr-4">
-            <h4 className="text-3xl lg:text-4xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>
-            <p className='text-xl lg:text-3xl font-light'>
-              Neerukonda, Mangalagiri Mandal <br />
-              Guntur District, Mangalagiri, Andhra Pradesh 522240
+            <h4 className="text-3xl lg:text-3xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>
+            <p className='text-l lg:text-xl font-light'>
+            Merchant Legal entity name: SRM TRUST AP
+            <br />
+            Registered Address: 54-15-4C, R K GALLERIA, SERVICE ROAD, BANK COLONY, SRINIVASA
+            <br />
+            NAGAR, KRISHNA, ANDHRA PRADESH, 520008, VIJAYAWADA (URBAN), Andhra Pradesh,
+            <br />
+            PIN: 520008
+            <br />
+            Operational Address: 54-15-4C, R K GALLERIA, SERVICE ROAD, BANK COLONY, SRINIVASA
+            <br />
+            NAGAR, KRISHNA, ANDHRA PRADESH, 520008, VIJAYAWADA (URBAN), Andhra Pradesh,
+            <br />
+            PIN: 520008
             </p>
           </div>
 
