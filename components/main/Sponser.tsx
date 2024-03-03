@@ -10,13 +10,6 @@ import Link from "next/link";
       sponsorsCategory: "",
       alt: "Marblism LOGO",
     },
-    {
-      name: "Devfolio",
-      image: "/images/sponsers/devfolio.png",
-      link: "https://devfolio.co/",
-      sponsorsCategory: "",
-      alt: "DEVFOLIO LOGO",
-    },
   ];
   
   export const SponsorSection = () => {

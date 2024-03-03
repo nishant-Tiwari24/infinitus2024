@@ -3,7 +3,7 @@ import React from 'react';
 const page: React.FC = () => {
   return (
     <div className="terms-container border text-white bg-black p-6 mt-4">
-      <h2 className="text-2xl font-bold mb-4">Terms &amp; Conditions</h2>
+      <h2 className="text-5xl font-bold mb-4">Terms &amp; Conditions</h2>
       <p>Last updated on 29-02-2024 17:28:45</p>
       <p>
         These Terms and Conditions, along with privacy policy or other terms
