@@ -9,7 +9,7 @@ const teamMembers = [
   { id: 1, name: "V. Preetam",designation:"President", imageSrc: "/images/team/preetam.jpeg" },
   { id: 2, name: "Niruktha V",designation:"Vice President", imageSrc: "/images/team/niruktha.png" },
   { id: 3, name: "Sanjana Maini",designation:"General Secretary", imageSrc: "/images/team/sanjana.png" },
-  { id: 4, name: "BVS Laxman",designation:"Treasure", imageSrc: "/images/team/laxman.jpeg" },
+  { id: 4, name: "BVS Laxman",designation:"Treasurer", imageSrc: "/images/team/laxman.jpeg" },
   { id: 5, name: "D. Chandra Sai",designation:"Events", imageSrc: "/images/team/chandu.png" },
   { id: 6, name: "Achyut Katiyar",designation:"Technical", imageSrc: "/images/team/achyut.png" },
   { id: 7, name: "Ayush Singh",designation:"Academics", imageSrc: "/images/team/ayush.png" },
