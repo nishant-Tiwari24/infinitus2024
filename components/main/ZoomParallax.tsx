@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import { useScroll, useTransform, motion} from 'framer-motion';
+import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
 export default function Index() {
@@ -53,13 +52,13 @@ export default function Index() {
             <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space text-transparent  m-10'>Glimpses of Infinitus 2023</h1>
             <div className='sticky'>
                 {
-                    pictures.map( ({src, scale}, index) => {
-                        return <motion.div key={index} style={{scale}} className='el'>
+                    pictures.map(({ src, scale }, index) => {
+                        return <motion.div key={index} style={{ scale }} className='el'>
                             <div className='imageContainer2'>
-                                <Image
+                                <img
                                     src={src}
                                     alt="image"
-                                    fill
+                                    style={{ transform: `scale(${scale})`, objectFit: 'cover', width: '100%', height: '100%' }}
                                 />
                             </div>
                         </motion.div>
