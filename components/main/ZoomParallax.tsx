@@ -21,15 +21,15 @@ export default function Index() {
             scale: scale4
         },
         {
-            src: '/images/img (6).jpg',
+            src: '/images/glimpses1.png',
             scale: scale5
         },
         {
-            src: '/images/maffick-shows.jpg',
+            src: '/images/glimpses2.png',
             scale: scale6
         },
         {
-            src: '/images/maffick-shows.jpeg',
+            src: '/images/glimpses3.png',
             scale: scale5
         },
         {
@@ -37,11 +37,11 @@ export default function Index() {
             scale: scale6
         },
         {
-            src: '/images/maffick-shows.png',
+            src: '/images/glimpses5.png',
             scale: scale8
         },
         {
-            src: '/images/armanMalik01.jpg',
+            src: '/images/img (3).jpg',
             scale: scale9
         },
         
