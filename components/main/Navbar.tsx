@@ -77,7 +77,7 @@ const Navbar = () => {
           duration-200
           ${link === "/register" ? "text-gray-200 bg-purple-600 rounded-md border-2 px-5 py-2 border-purple-600 font-space font-bold" : "bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"}`}
         >
-          <Link href={link}>{name}</Link>
+          <Link href={link}>{name} </Link>
         </li>
         ))}
       </ul>
