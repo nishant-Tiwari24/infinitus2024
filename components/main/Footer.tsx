@@ -10,16 +10,8 @@ const Footer: React.FC = () => {
         <div className="container mx-auto flex flex-col lg:flex-row justify-between">
           <div className="mb-8 lg:mb-0 lg:mr-4">
             <h4 className="text-3xl lg:text-3xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>
-            <p className='text-l lg:text-xl font-light'>
-            Merchant Legal entity name: SRM TRUST AP
-            <br />
+            <p className='text-xl lg:text-2xl font-light'>
             Registered Address: 54-15-4C, R K GALLERIA, SERVICE ROAD, BANK COLONY, SRINIVASA
-            <br />
-            NAGAR, KRISHNA, ANDHRA PRADESH, 520008, VIJAYAWADA (URBAN), Andhra Pradesh,
-            <br />
-            PIN: 520008
-            <br />
-            Operational Address: 54-15-4C, R K GALLERIA, SERVICE ROAD, BANK COLONY, SRINIVASA
             <br />
             NAGAR, KRISHNA, ANDHRA PRADESH, 520008, VIJAYAWADA (URBAN), Andhra Pradesh,
             <br />
@@ -47,7 +39,7 @@ const Footer: React.FC = () => {
               <Link href="https://twitter.com/SRMUAP" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="z-50 font-space text-2xl hover:scale-110">
                 <FaTwitter className="text-4xl lg:text-5xl mr-3" />
               </Link> */}
-              <Link href="https://www.instagram.com/srmuap.infinitus/" rel="noopener noreferrer" aria-label="Instagram" className="z-50 font-space text-2xl hover:scale-110">
+              <Link href="https://www.instagram.com/srmuap.infinitus/" target='_blank' rel="noopener noreferrer" aria-label="Instagram" className="z-50 font-space text-2xl hover:scale-110">
                 <FaInstagram className="text-4xl lg:text-5xl" />
               </Link>
             </div>
@@ -56,7 +48,7 @@ const Footer: React.FC = () => {
 
         <div className="text-center mt-8 flex justify-center align-middle cursor-pointer hover:scale-110">
           <p className="text-2xl font-space">Crafted by </p>
-          <Link href="https://github.com/nishant-Tiwari24" target="_blank" rel="noopener noreferrer" className="text-purple-400 z-50 font-space text-2xl">: Nishant Tiwari and Omkar Ghongade</Link>
+          <Link href="https://github.com/nishant-Tiwari24" target="_blank" className="text-purple-400 z-50 font-space text-2xl">: Nishant Tiwari and Omkar Ghongade</Link>
         </div>
       </footer>
     </>

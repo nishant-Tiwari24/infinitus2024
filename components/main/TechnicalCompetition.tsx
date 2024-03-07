@@ -38,7 +38,7 @@ const Technical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/electronic1.jpeg"
+              imageSrc="/images/elec.jpeg"
               title="Your Event Title"
               initialDescription="Get ready to spark your curiosity and amp up your knowledge in this electrifying competition! From BEE to Microelectronics, dazzle in the quiz round and negotiate your way to victory in the thrilling final showdown to win" linkTo={''}      />
       <EventDetails
@@ -123,7 +123,7 @@ const Technical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/art.jpeg"
+              imageSrc="/images/artlu.jpeg"
               title="Your Event Title"
               initialDescription="Illuminate your creativity in pixels and Get ready to light up the digital stage, as Art Luminous invites you to unleash your inner digital artist and shine in a captivating competition where imagination meets technology." linkTo={''}      />
       <EventDetails
@@ -172,13 +172,13 @@ const Technical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/iotworkshop1.jpeg"
+              imageSrc="/images/iotwork.jpeg"
               title="Your Event Title"
               initialDescription="Embark on a journey into the interconnected world of IoT, where you'll learn to blend physical devices with digital intelligence, unleashing endless possibilities to transform everyday objects into smart, data-driven marvels." linkTo={''}      />
       </div>
       <div>
       < Card
-              imageSrc="/images/web3block.jpeg"
+              imageSrc="/images/webthree.jpeg"
               title="Your Event Title"
               initialDescription=" Delve into the revolutionary world of blockchain, where cryptography and distributed networks converge to redefine trust and decentralize systems, empowering you to explore the future of secure transactions, digital assets, and decentralized applications." linkTo={''}/>
       </div>

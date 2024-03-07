@@ -26,7 +26,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
       <div>
       < Card
-              imageSrc="/images/Shark Tank (1).png"
+              imageSrc="/images/ideath.jpeg"
               title="Your Event Title"
               initialDescription="Got a groundbreaking business idea? Ready to pitch to industry experts? Join us and showcase your entrepreneurial spirit. Win funding, mentorship, and turn your vision into reality. Don't miss this chance to make waves in the business world!" linkTo={''}      />
       <EventDetails
@@ -38,7 +38,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/tedstyle.jpeg"
+              imageSrc="/images/teds.jpeg"
               title="Your Event Title"
               initialDescription="Calling all passionate speakers! Embrace the spotlight and share your ideas in our TED-style talk competition. Inspire, educate, and captivate the audience with your unique perspective. Dare to make a difference with your words! Are you ready to ignite conversations and leave a lasting impact? Join the TED-style talk competition now! " linkTo={''}      />
       <EventDetails
@@ -55,7 +55,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
               initialDescription="Unlock the thrill of mystery and challenge your wits! Join our Escape Room Competition for an immersive and brain-teasing adventure. Gather your team, solve puzzles, and race against the clock to escape the room. Think you have what it takes to outsmart the challenges? Embark on the ultimate escape – sign up now for an unforgettable competition!" linkTo={''}      />
       <EventDetails
         venue="+91 7671099011"
-        date="22nd March 2024"
+        date="21st March 2024"
         time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
@@ -68,25 +68,25 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 9347577670"
         date="22nd March 2024"
-        time="trophy"
+        time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
       <div>
       < Card
-              imageSrc="/images/grafittiwall.jpeg"
+              imageSrc="/images/graf.jpeg"
               title="Your Event Title"
               initialDescription="Calling all urban artists! Dive into the vibrant world of expression – join our Graffiti Competition and transform blank walls into dynamic masterpieces. Unleash your creativity, showcase your unique style, and let the colors tell your story. Ready to leave your mark? Grab your spray cans and participate in the ultimate Graffiti Competition! " linkTo={''}      />
       <EventDetails
-        venue="+91 7382928564"
+        venue="+91 6300357731"
         date="22nd March 2024"
-        time="trophy"
+        time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
       <div>
       < Card
-              imageSrc="/images/mouse.jpeg"
+              imageSrc="/images/mouses.jpeg"
               title="Your Event Title"
               initialDescription="Mouses vs. Mouse Busters! This epic water gun battle will see pint-sized mischief-makers clash against the relentless forces of order, all in a hilarious and refreshing spray-fest." linkTo={''}      />
       <EventDetails
@@ -104,7 +104,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 9265025088"
         date="22nd March 2024"
-        time="trophy"
+        time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -116,7 +116,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 9023230922"
         date="22nd March 2024"
-        time="trophy"
+        time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -128,7 +128,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       <EventDetails
         venue="+91 6300357731"
         date="21st March 2024"
-        time="3000 /-"
+        time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -144,7 +144,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/atleir.jpeg"
               title="Your Event Title"
-              initialDescription="Dive into the realm of creativity and innovation with Arduino, where imagination meets technology, empowering you to craft interactive gadgets, automate tasks, and bring your ideas to life." linkTo={''}      />
+              initialDescription="Unlock your creativity at our Atelier Art Workshop! Join us for an immersive artistic experience where participants explore various techniques, express individual styles, and bring their visions to life. No prior art experience required – our expert instructors will guide you through the process, fostering a supportive and inspiring atmosphere. Discover the joy of self-expression and take home a unique masterpiece. Reserve your spot now for a transformative art journey!" linkTo={''}      />
       </div>
       </div>
     </div>

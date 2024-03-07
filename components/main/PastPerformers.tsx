@@ -116,64 +116,58 @@ const MyServices: React.FC = () => {
           <Link href={'/events'}>
           <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track1">
             <div className="slide">
-            <Image src="/images/adverse.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/adv1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/ardriuno.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/sky1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/blankcode.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/blank1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/blockcahin.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/iot1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/bugathon.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/sky1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/circuit.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/circuit1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/codechase.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/code1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/electronic.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/ele1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/iot.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/iot1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/skyquest.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/adv1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/adverse.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/sky1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/ardriuno.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/blank1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/blankcode.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/iot1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/blockcahin.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/blank1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/bugathon.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/circuit1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/circuit.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img  w-[340px] h-[380px] object-cover" />
+            <Image src="/images/code1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/codechase.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img  w-[340px] h-[380px] object-cover" />
+            <Image src="/images/ele1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
             <div className="slide">
-            <Image src="/images/electronic.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img  w-[340px] h-[380px] object-cover" />
-            </div>
-            <div className="slide">
-            <Image src="/images/iot.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img  w-[340px] h-[380px] object-cover" />
-            </div>
-            <div className="slide">
-            <Image src="/images/skyquest.jpg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
+            <Image src="/images/iot1.jpeg" width={340} height={380} loading="lazy" alt="Wedding Photography" className="img w-[340px] h-[380px] object-cover" />
             </div>
           </motion.div>
           </Link>

@@ -40,17 +40,17 @@ const Cultural: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-        imageSrc="/images/fashionwalk.jpeg"
+        imageSrc="/images/espo.jpeg"
         title="Your Event Title"
-        initialDescription="Step onto the runway and embrace the glamor at our Fashion walk. Models strut their stuff,
-        showcasing the latest trends and styles with confidence and flair. Join us for a dazzling display
-        of creativity and elegance that sets the stage on fire!"
+        initialDescription="Dive into the world of virtual excitement at Esports Competition . Gamers compete head-to-head in
+        thrilling battles, showcasing their skills and strategy in popular video games. Join us for a
+        high-stakes showdown of digital prowess and adrenaline-fueled action!"
         linkTo={''}
       />
       <EventDetails
-        venue="+91 6303853941"
-        date="22nd March 2024"
-        time="15,000 /-"
+        venue="+91 7032749777"
+        date="23rd March 2024"
+        time="45,000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -70,25 +70,26 @@ const Cultural: React.FC<Types> = ({types}) => {
         onRegisterClick={handleRegisterClick}
       />
       </div>
+
       <div>
       < Card
-        imageSrc="/images/esport.jpg"
+        imageSrc="/images/fashionwalk.jpeg"
         title="Your Event Title"
-        initialDescription="Dive into the world of virtual excitement at Esports Competition . Gamers compete head-to-head in
-        thrilling battles, showcasing their skills and strategy in popular video games. Join us for a
-        high-stakes showdown of digital prowess and adrenaline-fueled action!"
+        initialDescription="Step onto the runway and embrace the glamor at our Fashion walk. Models strut their stuff,
+        showcasing the latest trends and styles with confidence and flair. Join us for a dazzling display
+        of creativity and elegance that sets the stage on fire!"
         linkTo={''}
       />
       <EventDetails
-        venue="+91 7032749777"
-        date="23rd March 2024"
-        time="45,000 /-"
+        venue="+91 6303853941"
+        date="22nd March 2024"
+        time="15,000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
       <div>
       < Card
-        imageSrc="/images/case.jpg"
+        imageSrc="/images/quizz.jpeg"
         title="Your Event Title"
         initialDescription="Engage your intellect in our Case Study competition. Teams analyze real-world scenarios,
         presenting innovative solutions and strategies to industry challenges. Witness the power of

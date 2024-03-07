@@ -16,7 +16,7 @@ const AboutPage = () => {
             width={450}
             height={500}
             style={{ width: '550px', height: '600px' }}
-            className="w-full h-auto mb-8 object-cover rounded-3xl"
+            className="w-full h-auto mb-8 w-[400px] h-[400px] object-cover rounded-l"
           />
         </div>
         <div className="lg:w-1/2">
@@ -49,7 +49,7 @@ const AboutPage = () => {
             width={450}
             height={500}
             style={{ width: '550px', height: '600px' }}
-            className="w-full h-auto mb-8 object-cover rounded-3xl"
+            className="w-full h-auto w-[400px] h-[400px] mb-8 object-cover rounded-l"
           />
         </div>
       </div>
@@ -63,7 +63,7 @@ const AboutPage = () => {
             width={450}
             height={500}
             style={{ width: '550px', height: '600px' }}
-            className="w-full h-auto mb-8 object-cover rounded-3xl"
+            className="w-full h-auto w-[400px] h-[400px] mb-8 object-cover rounded-l"
           />
         </div>
         <div className="lg:w-1/2">
@@ -80,6 +80,26 @@ const AboutPage = () => {
           </p>
         </div>
         </div>
+        <hr />
+        <h1 className=' text-center text-6xl font-semibold font-space Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20'>Assistant Director of Student Affairs</h1>
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
+      <div className="lg:w-1/2">
+      <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-green-200 to-[#d6a6dc]">A note from the Assistant Directorate of Student Affairs</h2>
+          <p className="text-2xl lg:text-3xl font-space text-justify">
+          Greetings from the Assistant Director of Student Affairs! I am thrilled to welcome all participants to Infinitus 2024, a fusion of technical and cultural brilliance showcasing the diverse talents within our student community. As we embark on this innovative journey, I encourage each participant to embrace collaboration, learning, and creativity. Our carefully crafted guest lectures and workshops aim to provide a holistic and inspiring learning experience. Kudos to the dedicated organizers for their meticulous planning, ensuring this year's event is not just educational but truly unforgettable.
+          </p>
+        </div>
+        <div className="mx-auto z-50">
+          <Image
+            src="/images/revathi.jpeg"
+            alt="About Us"
+            width={450}
+            height={500}
+            style={{ width: '550px', height: '600px' }}
+            className="w-full h-auto mb-8 w-[400px] h-[400px] object-cover rounded-l"
+          />
+        </div>
+      </div>
         <Footer/>
     </div>
   );
