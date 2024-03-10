@@ -18,7 +18,7 @@ export function ThreeDCardDemo() {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-2xl mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-xl sm:text-2xl mt-2 dark:text-neutral-300"
         >
           Click here to continue
         </CardItem>
@@ -41,7 +41,7 @@ export function ThreeDCardDemo() {
             translateZ={20}
             translateX={-40}
             as="button"
-            className="px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-xl sm:text-2xl font-normal dark:text-white"
           >
             Click here to Register →
           </CardItem>
@@ -67,7 +67,7 @@ export function ThreeDCardDemo() {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-2xl mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-xl sm:text-2xl mt-2 dark:text-neutral-300"
         >
           Click here to continue
         </CardItem>
@@ -90,7 +90,7 @@ export function ThreeDCardDemo() {
             translateZ={20}
             translateX={-40}
             as="button"
-            className="px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-xl sm:text-2xl font-normal dark:text-white"
           >
             Click here to Register →
           </CardItem>
