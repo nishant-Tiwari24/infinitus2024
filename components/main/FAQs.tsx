@@ -4,15 +4,18 @@ import React, { useState } from 'react';
 import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 import Navbar from '@/components/main/Navbar';
 import FlareCursor from "@/components/main/Cursor";
-import Footer from '@/components/main/Footer';
 
 const faqData = [
+  {
+    "question": "Should SRM students register for competitions through the website?",
+    "answer": "No, SRMAP students are not required to register on the website. The students will receive a separate registration form."
+  },
   {
     "question": "How do I register for the college fest?",
     "answer": "To register for the college fest, simply visit our website and navigate to the registration page. Fill out the required information and follow the prompts to complete your registration."
   },
   {
-    "question": "Accommodation for participants coming from other institutions?",
+    "question": "Will accommodation be provided for participants coming from other institutions?",
     "answer": "Accommodation will be provided based on first-come first-serve basis and for a duration of 3 days."
   },
   {
@@ -21,7 +24,7 @@ const faqData = [
   },
   {
     "question": "Is transportation provided to and from the venue, or should attendees arrange their own transportation?",
-    "answer": "Transport charges will not be provided for participants of other institutions, they have to pay for their own travel expenses."
+    "answer": "Transport charges will not be provided for participants of other institutions. Buses will be provided from nearby bus stations and train stations to our University."
   },
   {
     "question": "What are the registration deadlines?",
@@ -49,7 +52,7 @@ const faqData = [
   },
   {
     "question": "Are meals provided for participants staying on campus?",
-    "answer": "Yes, meals will be available for participants staying on campus and participants can pay for the meals they wish to have."
+    "answer": "Yes, meals will be available for participants on a per day pay basis."
   },
   {
     "question": "How can I contact the organizers if I have any questions or concerns?",
@@ -57,7 +60,7 @@ const faqData = [
   },
   {
     "question": "What is required for identity verification at the event?",
-    "answer": "Physical identification cards from respective colleges are mandatory for entrance verification and participants are required to wear the ID cards provided by the organizers throughout the fest duration and return the same at the time of departure."
+    "answer": "All participants are mandatorily required to bring a hard copy of their college identity cards along with an Aadhaar Card for the verification process."
   },
   {
     "question": "Is there a provision for on-spot registrations for events?",
@@ -87,7 +90,7 @@ function Questions() {
               <Navbar />
               <div
                 onClick={() => handleClick(index)}
-                className="flex cursor-pointer justify-between gap-2 text-[#bdbdbe] hover:text-green-400 font-extralight font-space border-[#76767661] border m-5 px-5 py-8 rounded-xl"
+                className="flex cursor-pointer justify-between gap-2 text-[#bdbdbe] hover:text-green-400 font-extralight font-space bg-black border-[#76767661] border m-5 px-5 py-8 rounded-xl"
               >
                 <span className="text-3xl font-thin">{faq.question}</span>
                 <span>

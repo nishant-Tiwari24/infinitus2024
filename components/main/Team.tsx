@@ -16,7 +16,7 @@ const teamMembers = [
   { id: 8, name: "Nivedha Sriram",designation:"Clubs and Societies", imageSrc: "/images/team/nivedha.png" },
   { id: 9, name: "Gnanesh Chowdary",designation:"Discipline", imageSrc: "/images/team/gnanesh.png" },
   { id: 10, name: "Prachi Dash",designation:"Writers Co", imageSrc: "/images/team/prachi.png" },
-  { id: 11, name: "Rohan Midella",designation:"Public Relations", imageSrc: "/images/team/rohan.png" },
+  { id: 11, name: "Rohan Midella",designation:"Public Relations", imageSrc: "/images/team/rohannew.jpeg" },
 ];
 
 const TeamMemberSection = () => {

@@ -23,6 +23,78 @@ const Technical: React.FC<Types> = ({types}) => {
     </h1>
     <div className='flex flex-col items-center justify-center md:flex-row md:justify-center'>
       <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
+      <div>
+      < Card
+              imageSrc="/images/skyquest1.jpeg"
+              title="Your Event Title"
+              initialDescription="Get ready for the ultimate adrenaline rush in the most thrilling drone challenge yet! With twists and loops it's a high-flying adventure like no other. Strap in, rev up, and prepare to soar to new heights in this electrifying competition!" linkTo={''}      />
+      <EventDetails
+        venue="+91 9893986159"
+        date="21st March 2024"
+        time="15,000 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
+      <div>
+      < Card
+              imageSrc="/images/adverse1.jpeg"
+              title="Your Event Title"
+              initialDescription="Dive into our ad competition for a chance to sparkle and shine with your creative brilliance! Unleash your imagination and win big with ads that dazzle and delight! " linkTo={''}      />
+      <EventDetails
+        venue="+91 6009923073"
+        date="21st March 2024"
+        time="7500 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div> 
+      <div>
+      < Card
+              imageSrc="/images/codecrusade.jpeg"
+              title="Your Event Title"
+              initialDescription="Get ready for the ultimate coding showdown! From memory mastery to bug-busting brilliance, this competition is a whirlwind of adrenaline and excitement where you will race against the clock." linkTo={''}      />
+      <EventDetails
+        venue="+91 6009923073"
+        date="21st March 2024"
+        time="7500 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
+      <div>
+      < Card
+              imageSrc="/images/circuitdebugg1.jpeg"
+              title="Your Event Title"
+              initialDescription="Uncover the mysteries of circuits and components in a thrilling adventure through the world of technology, delving into topics primarily from Basic Electrical and Electronics (BEE) and Network Theory. " linkTo={''}      />
+      <EventDetails
+        venue="+91 6009923073"
+        date="21st March 2024"
+        time="5000 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
+      <div>
+      < Card
+              imageSrc="/images/pixeleon.jpeg"
+              title="Your Event Title"
+              initialDescription="Step into the colorful realm of Pixeleon, where you become digital detectives cracking codes to unveil the vibrant hues hidden within a  pixel puzzle! It's a thrilling race against time and logic." linkTo={''}      />
+      <EventDetails
+        venue="+91 7061828823"
+        date="21st March 2024"
+        time="3000 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
+      <div>
+      < Card
+              imageSrc="/images/crypthunt.jpeg"
+              title="Your Event Title"
+              initialDescription="Unravel the secrets of encryption to unlock hidden treasures in a thrilling cryptographic quest! Crack codes, dodge ciphers, and follow the trail to unearth riches beyond imagination!" linkTo={''}      />
+      <EventDetails
+        venue="+91 6009923073"
+        date="21st March 2024"
+        time="3000 /-"
+        onRegisterClick={handleRegisterClick}
+      />
+      </div>
         <div>
       < Card
               imageSrc="/images/photofusion.jpeg"
@@ -50,42 +122,6 @@ const Technical: React.FC<Types> = ({types}) => {
       </div>
       <div>
       < Card
-              imageSrc="/images/skyquest1.jpeg"
-              title="Your Event Title"
-              initialDescription="Get ready for the ultimate adrenaline rush in the most thrilling drone challenge yet! With twists and loops it's a high-flying adventure like no other. Strap in, rev up, and prepare to soar to new heights in this electrifying competition!" linkTo={''}      />
-      <EventDetails
-        venue="+91 9893986159"
-        date="21st March 2024"
-        time="15,000 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/circuitdebugg1.jpeg"
-              title="Your Event Title"
-              initialDescription="Uncover the mysteries of circuits and components in a thrilling adventure through the world of technology, delving into topics primarily from Basic Electrical and Electronics (BEE) and Network Theory. " linkTo={''}      />
-      <EventDetails
-        venue="+91 6009923073"
-        date="21st March 2024"
-        time="5000 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/adverse1.jpeg"
-              title="Your Event Title"
-              initialDescription="Dive into our ad competition for a chance to sparkle and shine with your creative brilliance! Unleash your imagination and win big with ads that dazzle and delight! " linkTo={''}      />
-      <EventDetails
-        venue="+91 6009923073"
-        date="21st March 2024"
-        time="7500 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div> 
-      <div>
-      < Card
               imageSrc="/images/byte.jpeg"
               title="Your Event Title"
               initialDescription="Get ready to pass the programming baton in Byte Baton, where coders team up to sprint through coding challenges racing against the clock and each other in a high-energy relay that tests both speed as well as skills!!
@@ -94,30 +130,6 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="2500 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/codecrusade.jpeg"
-              title="Your Event Title"
-              initialDescription="Get ready for the ultimate coding showdown! From memory mastery to bug-busting brilliance, this competition is a whirlwind of adrenaline and excitement where you will race against the clock." linkTo={''}      />
-      <EventDetails
-        venue="+91 6009923073"
-        date="21st March 2024"
-        time="7500 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/pixeleon.jpeg"
-              title="Your Event Title"
-              initialDescription="Step into the colorful realm of Pixeleon, where you become digital detectives cracking codes to unveil the vibrant hues hidden within a  pixel puzzle! It's a thrilling race against time and logic." linkTo={''}      />
-      <EventDetails
-        venue="+91 7061828823"
-        date="21st March 2024"
-        time="3000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -142,18 +154,6 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="1500 /-"
-        onRegisterClick={handleRegisterClick}
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/crypthunt.jpeg"
-              title="Your Event Title"
-              initialDescription="Unravel the secrets of encryption to unlock hidden treasures in a thrilling cryptographic quest! Crack codes, dodge ciphers, and follow the trail to unearth riches beyond imagination!" linkTo={''}      />
-      <EventDetails
-        venue="+91 6009923073"
-        date="21st March 2024"
-        time="3000 /-"
         onRegisterClick={handleRegisterClick}
       />
       </div>
