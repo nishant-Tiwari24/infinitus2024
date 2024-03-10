@@ -73,7 +73,7 @@ const Navbar = () => {
         {links.map(({ id,name, link }) => (
           <li
           key={id}
-          className={`text-4xl nav-links px-4 py-2 cursor-pointer hover:scale-105 hover:text-white 
+          className={`text-4xl nav-links px-4 py-2 cursor-pointer hover:scale-105 capitalize font-700 hover:text-white 
           duration-200
           ${link === "/register" ? "text-gray-200 bg-purple-600 rounded-md border-2 px-5 py-2 border-purple-600 font-space font-bold" : "bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"}`}
         >
@@ -88,7 +88,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute w-full h-screen bg-gradient-to-b from-black to-gray-800 ">
+        <ul className="flex flex-col justify-center items-center top-0 left-0  absolute w-full h-screen bg-gradient-to-b from-black to-gray-800 ">
           {links.map(({ id,name, link }) => (
             <li key={id} className={`px-4 cursor-pointer capitalize py-6  text-4xl ${link === '/register' ? 'text-purple-300 font-space font-bold' : 'bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold'}`}>
               <Link onClick={toggleNav} href={link}>

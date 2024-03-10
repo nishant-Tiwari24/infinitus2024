@@ -91,8 +91,8 @@ const NonTechnical: React.FC<Types> = ({types}) => {
               initialDescription="Mouses vs. Mouse Busters! This epic water gun battle will see pint-sized mischief-makers clash against the relentless forces of order, all in a hilarious and refreshing spray-fest." linkTo={''}      />
       <EventDetails
         venue="+91 9537530501"
-        date="21st March 2024"
-        time="3000 /-"
+        date="22nd March 2024"
+        time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
       </div>
@@ -127,7 +127,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
               initialDescription="Ready to twist and turn in a playful challenge? Join our Twister competition for a fun-filled, colorful experience! Test your flexibility, balance, and agility as you navigate the vibrant mat. Gather your friends, flex those limbs, and let the laughter roll! Who's up for a twisty, turny good time? Join the Twister competition now!" linkTo={''}      />
       <EventDetails
         venue="+91 6300357731"
-        date="21st March 2024"
+        date="22nd March 2024"
         time="Trophy"
         onRegisterClick={handleRegisterClick}
       />
