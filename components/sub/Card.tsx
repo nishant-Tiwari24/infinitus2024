@@ -8,6 +8,7 @@ import Link from "next/link";
 export function ThreeDCardDemo() {
   return (
     <CardContainer className="inter-var flex gap-20 flex-col sm:flex-row">
+        <Link href={"https://unstop.com/p/music-fiesta-infinitus-2024-srm-university-srmap-andhra-pradesh-927977"}>
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[40rem] sm:w-[60rem] px-6  sm:h-[60rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
@@ -28,7 +29,7 @@ export function ThreeDCardDemo() {
           className="w-full mt-4"
         >
           <Image
-            src="/images/1.png"
+            src="/images/regcollege.jpeg"
             height="1000"
             width="1000"
             className="h-[40rem] w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -54,6 +55,7 @@ export function ThreeDCardDemo() {
           </CardItem>
         </div>
       </CardBody>
+      </Link>
       <div>
         <Link href={"https://unstop.com/p/music-fiesta-infinitus-2024-srm-university-srmap-andhra-pradesh-927977"}>
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[40rem] sm:w-[60rem] px-6 sm:h-[60rem] h-auto rounded-xl p-6 border  ">
@@ -76,7 +78,7 @@ export function ThreeDCardDemo() {
           className="w-full mt-4"
         >
           <Image
-            src="/images/1.png"
+            src="/images/regOut.jpeg"
             height="1000"
             width="1000"
             className="h-[40rem] w-full object-cover rounded-xl group-hover/card:shadow-xl"

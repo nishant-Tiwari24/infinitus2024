@@ -21,7 +21,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(delay);
   }, []);
