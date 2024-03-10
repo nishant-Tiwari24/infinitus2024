@@ -29,13 +29,13 @@ const Cultural: React.FC<Types> = ({types}) => {
         initialDescription="Experience electrifying rhythms and mesmerizing moves at Cosmic Beats with multiple
         sub-categories. Talented dancers across Universities showcase their skills, igniting the stage
         with passion and creativity. Don't miss this thrilling spectacle of talent and entertainment!"
-        linkTo={''}
+        linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
       />
       <EventDetails
         venue="+91 9963123747"
         date="23rd March 2024"
         time="75,000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
@@ -45,13 +45,13 @@ const Cultural: React.FC<Types> = ({types}) => {
         initialDescription="Dive into the world of virtual excitement at Esports Competition . Gamers compete head-to-head in
         thrilling battles, showcasing their skills and strategy in popular video games. Join us for a
         high-stakes showdown of digital prowess and adrenaline-fueled action!"
-        linkTo={''}
+        linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
       />
       <EventDetails
         venue="+91 7032749777"
         date="23rd March 2024"
         time="45,000 /-"
-        onRegisterClick={handleRegisterClick}
+        href='https://docs.google.com/document/d/13wOrta1RQaE9X1fzrNK1mKIgd6QQHi3AgERJ2958nq8/edit?usp=sharing'
       />
       </div>
         <div>
@@ -61,13 +61,13 @@ const Cultural: React.FC<Types> = ({types}) => {
         initialDescription="Feel the rhythm and witness musical brilliance at Zenith. From soulful melodies to
         energetic beats, talented musicians captivate audiences with their extraordinary performances.
         Join us for an unforgettable celebration of music and talent!"
-        linkTo={''}
+        linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
       />
       <EventDetails
         venue="+91 8886266647"
         date="23rd March 2024"
         time="40,000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
 
@@ -78,13 +78,13 @@ const Cultural: React.FC<Types> = ({types}) => {
         initialDescription="Step onto the runway and embrace the glamor at our Fashion walk. Models strut their stuff,
         showcasing the latest trends and styles with confidence and flair. Join us for a dazzling display
         of creativity and elegance that sets the stage on fire!"
-        linkTo={''}
+        linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
       />
       <EventDetails
         venue="+91 6303853941"
         date="22nd March 2024"
         time="15,000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
@@ -95,13 +95,13 @@ const Cultural: React.FC<Types> = ({types}) => {
         presenting innovative solutions and strategies to industry challenges. Witness the power of
         critical thinking and creativity as participants showcase their problem-solving prowess. Join us
         for an enlightening exploration of practical knowledge and ingenuity!"
-        linkTo={''}
+        linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
       />
       <EventDetails
         venue="+91 8247426373"
         date="22nd March 2024"
         time="10,000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
@@ -111,13 +111,13 @@ const Cultural: React.FC<Types> = ({types}) => {
         initialDescription="Sharpen your wits and join the excitement at our Quiz competition. Teams compete in a battle of
         knowledge across various topics, from history to pop culture. Test your intellect and quick
         thinking in this thrilling showdown of trivia mastery!"
-        linkTo={''}
+        linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
       />
       <EventDetails
         venue="+91 9182012021"
         date="22nd March 2024"
         time="10,000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       </div>

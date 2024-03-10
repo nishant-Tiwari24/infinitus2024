@@ -32,7 +32,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 9893986159"
         date="21st March 2024"
         time="15,000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
@@ -44,7 +44,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 6009923073"
         date="21st March 2024"
         time="7500 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div> 
       <div>
@@ -56,68 +56,68 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 6009923073"
         date="21st March 2024"
         time="7500 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
       < Card
               imageSrc="/images/circuitdebugg1.jpeg"
               title="Your Event Title"
-              initialDescription="Uncover the mysteries of circuits and components in a thrilling adventure through the world of technology, delving into topics primarily from Basic Electrical and Electronics (BEE) and Network Theory. " linkTo={''}      />
+              initialDescription="Uncover the mysteries of circuits and components in a thrilling adventure through the world of technology, delving into topics primarily from Basic Electrical and Electronics (BEE) and Network Theory. " linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 6009923073"
         date="21st March 2024"
         time="5000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
       < Card
               imageSrc="/images/pixeleon.jpeg"
               title="Your Event Title"
-              initialDescription="Step into the colorful realm of Pixeleon, where you become digital detectives cracking codes to unveil the vibrant hues hidden within a  pixel puzzle! It's a thrilling race against time and logic." linkTo={''}      />
+              initialDescription="Step into the colorful realm of Pixeleon, where you become digital detectives cracking codes to unveil the vibrant hues hidden within a  pixel puzzle! It's a thrilling race against time and logic." linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 7061828823"
         date="21st March 2024"
         time="3000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
       < Card
               imageSrc="/images/crypthunt.jpeg"
               title="Your Event Title"
-              initialDescription="Unravel the secrets of encryption to unlock hidden treasures in a thrilling cryptographic quest! Crack codes, dodge ciphers, and follow the trail to unearth riches beyond imagination!" linkTo={''}      />
+              initialDescription="Unravel the secrets of encryption to unlock hidden treasures in a thrilling cryptographic quest! Crack codes, dodge ciphers, and follow the trail to unearth riches beyond imagination!" linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 6009923073"
         date="21st March 2024"
         time="3000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
         <div>
       < Card
               imageSrc="/images/photofusion.jpeg"
               title="Code Chase Competition"
-              initialDescription="Join us for the ultimate collage showdown at Photo Fusion, where you can morph, merge, and manipulate images with artistic flair and wild creativity, turning snapshots into surreal masterpieces that defy reality!" linkTo={''}        
+              initialDescription="Join us for the ultimate collage showdown at Photo Fusion, where you can morph, merge, and manipulate images with artistic flair and wild creativity, turning snapshots into surreal masterpieces that defy reality!" linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}        
       />
       <EventDetails
         venue="+91 7061828823"
         date="21st March 2024"
         time="1500 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
       < Card
               imageSrc="/images/elec.jpeg"
               title="Your Event Title"
-              initialDescription="Get ready to spark your curiosity and amp up your knowledge in this electrifying competition! From BEE to Microelectronics, dazzle in the quiz round and negotiate your way to victory in the thrilling final showdown to win" linkTo={''}      />
+              initialDescription="Get ready to spark your curiosity and amp up your knowledge in this electrifying competition! From BEE to Microelectronics, dazzle in the quiz round and negotiate your way to victory in the thrilling final showdown to win" linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 7061828823"
         date="21st March 2024"
         time="2000 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
@@ -130,31 +130,31 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="2500 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
       < Card
               imageSrc="/images/artlu.jpeg"
               title="Your Event Title"
-              initialDescription="Illuminate your creativity in pixels and Get ready to light up the digital stage, as Art Luminous invites you to unleash your inner digital artist and shine in a captivating competition where imagination meets technology." linkTo={''}      />
+              initialDescription="Illuminate your creativity in pixels and Get ready to light up the digital stage, as Art Luminous invites you to unleash your inner digital artist and shine in a captivating competition where imagination meets technology." linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 7061828823"
         date="21st March 2024"
         time="1500 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       <div>
       < Card
               imageSrc="/images/codeinverse.jpeg"
               title="Your Event Title"
-              initialDescription="Flip the script and crack the code in Code Inverse Conquest, where coders can twist and turn their way through reverse engineering challenges, decoding their way to victory in this topsy-turvy coding showdown." linkTo={''}      />
+              initialDescription="Flip the script and crack the code in Code Inverse Conquest, where coders can twist and turn their way through reverse engineering challenges, decoding their way to victory in this topsy-turvy coding showdown." linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 7061828823"
         date="21st March 2024"
         time="1500 /-"
-        onRegisterClick={handleRegisterClick}
+        href=''
       />
       </div>
       </div>
@@ -168,19 +168,19 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/arduino1.jpeg"
               title="Your Event Title"
-              initialDescription="Dive into the realm of creativity and innovation with Arduino, where imagination meets technology, empowering you to craft interactive gadgets, automate tasks, and bring your ideas to life." linkTo={''}      />
+              initialDescription="Dive into the realm of creativity and innovation with Arduino, where imagination meets technology, empowering you to craft interactive gadgets, automate tasks, and bring your ideas to life." linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       </div>
       <div>
       < Card
               imageSrc="/images/iotwork.jpeg"
               title="Your Event Title"
-              initialDescription="Embark on a journey into the interconnected world of IoT, where you'll learn to blend physical devices with digital intelligence, unleashing endless possibilities to transform everyday objects into smart, data-driven marvels." linkTo={''}      />
+              initialDescription="Embark on a journey into the interconnected world of IoT, where you'll learn to blend physical devices with digital intelligence, unleashing endless possibilities to transform everyday objects into smart, data-driven marvels." linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       </div>
       <div>
       < Card
               imageSrc="/images/webthree.jpeg"
               title="Your Event Title"
-              initialDescription=" Delve into the revolutionary world of blockchain, where cryptography and distributed networks converge to redefine trust and decentralize systems, empowering you to explore the future of secure transactions, digital assets, and decentralized applications." linkTo={''}/>
+              initialDescription=" Delve into the revolutionary world of blockchain, where cryptography and distributed networks converge to redefine trust and decentralize systems, empowering you to explore the future of secure transactions, digital assets, and decentralized applications." linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}/>
       </div>
       </div>
       </div>

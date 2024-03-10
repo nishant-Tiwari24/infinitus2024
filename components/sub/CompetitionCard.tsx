@@ -41,7 +41,7 @@ const Card: React.FC<CardProps> = ({ imageSrc, title, initialDescription, linkTo
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/80 group-hover:to-black/90"></div>
         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
           <p className="mb-10 text-3xl text-white opacity-0 transition-opacity duration-800 group-hover:opacity-100">{initialDescription}</p>
-          <Link href={linkTo}>
+          <Link href={linkTo} target='_blank'>
             <button
               className="rounded-full bg-blue-900 py-2 px-3.5 font-com text-4xl capitalize text-white shadow shadow-black/60"
             >

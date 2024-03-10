@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
           <Image
             src="/images/Infinitus Website.png"
             alt="infinitus logo"
-            width={1200}
+            width={1000}
             height={300}
             sizes="100vw"
             style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }}
@@ -22,13 +22,6 @@ const Hero: React.FC = () => {
           />
         </motion.div>
       </div>
-      {/* <video 
-        muted 
-        loop 
-        autoPlay 
-        className='w-full h-full object-cover absolute top-[-470px] rotate-180'>
-            <source src="/videos/blackhole.webm" type='video/webm'/>
-        </video> */}
       <div className='flex flex-col items-center justify-center gap-28'>
         <motion.div className='sm:mt-10' variants={fromTop(1.2)} initial="initial" animate="animate">
           <Timer />
