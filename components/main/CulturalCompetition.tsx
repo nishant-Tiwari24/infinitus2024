@@ -84,7 +84,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         venue="+91 6303853941"
         date="22nd March 2024"
         time="15,000 /-"
-        href=''
+        href='https://unstop.com/p/fashion-walk-infinitus-2024-srm-university-srmap-andhra-pradesh-928219'
       />
       </div>
       <div>
@@ -117,7 +117,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         venue="+91 9182012021"
         date="22nd March 2024"
         time="10,000 /-"
-        href=''
+        href='https://unstop.com/p/quiz-infinitus-2024-srm-university-srmap-andhra-pradesh-928204'
       />
       </div>
       </div>
