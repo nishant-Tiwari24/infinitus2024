@@ -45,32 +45,8 @@ const NonTechnical: React.FC<Types> = ({types}) => {
         venue="+91 9315268810"
         date="21st March 2024"
         time="3000 /-"
-        href=''
+        href='https://unstop.com/p/ted-style-talk-infinitus-2024-srm-university-srmap-andhra-pradesh-928301'
         
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/escroom.jpeg"
-              title="Dance Competition"
-              initialDescription="Unlock the thrill of mystery and challenge your wits! Join our Escape Room Competition for an immersive and brain-teasing adventure. Gather your team, solve puzzles, and race against the clock to escape the room. Think you have what it takes to outsmart the challenges? Embark on the ultimate escape – sign up now for an unforgettable competition!" linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
-      <EventDetails
-        venue="+91 7671099011"
-        date="21st March 2024"
-        time="Trophy"
-        href=''
-      />
-      </div>
-      <div>
-      < Card
-              imageSrc="/images/laser ops (1).png"
-              title="Your Event Title"
-              initialDescription="Gear up for an adrenaline-packed challenge! Join our Laser Ops competition and experience the thrill of high-tech, futuristic battles. Navigate through laser-filled arenas, strategize with your team, and outsmart opponents in an epic showdown. Are you ready to immerse yourself in the world of laser warfare? Enlist now for the Laser Ops competition!" linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
-      <EventDetails
-        venue="+91 9347577670"
-        date="22nd March 2024"
-        time="Trophy"
-        href=''
       />
       </div>
       <div>
@@ -82,7 +58,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
         venue="+91 6300357731"
         date="22nd March 2024"
         time="Trophy"
-        href=''
+        href='https://unstop.com/p/graffiti-wall-infinitus-2024-srm-university-srmap-andhra-pradesh-928321'
       />
       </div>
       <div>
@@ -94,7 +70,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
         venue="+91 9537530501"
         date="22nd March 2024"
         time="Trophy"
-        href=''
+        href='https://unstop.com/p/mouse-busters-infinitus-2024-srm-university-srmap-andhra-pradesh-928343'
       />
       </div>
       <div>
@@ -106,7 +82,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
         venue="+91 9265025088"
         date="22nd March 2024"
         time="Trophy"
-        href=''
+        href='https://unstop.com/p/comic-making-infinitus-2024-srm-university-srmap-andhra-pradesh-928330'
       />
       </div>
       <div>
@@ -118,7 +94,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
         venue="+91 9023230922"
         date="22nd March 2024"
         time="Trophy"
-        href=''
+        href='https://unstop.com/p/cooking-without-fire-infinitus-2024-srm-university-srmap-andhra-pradesh-928340'
       />
       </div>
       <div>
@@ -130,7 +106,7 @@ const NonTechnical: React.FC<Types> = ({types}) => {
         venue="+91 6300357731"
         date="22nd March 2024"
         time="Trophy"
-        href=''
+        href='https://unstop.com/p/twister-infinitus-2024-srm-university-srmap-andhra-pradesh-928335'
       />
       </div>
       </div>

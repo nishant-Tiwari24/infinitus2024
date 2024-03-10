@@ -14,7 +14,6 @@ interface Types {
 
 const Technical: React.FC<Types> = ({types}) => {
 
-  const handleRegisterClick = () => {};
   return (
     <div className='max-h-screen'>
     <FlareCursor />
@@ -27,36 +26,36 @@ const Technical: React.FC<Types> = ({types}) => {
       < Card
               imageSrc="/images/skyquest1.jpeg"
               title="Your Event Title"
-              initialDescription="Get ready for the ultimate adrenaline rush in the most thrilling drone challenge yet! With twists and loops it's a high-flying adventure like no other. Strap in, rev up, and prepare to soar to new heights in this electrifying competition!" linkTo={''}      />
+              initialDescription="Get ready for the ultimate adrenaline rush in the most thrilling drone challenge yet! With twists and loops it's a high-flying adventure like no other. Strap in, rev up, and prepare to soar to new heights in this electrifying competition!" linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 9893986159"
         date="21st March 2024"
         time="15,000 /-"
-        href=''
+        href='https://unstop.com/p/sky-quest-drone-challenge-infinitus-2024-srm-university-srmap-andhra-pradesh-928355'
       />
       </div>
       <div>
       < Card
               imageSrc="/images/adverse1.jpeg"
               title="Your Event Title"
-              initialDescription="Dive into our ad competition for a chance to sparkle and shine with your creative brilliance! Unleash your imagination and win big with ads that dazzle and delight! " linkTo={''}      />
+              initialDescription="Dive into our ad competition for a chance to sparkle and shine with your creative brilliance! Unleash your imagination and win big with ads that dazzle and delight! " linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 6009923073"
         date="21st March 2024"
         time="7500 /-"
-        href=''
+        href='https://unstop.com/p/adverse-advertisement-competition-infinitus-2024-srm-university-srmap-andhra-pradesh-928362'
       />
       </div> 
       <div>
       < Card
               imageSrc="/images/codecrusade.jpeg"
               title="Your Event Title"
-              initialDescription="Get ready for the ultimate coding showdown! From memory mastery to bug-busting brilliance, this competition is a whirlwind of adrenaline and excitement where you will race against the clock." linkTo={''}      />
+              initialDescription="Get ready for the ultimate coding showdown! From memory mastery to bug-busting brilliance, this competition is a whirlwind of adrenaline and excitement where you will race against the clock." linkTo={'https://www.canva.com/design/DAF_BUmtfPE/gMtRqkh1ZWvkvfDdEUHJlQ/edit?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}      />
       <EventDetails
         venue="+91 6009923073"
         date="21st March 2024"
         time="7500 /-"
-        href=''
+        href='https://unstop.com/p/code-crusade-infinitus-2024-srm-university-srmap-andhra-pradesh-928376'
       />
       </div>
       <div>
@@ -68,7 +67,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 6009923073"
         date="21st March 2024"
         time="5000 /-"
-        href=''
+        href='https://unstop.com/p/circuit-debugging-competition-infinitus-2024-srm-university-srmap-andhra-pradesh-928368'
       />
       </div>
       <div>
@@ -80,7 +79,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="3000 /-"
-        href=''
+        href='https://unstop.com/p/pixeleon-infinitus-2024-srm-university-srmap-andhra-pradesh-928397'
       />
       </div>
       <div>
@@ -92,7 +91,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 6009923073"
         date="21st March 2024"
         time="3000 /-"
-        href=''
+        href='https://unstop.com/p/crypt-hunt-infinitus-2024-srm-university-srmap-andhra-pradesh-928383'
       />
       </div>
         <div>
@@ -105,7 +104,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="1500 /-"
-        href=''
+        href='https://unstop.com/p/photo-fusion-infinitus-2024-srm-university-srmap-andhra-pradesh-928391'
       />
       </div>
       <div>
@@ -117,7 +116,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="2000 /-"
-        href=''
+        href='https://unstop.com/p/electronic-explorer-challenge-infinitus-2024-srm-university-srmap-andhra-pradesh-928372'
       />
       </div>
       <div>
@@ -130,7 +129,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="2500 /-"
-        href=''
+        href='https://unstop.com/p/byte-baton-infinitus-2024-srm-university-srmap-andhra-pradesh-928402'
       />
       </div>
       <div>
@@ -142,7 +141,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="1500 /-"
-        href=''
+        href='https://unstop.com/p/art-luminous-infinitus-2024-srm-university-srmap-andhra-pradesh-928387'
       />
       </div>
       <div>
@@ -154,7 +153,7 @@ const Technical: React.FC<Types> = ({types}) => {
         venue="+91 7061828823"
         date="21st March 2024"
         time="1500 /-"
-        href=''
+        href='https://unstop.com/p/code-inverse-conquest-infinitus-2024-srm-university-srmap-andhra-pradesh-928401'
       />
       </div>
       </div>

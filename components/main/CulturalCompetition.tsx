@@ -51,7 +51,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         venue="+91 7032749777"
         date="23rd March 2024"
         time="45,000 /-"
-        href='https://docs.google.com/document/d/13wOrta1RQaE9X1fzrNK1mKIgd6QQHi3AgERJ2958nq8/edit?usp=sharing'
+        href='https://www.canva.com/design/DAF_I6PrLFU/JGA8PjEVtF2Bsp1UN4BW2A/view?utm_content=DAF_I6PrLFU&utm_campaign=designshare&utm_medium=link&utm_source=editor'
       />
       </div>
         <div>

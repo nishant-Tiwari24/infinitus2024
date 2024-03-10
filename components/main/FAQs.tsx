@@ -16,7 +16,7 @@ const faqData = [
   },
   {
     "question": "Will accommodation be provided for participants coming from other institutions?",
-    "answer": "Accommodation will be provided based on first-come first-serve basis and for a duration of 3 days."
+    "answer": "Accommodation will be provided based on first-come first-serve basis and for a duration of 3 days. Other university students who live further than 65 kilometers away will be accommodated."
   },
   {
     "question": "Do we get Participation fee refund if we fail to show up?",
