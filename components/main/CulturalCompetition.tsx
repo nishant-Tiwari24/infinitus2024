@@ -35,7 +35,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         venue="+91 9963123747"
         date="23rd March 2024"
         time="75,000 /-"
-        href=''
+        href='https://www.canva.com/design/DAF_JLTqyA4/cCL1tVbrDcHHxsbnRPu6UQ/view?utm_content=DAF_JLTqyA4&utm_campaign=designshare&utm_medium=link&utm_source=editor'
       />
       </div>
       <div>
@@ -67,7 +67,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         venue="+91 8886266647"
         date="23rd March 2024"
         time="40,000 /-"
-        href=''
+        href='https://www.canva.com/design/DAF_JaSmu8U/Mc4R1mqcu3uEK6ysn8FjRA/view?utm_content=DAF_JaSmu8U&utm_campaign=designshare&utm_medium=link&utm_source=editor'
       />
       </div>
 
@@ -101,7 +101,7 @@ const Cultural: React.FC<Types> = ({types}) => {
         venue="+91 8247426373"
         date="22nd March 2024"
         time="10,000 /-"
-        href=''
+        href='https://unstop.com/p/case-study-infinitus-2024-srm-university-srmap-andhra-pradesh-928211'
       />
       </div>
       <div>

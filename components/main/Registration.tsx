@@ -1,18 +1,21 @@
-import React from 'react'
-import Footer from './Footer'
+import React from 'react';
+import Navbar from '@/components/main/Navbar';
+import FlareCursor from '@/components/main/Cursor';
+import { ThreeDCardDemo } from '../sub/Card';
 
 function Registration() {
+
+
   return (
-    <>
-    <div className='w-full flex items-center justify-center h-screen'>
-      <div className="text-center">
-        <div className="font-bold font-space text-5xl mb-4">Registration Coming Soon!</div>
-        <div className="text-2xl text-gray-200 font-space">We are working on bringing you a seamless registration experience. Stay tuned!</div>
+    <div className='pt-20'>
+      <FlareCursor />
+      <h1 className='text-center text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-mono py-20'>Registration</h1>
+      <div className='container w-80 mx-auto flex justify-center items-center flex-wrap'>
+       <ThreeDCardDemo/>
       </div>
+      <Navbar />
     </div>
-    <Footer/>
-    </>
-  )
+  );
 }
 
-export default Registration
+export default Registration;
