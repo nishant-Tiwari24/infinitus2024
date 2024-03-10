@@ -29,7 +29,7 @@ export function ThreeDCardDemo() {
           className="w-full mt-4"
         >
           <Image
-            src="/images/regcollege.jpeg"
+            src="/images/reg1.jpeg"
             height="1000"
             width="1000"
             className="h-[40rem] w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -78,7 +78,7 @@ export function ThreeDCardDemo() {
           className="w-full mt-4"
         >
           <Image
-            src="/images/regOut.jpeg"
+            src="/images/reg2.jpeg"
             height="1000"
             width="1000"
             className="h-[40rem] w-full object-cover rounded-xl group-hover/card:shadow-xl"

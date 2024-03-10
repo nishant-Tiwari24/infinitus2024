@@ -15,9 +15,9 @@ const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href }) 
       <h1 className='text-center sm:text-5xl text-4xl font-semibold text-gray-400 font-space py-10'>{title}</h1>
       <Link href={href}>
         <div className="card card1 flex items-center">
-          <Image className='h-full w-full object-cover'
+          <Image className='h-full w-[110%] object-cover'
             src={imageSrc}
-            width={400}
+            width={500}
             height={500}
             alt={`Image for ${name}`}
           />
