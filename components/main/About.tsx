@@ -37,7 +37,7 @@ const About = () => {
           className="mx-auto z-50 "
           variants={fadeInVariants}
         >
-          <Image
+          <img
             src="/images/About Infinitus.JPG"
             alt="About Us"
             width={450}

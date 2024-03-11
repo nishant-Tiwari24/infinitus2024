@@ -14,7 +14,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/akshar2.jpg"
                   width={450}
                   height={625}
@@ -42,7 +42,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/akshar.jpg"
                   width={450}
                   height={625}
@@ -71,7 +71,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/armanMalik01.jpg"
                   width={450}
                   height={625}
@@ -97,7 +97,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/arman.png"
                   width={450}
                   height={625}
@@ -127,7 +127,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/lost.jpg" 
                   width={450}
                   height={625}
@@ -153,7 +153,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/lostStories02.jpg" 
                   width={450}
                   height={625}
@@ -183,7 +183,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/dj-kim.jpg" 
                   width={450}
                   height={625}
@@ -209,7 +209,7 @@ const Gallery = () => {
                 className="card-banner img-holder1 has-before"
                 style={{ width: '450', height: '625' }}
               >
-                <Image
+                <img
                   src="/images/dj-kim2.jpg" 
                   width={450}
                   height={625}
