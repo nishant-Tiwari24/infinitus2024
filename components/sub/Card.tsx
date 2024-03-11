@@ -1,7 +1,4 @@
 "use client";
-
-import React from "react";
-import { CardContainer } from "@/components/sub/RegisterCard";
 import Link from "next/link";
 
 export function ThreeDCardDemo() {
