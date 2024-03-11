@@ -90,7 +90,7 @@ const Navbar = () => {
       {nav && (
         <ul className="flex flex-col justify-center items-center top-0 left-0  absolute w-full h-screen bg-gradient-to-b from-black to-gray-800 ">
           {links.map(({ id,name, link }) => (
-            <li key={id} className={`px-4 cursor-pointer capitalize py-6  text-4xl ${link === '/register' ? 'text-purple-300 font-space font-bold' : 'bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold'}`}>
+            <li key={id} className={`px-4 cursor-pointer capitalize py-6 font-light  text-4xl ${link === '/register' ? 'text-purple-300 font-space font-bold' : 'bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold'}`}>
               <Link onClick={toggleNav} href={link}>
                 {name}
               </Link>
