@@ -28,7 +28,7 @@ export function ThreeDCardDemo() {
           rotateZ={-10}
           className="w-full mt-4"
         >
-          <Image
+          <img
             src="/images/reg1.jpeg"
             height="1000"
             width="1000"
@@ -77,7 +77,7 @@ export function ThreeDCardDemo() {
           rotateZ={-10}
           className="w-full mt-4"
         >
-          <Image
+          <img
             src="/images/reg2.jpeg"
             height="1000"
             width="1000"

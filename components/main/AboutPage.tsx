@@ -41,7 +41,7 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="mx-auto z-50">
-          <Image
+          <img
             src="/images/img (1).jpg"
             alt="About Us"
             width={450}
@@ -55,7 +55,7 @@ const AboutPage = () => {
       <h1 className=' text-center text-6xl font-semibold font-space Welcome-text bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] py-20'>Director of Student Affairs</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
         <div className="mx-auto z-50">
-          <Image
+          <img
             src="/images/IMG_9404 (1).jpg"
             alt="About Us"
             width={450}
@@ -88,7 +88,7 @@ const AboutPage = () => {
     </p>
         </div>
         <div className="mx-auto z-50">
-          <Image
+          <img
             src="/images/revathi.jpeg"
             alt="About Us"
             width={450}

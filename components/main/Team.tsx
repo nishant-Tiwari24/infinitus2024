@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from "react";
-import Image from 'next/image';
 import { BeatLoader } from 'react-spinners';
 import Navbar from '@/components/main/Navbar';
 import Footer from "./Footer";
@@ -49,7 +48,7 @@ const TeamMemberSection = () => {
                     <BeatLoader color="#ffffff" loading={imageLoading} size={15} />
                   </div>
                 )}
-                <Image
+                <img
                   className={`object-cover object-center px-10 h-[500px] w-[500px] ${imageLoading ? 'hidden' : ''}`}
                   src={member.imageSrc}
                   alt=""
@@ -69,7 +68,7 @@ const TeamMemberSection = () => {
           Meet Our Amazing Team
         </h1>
         <div className="flex justify-center pb-20 items-center">
-          <Image
+          <img
             width={1200}
             height={800} src={"/images/team/team.png"} alt={"team"} className="z-50"/>
         </div>

@@ -28,7 +28,7 @@ import Link from "next/link";
               key={sponsor.name}
             >
               <Link href={sponsor.link}>
-                <Image
+                <img
                   src={sponsor.image}
                   loading="lazy"
                   alt={sponsor.alt}
