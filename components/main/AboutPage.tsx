@@ -79,12 +79,12 @@ const AboutPage = () => {
         </div>
         </div>
         <hr />
-        <h1 className=' text-center text-6xl font-semibold font-space Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20'>Assistant Director of Student Affairs</h1>
+        <h1 className=' text-center text-6xl font-semibold font-space Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20'>Associate Director of Student Affairs</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
       <div className="lg:w-1/2">
-      <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">A note from the Assistant Directorate of Student Affairs</h2>
+      <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">A note from the Associate Directorate of Student Affairs</h2>
       <p className="text-2xl lg:text-3xl font-space text-justify">
-      Greetings from the Assistant Director of Student Affairs! I am thrilled to welcome all participants to Infinitus 2024, a fusion of technical and cultural brilliance showcasing the diverse talents within our student community. As we embark on this innovative journey, I encourage each participant to embrace collaboration, learning, and creativity. Our carefully crafted guest lectures and workshops aim to provide a holistic and inspiring learning experience. Kudos to the dedicated organizers for their meticulous planning, ensuring this year&apos;s event is not just educational but truly unforgettable.
+      Greetings from the Associate Director of Student Affairs! I am thrilled to welcome all participants to Infinitus 2024, a fusion of technical and cultural brilliance showcasing the diverse talents within our student community. As we embark on this innovative journey, I encourage each participant to embrace collaboration, learning, and creativity. Our carefully crafted guest lectures and workshops aim to provide a holistic and inspiring learning experience. Kudos to the dedicated organizers for their meticulous planning, ensuring this year&apos;s event is not just educational but truly unforgettable.
     </p>
         </div>
         <div className="mx-auto z-50">
