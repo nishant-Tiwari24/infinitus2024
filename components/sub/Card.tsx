@@ -16,19 +16,14 @@ export function ThreeDCardDemo() {
             <div className="text-neutral-500 hover:scale-105 text-xl sm:text-2xl mt-2 dark:text-neutral-300">
               Click here to continue
             </div>
-            <div className="w-full mt-4">
+            <div className="w-full mt-8">
               <img
                 src="/images/reg1.jpeg"
                 height="1000"
                 width="1000"
-                className="h-[40rem] w-full object-cover rounded-xl group-hover/card:shadow-xl hover:scale-105"
+                className="h-[46rem] w-full object-cover rounded-xl group-hover/card:shadow-xl hover:scale-105"
                 alt="thumbnail"
               />
-            </div>
-            <div className="flex justify-between items-center mt-20">
-              <div className="px-4 py-2 rounded-xl bg-black hover:scale-105 dark:bg-white dark:text-black text-white text-3xl font-light">
-                Register Now
-              </div>
             </div>
           </div>
         </div>
@@ -42,19 +37,14 @@ export function ThreeDCardDemo() {
             <div className="text-neutral-500 text-xl hover:scale-105 sm:text-2xl mt-2 dark:text-neutral-300">
               Click here to continue
             </div>
-            <div className="w-full mt-4">
+            <div className="w-full mt-8">
               <img
                 src="/images/reg1.jpeg"
                 height="1000"
                 width="1000"
-                className="h-[40rem] w-full object-cover rounded-xl group-hover/card:shadow-xl hover:scale-105"
+                className="h-[46rem] w-full object-cover rounded-xl group-hover/card:shadow-xl hover:scale-105"
                 alt="thumbnail"
               />
-            </div>
-            <div className="flex justify-between items-center mt-20">
-              <div className="px-4 py-2 rounded-xl hover:scale-105 bg-black dark:bg-white dark:text-black text-white text-3xl font-light">
-                Register Now
-              </div>
             </div>
           </div>
         </div>

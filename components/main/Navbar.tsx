@@ -73,8 +73,8 @@ const Navbar = () => {
         {links.map(({ id,name, link }) => (
           <li
           key={id}
-          className={`text-4xl nav-links px-4 py-2 cursor-pointer hover:scale-105 capitalize font-700 hover:text-white 
-          duration-200
+          className={`text-3xl nav-links px-4 py-2 cursor-pointer hover:scale-105 capitalize hover:text-white 
+          duration-200 font-light
           ${link === "/register" ? "text-gray-200 bg-purple-600 rounded-md border-2 px-5 py-2 border-purple-600 font-space font-bold" : "bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-space font-bold"}`}
         >
           <Link href={link}>{name} </Link>
