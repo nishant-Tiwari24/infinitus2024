@@ -1,7 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { slideInFromLeft } from '@/public/utils/motion';
 import Footer from './Footer';
 
 const AboutPage = () => {
@@ -10,7 +8,7 @@ const AboutPage = () => {
       <h1 className=' text-center text-6xl font-semibold font-space Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20'>About Our University</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
         <div className="mx-auto z-50">
-          <Image
+          <img
             src="/images/college.jpeg"
             alt="About Us"
             width={450}
