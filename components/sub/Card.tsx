@@ -13,7 +13,7 @@ export function ThreeDCardDemo() {
             <div className="text-3xl sm:text-4xl font-space font-bold text-neutral-600 dark:text-white">
               Registrations for SRMAP University students
             </div>
-            <div className="text-neutral-500 text-xl sm:text-2xl mt-2 dark:text-neutral-300">
+            <div className="text-neutral-500 hover:scale-105 text-xl sm:text-2xl mt-2 dark:text-neutral-300">
               Click here to continue
             </div>
             <div className="w-full mt-4">
@@ -26,8 +26,8 @@ export function ThreeDCardDemo() {
               />
             </div>
             <div className="flex justify-between items-center mt-20">
-              <div className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-3xl font-light">
-                Register
+              <div className="px-4 py-2 rounded-xl bg-black hover:scale-105 dark:bg-white dark:text-black text-white text-3xl font-light">
+                Register Now
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ export function ThreeDCardDemo() {
             <div className="text-3xl sm:text-4xl font-space font-bold text-neutral-600 dark:text-white">
               Registrations for SRMUAP University students
             </div>
-            <div className="text-neutral-500 text-xl sm:text-2xl mt-2 dark:text-neutral-300">
+            <div className="text-neutral-500 text-xl hover:scale-105 sm:text-2xl mt-2 dark:text-neutral-300">
               Click here to continue
             </div>
             <div className="w-full mt-4">
@@ -52,7 +52,7 @@ export function ThreeDCardDemo() {
               />
             </div>
             <div className="flex justify-between items-center mt-20">
-              <div className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-3xl font-light">
+              <div className="px-4 py-2 rounded-xl hover:scale-105 bg-black dark:bg-white dark:text-black text-white text-3xl font-light">
                 Register Now
               </div>
             </div>
