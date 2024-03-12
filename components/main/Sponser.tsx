@@ -5,10 +5,17 @@ import Link from "next/link";
   const SilverSponsorsData = [
     {
       name: "Marblism",
-      image: "/images/sponsers/marblism.jpeg",
+      image: "/images/sponsers/darkmode.png",
       link: "https://marbalism.co/",
       sponsorsCategory: "",
       alt: "Marblism LOGO",
+    },
+    {
+      name: "CCC",
+      image: "/images/sponsers/ccc logo.PNG",
+      link: "",
+      sponsorsCategory: "",
+      alt: "CCC LOGO",
     },
   ];
   
@@ -32,9 +39,7 @@ import Link from "next/link";
                   src={sponsor.image}
                   loading="lazy"
                   alt={sponsor.alt}
-                  className={`h-auto w-72 rounded-2xl bg-gray-950 object-contain p-3 sm:h-28`}
-                  width={72}
-                  height={100}
+                  className={`h-[140px] w-[300px] rounded-2xl bg-gray-950 object-contain p-3`}
                 />
               </Link>
             </div>

@@ -22,7 +22,7 @@ const AboutPage = () => {
             SRM University of Andhra Pradesh
           </h2>
           <p className="text-2xl lg:text-3xl font-space text-justify">
-          SRM University, Andhra Pradesh, located near Neerukonda village, was established in 2017 and offers a variety of undergraduate, postgraduate, and Ph.D. programs in engineering, liberal arts, and sciences across three schools, the School of Engineering &amp; Applied Sciences, launched in 2017, and the School of Liberal Arts &amp; Basic Sciences, initiated in 2018, and Paari School of Business launched in 2020. The campus, designed by notable architects, hosts over 3000 students and faculty in its hostels. Under the leadership of President P. Sathyanarayanan and Vice-Chancellor Manoj K. Arora, the university has quickly risen to prominence, securing the position as the 3rd best private university in the Nature Index Ranking.
+          SRM University, Andhra Pradesh, located near Neerukonda village, was established in 2017 and offers a variety of undergraduate, postgraduate, and Ph.D. programs in engineering, liberal arts, and sciences across three schools, the School of Engineering &amp; Applied Sciences, launched in 2017, and the School of Liberal Arts &amp; Social Sciences, initiated in 2018, and Paari School of Business launched in 2020. The campus, designed by notable architects, hosts over 3000 students and faculty in its hostels. Under the leadership of President P. Sathyanarayanan and Vice-Chancellor Manoj K. Arora, the university has quickly risen to prominence, securing the position as the 3rd best private university in the Nature Index Ranking.
         <br />
         </p>
         </div>
@@ -82,7 +82,7 @@ const AboutPage = () => {
         <h1 className=' text-center text-6xl font-semibold font-space Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20'>Associate Director of Student Affairs</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
       <div className="lg:w-1/2">
-      <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">A note from the Associate Directorate of Student Affairs</h2>
+      <h2 className="text-4xl lg:text-5xl font-space font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">A note from the Associate Director of Student Affairs</h2>
       <p className="text-2xl lg:text-3xl font-space text-justify">
       Greetings from the Associate Director of Student Affairs! I am thrilled to welcome all participants to Infinitus 2024, a fusion of technical and cultural brilliance showcasing the diverse talents within our student community. As we embark on this innovative journey, I encourage each participant to embrace collaboration, learning, and creativity. Our carefully crafted guest lectures and workshops aim to provide a holistic and inspiring learning experience. Kudos to the dedicated organizers for their meticulous planning, ensuring this year&apos;s event is not just educational but truly unforgettable.
     </p>

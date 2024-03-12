@@ -31,7 +31,7 @@ const Proshows: React.FC = () => {
             <div className="wrapper">
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner img-holder3 has-before" style={{ width:"700", height:"605"}}>
-                  <img src="/images/pro1.jpeg" width={700} height={605} loading="lazy" alt="Shoe Promo" className="img-cover" />
+                  <img src="/images/team/moksh.jpeg" width={700} height={605} loading="lazy" alt="Shoe Promo" className="img-cover" />
                 </figure>
 
                 <div className="card-content">
@@ -54,7 +54,7 @@ const Proshows: React.FC = () => {
 
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner has-before img-holder4" style={{  width:"700", height:"1091"}}>
-                  <img src="/images/pro3.jpeg" width={700} height={1091} loading="lazy" alt="Wedding Shot" className="img-cover" />
+                  <img src="/images/team/hari.jpeg" width={700} height={1091} loading="lazy" alt="Wedding Shot" className="img-cover" />
                 </figure>
 
                 <div className="card-content">
@@ -81,7 +81,7 @@ const Proshows: React.FC = () => {
 
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner img-holder5 has-before" style={{ width:"700", height:"1000"}}>
-                  <img src="/images/pro4.jpeg" width={700} height={1000} loading="lazy" alt="Fashion Show" className="img-cover" />
+                  <img src="/images/team/neeti.jpeg" width={700} height={1000} loading="lazy" alt="Fashion Show" className="img-cover" />
                 </figure>
 
                 <div className="card-content">
@@ -104,7 +104,7 @@ const Proshows: React.FC = () => {
 
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner img-holder6 has-before" style={{  width:"700", height:"850" }}>
-                  <img src="/images/pro2.jpeg" width={700} height={850} loading="lazy" alt="Jumbo Barger" className="img-cover" />
+                  <img src="/images/team/dj.jpeg" width={700} height={850} loading="lazy" alt="Jumbo Barger" className="img-cover" />
                 </figure>
 
                 <div className="card-content">
