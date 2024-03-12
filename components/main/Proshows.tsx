@@ -31,7 +31,7 @@ const Proshows: React.FC = () => {
             <div className="wrapper">
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner img-holder3 has-before" style={{ width:"700", height:"605"}}>
-                  <img src="/images/team/moksh.jpeg" width={700} height={605} loading="lazy" alt="Shoe Promo" className="img-cover" />
+                  <img src="/images/team/mosha1.jpeg" width={700} height={605} loading="lazy" alt="Shoe Promo" className="img-cover" />
                 </figure>
 
                 <div className="card-content">
@@ -104,7 +104,7 @@ const Proshows: React.FC = () => {
 
               <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="proshows-card" data-reveal>
                 <figure className="card-banner img-holder6 has-before" style={{  width:"700", height:"850" }}>
-                  <img src="/images/team/dj.jpeg" width={700} height={850} loading="lazy" alt="Jumbo Barger" className="img-cover" />
+                  <img src="/images/team/dj1.jpeg" width={700} height={850} loading="lazy" alt="Jumbo Barger" className="img-cover" />
                 </figure>
 
                 <div className="card-content">
