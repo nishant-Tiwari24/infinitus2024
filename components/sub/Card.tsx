@@ -29,7 +29,7 @@ export function ThreeDCardDemo() {
         <div>
           <div className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[35rem] sm:w-[60rem] mx-6 sm:h-[60rem] h-auto rounded-xl p-6 border sm:p-8">
             <div className="text-3xl sm:text-4xl font-space font-bold text-neutral-600 dark:text-white">
-              Registrations for non SRMUAP students
+              Registrations for External Students
             </div>
             <div className="text-neutral-500 text-xl hover:scale-105 sm:text-2xl mt-2 dark:text-neutral-300">
             Click here to continue
