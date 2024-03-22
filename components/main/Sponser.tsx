@@ -17,6 +17,34 @@ import Link from "next/link";
       sponsorsCategory: "",
       alt: "CCC LOGO",
     },
+    {
+      name: "CCC",
+      image: "/images/sponsers/time.jpg",
+      link: "",
+      sponsorsCategory: "",
+      alt: "CCC LOGO",
+    },
+    {
+      name: "",
+      image: "/images/sponsers/sakshi.jpg",
+      link: "",
+      sponsorsCategory: "",
+      alt: "CCC LOGO",
+    },
+    {
+      name: "",
+      image: "/images/sponsers/hindu.jpeg",
+      link: "",
+      sponsorsCategory: "",
+      alt: "CCC LOGO",
+    },
+    {
+      name: "CCC",
+      image: "/images/sponsers/redfm.png",
+      link: "",
+      sponsorsCategory: "",
+      alt: "CCC LOGO",
+    },
   ];
   
   export const SponsorSection = () => {
@@ -39,7 +67,7 @@ import Link from "next/link";
                   src={sponsor.image}
                   loading="lazy"
                   alt={sponsor.alt}
-                  className={`h-[140px] w-[300px] rounded-2xl bg-gray-950 object-contain p-3`}
+                  className={`h-[140px] sm:h-[240px] w-[350px] rounded-2xl bg-gray-950 object-contain p-3`}
                 />
               </Link>
             </div>

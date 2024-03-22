@@ -14,7 +14,7 @@ const calculateTimeLeft = (): TimeLeft => {
   const now = new Date().getTime();
   const timeDifference = targetTime - now;
 
-  if (timeDifference > 0 || timeDifference < 0) {
+  if (timeDifference > 0) {
     const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
@@ -52,22 +52,22 @@ const Timer: React.FC = () => {
         <div className="timer-class ">
           <div className="flex font-space gap-1 text-4xl sm:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
             <div className="flex flex-col gap-2 text-center">
-              <span>{timeLeft.days}</span>
+              <span>00</span>
               <span className="text-sm lg:text-lg">Days</span>
             </div>
             <span>:</span>
             <div className="flex flex-col gap-2 text-center">
-              <span>{timeLeft.hours}</span>
+              <span>00</span>
               <span className="text-sm lg:text-lg">Hours</span>
             </div>
             <span>:</span>
             <div className="flex flex-col gap-2 text-center">
-              <span>{timeLeft.minutes}</span>
+              <span>00</span>
               <span className="text-sm lg:text-lg">Minutes</span>
             </div>
             <span>:</span>
             <div className="flex flex-col gap-2 text-center">
-              <span>{timeLeft.seconds}</span>
+              <span>00</span>
               <span className="text-sm lg:text-lg">Seconds</span>
             </div>
           </div>
