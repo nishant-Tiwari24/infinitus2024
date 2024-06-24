@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
             <FaGithub className="text-4xl lg:text-5xl mr-3" />
             </Link>
           <p className="text-2xl font-space">Made with ♥️ by</p>
-            <Link href="" target="_blank" className="text-purple-400 z-50 font-space text-2xl"> : Kunal Sharma</Link>
+            <Link href="" target="_blank" className="text-purple-400 z-50 font-space text-2xl"> : Nishant Tiwari and Omkar Ghongade</Link>
         </div>
 
       </footer>
