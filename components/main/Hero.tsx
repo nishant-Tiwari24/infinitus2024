@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       <div className='mb-20'>
         <motion.div variants={fromTop(0.8)} initial="initial" animate="animate">
           <img
-            src="/images/Infinitus Website.png"
+            src="/img.png"
             alt="infinitus logo"
             width={1000}
             height={300}
